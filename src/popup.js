@@ -83,10 +83,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
+  // Helper to open onboarding in a new tab
+  function openOnboarding() {
+    chrome.tabs.create({ url: chrome.runtime.getURL('src/onboarding.html') });
+  }
+
   // Setup wizard button (always visible in header)
-  document.getElementById('setup-wizard-btn').addEventListener('click', () => {
-    chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
-  });
+  document.getElementById('setup-wizard-btn').addEventListener('click', openOnboarding);
 
   // Refresh icon button
   document.getElementById('refresh-icon-btn').addEventListener('click', async () => {
@@ -104,14 +107,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   // Start setup button
-  document.getElementById('start-setup-btn')?.addEventListener('click', () => {
-    chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
-  });
+  document.getElementById('start-setup-btn')?.addEventListener('click', openOnboarding);
 
   // Edit preferences button
-  document.getElementById('edit-preferences-btn')?.addEventListener('click', () => {
-    chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
-  });
+  document.getElementById('edit-preferences-btn')?.addEventListener('click', openOnboarding);
 
   // Refresh button
   document.getElementById('refresh-btn').addEventListener('click', async () => {
