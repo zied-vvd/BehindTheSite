@@ -74,6 +74,18 @@
   border: 1px solid rgba(148, 163, 184, 0.3);
 }
 
+.bts-badge-positive {
+  background: rgba(34, 197, 94, 0.3);
+  color: #86efac;
+  border: 1px solid rgba(34, 197, 94, 0.5);
+}
+
+.bts-badge-info {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.4);
+}
+
 .bts-close {
   background: none;
   border: none;

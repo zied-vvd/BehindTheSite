@@ -1,65 +1,126 @@
 // BehindTheSite - Popup Script
 
+const concernLabels = {
+  environment: '🌍 Environment',
+  peace: '🕊️ Peace',
+  labor: '👷 Labor Rights',
+  privacy: '🔒 Privacy',
+  local: '🏠 Support Local',
+  ethics: '⚖️ Corporate Ethics',
+  health: '🏥 Public Health',
+  democracy: '🗳️ Democracy'
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
+  const notSetupView = document.getElementById('notSetup');
+  const mainView = document.getElementById('mainView');
   const companyCountEl = document.getElementById('company-count');
-  const lastUpdateEl = document.getElementById('last-update');
-  const refreshBtn = document.getElementById('refresh-btn');
-  const contributeBtn = document.getElementById('contribute-btn');
+  const concernsListEl = document.getElementById('concerns-list');
+  const tagsListEl = document.getElementById('tags-list');
 
-  // Load stats from storage
-  async function loadStats() {
-    const data = await chrome.storage.local.get(['companyData', 'lastFetch']);
+  // Check if onboarding completed
+  const { preferences } = await chrome.storage.sync.get(['preferences']);
 
-    if (data.companyData) {
-      const count = Object.keys(data.companyData).length;
-      companyCountEl.textContent = count.toString();
+  if (!preferences || !preferences.onboardingComplete) {
+    notSetupView.style.display = 'block';
+    mainView.style.display = 'none';
+  } else {
+    notSetupView.style.display = 'none';
+    mainView.style.display = 'block';
+    renderPreferences(preferences);
+  }
+
+  // Load company count
+  const data = await chrome.storage.local.get(['companyData']);
+  if (data.companyData) {
+    companyCountEl.textContent = Object.keys(data.companyData).length.toString();
+  } else {
+    companyCountEl.textContent = '4 (bundled)';
+  }
+
+  // Render user preferences
+  function renderPreferences(prefs) {
+    // Concerns
+    concernsListEl.innerHTML = '';
+    if (prefs.concerns && prefs.concerns.length > 0) {
+      prefs.concerns.forEach(concern => {
+        const pill = document.createElement('span');
+        pill.className = 'tag-pill';
+        pill.textContent = concernLabels[concern] || concern;
+        concernsListEl.appendChild(pill);
+      });
     } else {
-      companyCountEl.textContent = '4 (bundled)';
+      concernsListEl.innerHTML = '<span class="empty-state">None selected</span>';
     }
 
-    if (data.lastFetch) {
-      const date = new Date(data.lastFetch);
-      lastUpdateEl.textContent = date.toLocaleDateString();
+    // Tags
+    tagsListEl.innerHTML = '';
+    if (prefs.tags && prefs.tags.length > 0) {
+      // Show first 6 tags, then "+X more"
+      const displayTags = prefs.tags.slice(0, 6);
+      const remaining = prefs.tags.length - 6;
+
+      displayTags.forEach(tag => {
+        const pill = document.createElement('span');
+        pill.className = 'tag-pill';
+        // Clean up tag display
+        if (tag.startsWith('custom:')) {
+          pill.textContent = '🏷️ ' + tag.replace('custom:', '');
+        } else {
+          pill.textContent = tag.replace(/-/g, ' ');
+        }
+        tagsListEl.appendChild(pill);
+      });
+
+      if (remaining > 0) {
+        const more = document.createElement('span');
+        more.className = 'tag-pill';
+        more.textContent = `+${remaining} more`;
+        tagsListEl.appendChild(more);
+      }
     } else {
-      lastUpdateEl.textContent = 'Never';
+      tagsListEl.innerHTML = '<span class="empty-state">Showing all available info</span>';
     }
   }
 
-  // Refresh data from GitHub
-  refreshBtn.addEventListener('click', async () => {
-    refreshBtn.textContent = 'Refreshing...';
-    refreshBtn.disabled = true;
+  // Start setup button
+  document.getElementById('start-setup-btn').addEventListener('click', () => {
+    chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
+  });
+
+  // Edit preferences button
+  document.getElementById('edit-preferences-btn').addEventListener('click', () => {
+    chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
+  });
+
+  // Refresh button
+  document.getElementById('refresh-btn').addEventListener('click', async () => {
+    const btn = document.getElementById('refresh-btn');
+    btn.textContent = 'Refreshing...';
+    btn.disabled = true;
 
     try {
-      // Clear cache to force refresh
       await chrome.storage.local.remove(['companyData', 'lastFetch']);
-
-      // Reload the current tab to trigger fresh fetch
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
       if (tab) {
         await chrome.tabs.reload(tab.id);
       }
-
-      await loadStats();
-      refreshBtn.textContent = 'Refreshed!';
+      btn.textContent = 'Refreshed!';
     } catch (error) {
       console.error('Refresh failed:', error);
-      refreshBtn.textContent = 'Failed';
+      btn.textContent = 'Failed';
     }
 
     setTimeout(() => {
-      refreshBtn.textContent = 'Refresh Data';
-      refreshBtn.disabled = false;
+      btn.textContent = 'Refresh Data';
+      btn.disabled = false;
     }, 2000);
   });
 
-  // Open contribution page
-  contributeBtn.addEventListener('click', () => {
+  // Contribute button
+  document.getElementById('contribute-btn').addEventListener('click', () => {
     chrome.tabs.create({
       url: 'https://github.com/zied-vvd/BehindTheSite/blob/main/CONTRIBUTING.md'
     });
   });
-
-  // Initial load
-  await loadStats();
 });

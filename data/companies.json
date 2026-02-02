@@ -9,7 +9,7 @@
     ],
     "country": "USA",
     "headquarters": "Seattle, WA",
-    "flags": [],
+    "flags": ["poor-labor", "union-busting", "monopoly", "tax-avoidance", "carbon-heavy"],
     "sources": ["SEC 13F filings", "Company proxy statements"]
   },
   "google.com": {
@@ -22,7 +22,7 @@
     ],
     "country": "USA",
     "headquarters": "Mountain View, CA",
-    "flags": [],
+    "flags": ["data-harvesting", "monopoly", "lobbying", "military-contractor"],
     "sources": ["SEC 13F filings"]
   },
   "youtube.com": {
@@ -33,7 +33,7 @@
       { "name": "BlackRock", "percentage": 6.3 }
     ],
     "country": "USA",
-    "flags": [],
+    "flags": ["data-harvesting", "censorship"],
     "sources": ["Subsidiary of Alphabet"]
   },
   "facebook.com": {
@@ -45,7 +45,7 @@
     ],
     "country": "USA",
     "headquarters": "Menlo Park, CA",
-    "flags": [],
+    "flags": ["data-harvesting", "data-breaches", "media-manipulation", "monopoly"],
     "sources": ["SEC 13F filings"]
   },
   "instagram.com": {
@@ -57,7 +57,7 @@
       { "name": "Mark Zuckerberg", "percentage": 13.6 }
     ],
     "country": "USA",
-    "flags": [],
+    "flags": ["data-harvesting"],
     "sources": ["Subsidiary of Meta"]
   },
   "tiktok.com": {
@@ -67,7 +67,7 @@
     ],
     "country": "China",
     "headquarters": "Beijing, China",
-    "flags": ["chinese-owned"],
+    "flags": ["chinese-owned", "data-harvesting", "censorship", "authoritarian-ties"],
     "notes": "Owned by ByteDance, a Chinese company. Subject to Chinese data laws.",
     "sources": ["Company disclosures"]
   },
@@ -79,7 +79,7 @@
     ],
     "country": "China",
     "headquarters": "Hangzhou, China",
-    "flags": ["chinese-owned"],
+    "flags": ["chinese-owned", "authoritarian-ties", "poor-labor"],
     "sources": ["Company filings"]
   },
   "aliexpress.com": {
@@ -89,7 +89,7 @@
       { "name": "SoftBank Group", "percentage": 24.8 }
     ],
     "country": "China",
-    "flags": ["chinese-owned"],
+    "flags": ["chinese-owned", "poor-labor"],
     "sources": ["Subsidiary of Alibaba"]
   },
   "temu.com": {
@@ -99,7 +99,7 @@
     ],
     "country": "China",
     "headquarters": "Shanghai, China",
-    "flags": ["chinese-owned"],
+    "flags": ["chinese-owned", "poor-labor", "authoritarian-ties"],
     "sources": ["Company disclosures"]
   },
   "shein.com": {
@@ -110,8 +110,8 @@
     ],
     "country": "China",
     "headquarters": "Singapore (registered), China (operations)",
-    "flags": ["chinese-owned"],
-    "notes": "Originally Chinese company, now headquartered in Singapore",
+    "flags": ["chinese-owned", "poor-labor", "child-labor"],
+    "notes": "Originally Chinese company, now headquartered in Singapore. Known for labor concerns.",
     "sources": ["Press reports", "Investor disclosures"]
   },
   "twitter.com": {
@@ -122,7 +122,7 @@
     ],
     "country": "USA",
     "headquarters": "San Francisco, CA",
-    "flags": [],
+    "flags": ["media-manipulation"],
     "sources": ["Acquisition filings 2022"]
   },
   "x.com": {
@@ -133,7 +133,7 @@
     ],
     "country": "USA",
     "headquarters": "San Francisco, CA",
-    "flags": [],
+    "flags": ["media-manipulation"],
     "sources": ["Acquisition filings 2022"]
   },
   "apple.com": {
@@ -146,7 +146,7 @@
     ],
     "country": "USA",
     "headquarters": "Cupertino, CA",
-    "flags": [],
+    "flags": ["tax-avoidance", "conflict-minerals"],
     "sources": ["SEC 13F filings"]
   },
   "microsoft.com": {
@@ -158,7 +158,7 @@
     ],
     "country": "USA",
     "headquarters": "Redmond, WA",
-    "flags": [],
+    "flags": ["military-contractor", "monopoly", "lobbying"],
     "sources": ["SEC 13F filings"]
   },
   "netflix.com": {
@@ -182,7 +182,7 @@
     ],
     "country": "USA",
     "headquarters": "Bentonville, AR",
-    "flags": [],
+    "flags": ["poor-labor", "union-busting"],
     "sources": ["SEC 13F filings", "Proxy statements"]
   },
   "spotify.com": {
@@ -194,7 +194,7 @@
     ],
     "country": "Sweden",
     "headquarters": "Stockholm, Sweden",
-    "flags": [],
+    "flags": ["chinese-owned"],
     "notes": "Tencent (Chinese company) holds significant stake",
     "sources": ["SEC filings", "Company reports"]
   },
@@ -206,7 +206,7 @@
     ],
     "country": "USA",
     "headquarters": "San Francisco, CA",
-    "flags": [],
+    "flags": ["chinese-owned"],
     "notes": "Received investment from Tencent (Chinese company)",
     "sources": ["Press reports", "Company disclosures"]
   },
@@ -217,8 +217,203 @@
     ],
     "country": "UAE",
     "headquarters": "Dubai, UAE",
-    "flags": [],
+    "flags": ["russian-ties"],
     "notes": "Founded by Russian entrepreneurs, now based in UAE",
+    "sources": ["Company disclosures"]
+  },
+  "shell.com": {
+    "name": "Shell plc",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 3.2 },
+      { "name": "BlackRock", "percentage": 2.8 }
+    ],
+    "country": "UK",
+    "headquarters": "London, UK",
+    "flags": ["oil-industry", "carbon-heavy", "deforestation"],
+    "sources": ["Company filings"]
+  },
+  "exxonmobil.com": {
+    "name": "Exxon Mobil Corporation",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.5 },
+      { "name": "BlackRock", "percentage": 6.8 }
+    ],
+    "country": "USA",
+    "headquarters": "Houston, TX",
+    "flags": ["oil-industry", "carbon-heavy", "lobbying"],
+    "sources": ["SEC 13F filings"]
+  },
+  "chevron.com": {
+    "name": "Chevron Corporation",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.2 },
+      { "name": "BlackRock", "percentage": 6.5 }
+    ],
+    "country": "USA",
+    "headquarters": "San Ramon, CA",
+    "flags": ["oil-industry", "carbon-heavy"],
+    "sources": ["SEC 13F filings"]
+  },
+  "bp.com": {
+    "name": "BP plc",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 3.1 },
+      { "name": "BlackRock", "percentage": 2.7 }
+    ],
+    "country": "UK",
+    "headquarters": "London, UK",
+    "flags": ["oil-industry", "carbon-heavy"],
+    "sources": ["Company filings"]
+  },
+  "lockheedmartin.com": {
+    "name": "Lockheed Martin Corporation",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.4 },
+      { "name": "BlackRock", "percentage": 7.2 },
+      { "name": "State Street", "percentage": 4.5 }
+    ],
+    "country": "USA",
+    "headquarters": "Bethesda, MD",
+    "flags": ["weapons-manufacturer", "military-contractor"],
+    "sources": ["SEC 13F filings"]
+  },
+  "raytheon.com": {
+    "name": "RTX Corporation (formerly Raytheon)",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.3 },
+      { "name": "BlackRock", "percentage": 6.8 }
+    ],
+    "country": "USA",
+    "headquarters": "Arlington, VA",
+    "flags": ["weapons-manufacturer", "military-contractor"],
+    "sources": ["SEC 13F filings"]
+  },
+  "boeing.com": {
+    "name": "The Boeing Company",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.6 },
+      { "name": "BlackRock", "percentage": 6.4 }
+    ],
+    "country": "USA",
+    "headquarters": "Arlington, VA",
+    "flags": ["weapons-manufacturer", "military-contractor"],
+    "sources": ["SEC 13F filings"]
+  },
+  "nestle.com": {
+    "name": "Nestle S.A.",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 3.1 },
+      { "name": "BlackRock", "percentage": 2.8 }
+    ],
+    "country": "Switzerland",
+    "headquarters": "Vevey, Switzerland",
+    "flags": ["child-labor", "deforestation", "processed-food", "plastic-producer"],
+    "sources": ["Company filings", "Press reports"]
+  },
+  "coca-cola.com": {
+    "name": "The Coca-Cola Company",
+    "shareholders": [
+      { "name": "Berkshire Hathaway", "percentage": 9.3 },
+      { "name": "Vanguard Group", "percentage": 8.1 },
+      { "name": "BlackRock", "percentage": 6.4 }
+    ],
+    "country": "USA",
+    "headquarters": "Atlanta, GA",
+    "flags": ["plastic-producer", "processed-food"],
+    "sources": ["SEC 13F filings"]
+  },
+  "pepsico.com": {
+    "name": "PepsiCo, Inc.",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.3 },
+      { "name": "BlackRock", "percentage": 6.8 }
+    ],
+    "country": "USA",
+    "headquarters": "Purchase, NY",
+    "flags": ["plastic-producer", "processed-food"],
+    "sources": ["SEC 13F filings"]
+  },
+  "mcdonalds.com": {
+    "name": "McDonald's Corporation",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.5 },
+      { "name": "BlackRock", "percentage": 6.9 }
+    ],
+    "country": "USA",
+    "headquarters": "Chicago, IL",
+    "flags": ["processed-food", "deforestation", "plastic-producer"],
+    "sources": ["SEC 13F filings"]
+  },
+  "kaspersky.com": {
+    "name": "Kaspersky Lab",
+    "shareholders": [
+      { "name": "Eugene Kaspersky", "percentage": null }
+    ],
+    "country": "Russia",
+    "headquarters": "Moscow, Russia",
+    "flags": ["russian-ties", "authoritarian-ties", "surveillance"],
+    "sources": ["Company disclosures"]
+  },
+  "yandex.com": {
+    "name": "Yandex N.V.",
+    "shareholders": [
+      { "name": "Various institutional", "percentage": null }
+    ],
+    "country": "Russia",
+    "headquarters": "Moscow, Russia",
+    "flags": ["russian-ties", "authoritarian-ties", "data-harvesting", "censorship"],
+    "sources": ["Company filings"]
+  },
+  "huawei.com": {
+    "name": "Huawei Technologies Co., Ltd.",
+    "shareholders": [
+      { "name": "Employee ownership", "percentage": 99 },
+      { "name": "Ren Zhengfei", "percentage": 1 }
+    ],
+    "country": "China",
+    "headquarters": "Shenzhen, China",
+    "flags": ["chinese-owned", "authoritarian-ties", "surveillance", "sanctioned-country"],
+    "sources": ["Company disclosures", "US government reports"]
+  },
+  "duckduckgo.com": {
+    "name": "DuckDuckGo, Inc.",
+    "shareholders": [
+      { "name": "Gabriel Weinberg", "percentage": null }
+    ],
+    "country": "USA",
+    "headquarters": "Paoli, PA",
+    "flags": ["privacy-focused"],
+    "sources": ["Company disclosures"]
+  },
+  "protonmail.com": {
+    "name": "Proton AG",
+    "shareholders": [
+      { "name": "Proton Technologies AG", "percentage": 100 }
+    ],
+    "country": "Switzerland",
+    "headquarters": "Geneva, Switzerland",
+    "flags": ["privacy-focused"],
+    "sources": ["Company disclosures"]
+  },
+  "signal.org": {
+    "name": "Signal Foundation",
+    "shareholders": [
+      { "name": "Non-profit", "percentage": 100 }
+    ],
+    "country": "USA",
+    "headquarters": "Mountain View, CA",
+    "flags": ["privacy-focused"],
+    "sources": ["Foundation disclosures"]
+  },
+  "patagonia.com": {
+    "name": "Patagonia, Inc.",
+    "shareholders": [
+      { "name": "Holdfast Collective", "percentage": 98 },
+      { "name": "Patagonia Purpose Trust", "percentage": 2 }
+    ],
+    "country": "USA",
+    "headquarters": "Ventura, CA",
+    "flags": ["b-corp", "green-certified", "fair-trade"],
     "sources": ["Company disclosures"]
   }
 }

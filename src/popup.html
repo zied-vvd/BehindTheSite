@@ -75,6 +75,28 @@
       color: #86efac;
     }
 
+    .tags-preview {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .tag-pill {
+      padding: 4px 10px;
+      background: rgba(99, 102, 241, 0.2);
+      color: #a5b4fc;
+      border-radius: 12px;
+      font-size: 11px;
+    }
+
+    .empty-state {
+      color: #64748b;
+      font-style: italic;
+      font-size: 12px;
+      padding: 8px 0;
+    }
+
     .btn {
       width: 100%;
       padding: 10px;
@@ -122,6 +144,22 @@
     .footer a:hover {
       text-decoration: underline;
     }
+
+    .not-setup {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .not-setup-icon {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+
+    .not-setup-text {
+      color: #94a3b8;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -130,22 +168,42 @@
     <h1>BehindTheSite</h1>
   </div>
 
-  <p class="tagline">Know who really owns the sites you visit.</p>
-
-  <div class="section">
-    <div class="section-title">Database Stats</div>
-    <div class="stat">
-      <span class="stat-label">Companies tracked</span>
-      <span class="stat-value" id="company-count">-</span>
-    </div>
-    <div class="stat">
-      <span class="stat-label">Last updated</span>
-      <span class="stat-value" id="last-update">-</span>
+  <!-- Not setup view -->
+  <div id="notSetup" style="display: none;">
+    <div class="not-setup">
+      <div class="not-setup-icon">👋</div>
+      <p class="not-setup-text">Welcome! Set up your preferences to start tracking what matters to you.</p>
+      <button class="btn btn-primary" id="start-setup-btn">Get Started</button>
     </div>
   </div>
 
-  <button class="btn btn-primary" id="refresh-btn">Refresh Data</button>
-  <button class="btn btn-secondary" id="contribute-btn">Contribute Data</button>
+  <!-- Main view -->
+  <div id="mainView" style="display: none;">
+    <p class="tagline">Tracking what matters to you.</p>
+
+    <div class="section">
+      <div class="section-title">Your Concerns</div>
+      <div class="tags-preview" id="concerns-list"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Tags You're Tracking</div>
+      <div id="tags-count"></div>
+      <div class="tags-preview" id="tags-list"></div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Database</div>
+      <div class="stat">
+        <span class="stat-label">Companies tracked</span>
+        <span class="stat-value" id="company-count">-</span>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" id="edit-preferences-btn">Edit Preferences</button>
+    <button class="btn btn-secondary" id="refresh-btn">Refresh Data</button>
+    <button class="btn btn-secondary" id="contribute-btn">Contribute Data</button>
+  </div>
 
   <div class="footer">
     Open source on <a href="https://github.com/zied-vvd/BehindTheSite" target="_blank">GitHub</a>
