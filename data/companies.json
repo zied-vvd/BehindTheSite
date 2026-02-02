@@ -1,0 +1,224 @@
+{
+  "amazon.com": {
+    "name": "Amazon.com, Inc.",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 7.1 },
+      { "name": "BlackRock", "percentage": 6.4 },
+      { "name": "Jeff Bezos", "percentage": 9.5 },
+      { "name": "State Street", "percentage": 3.8 }
+    ],
+    "country": "USA",
+    "headquarters": "Seattle, WA",
+    "flags": [],
+    "sources": ["SEC 13F filings", "Company proxy statements"]
+  },
+  "google.com": {
+    "name": "Alphabet Inc.",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 7.4 },
+      { "name": "BlackRock", "percentage": 6.3 },
+      { "name": "Larry Page", "percentage": 6.0 },
+      { "name": "Sergey Brin", "percentage": 5.7 }
+    ],
+    "country": "USA",
+    "headquarters": "Mountain View, CA",
+    "flags": [],
+    "sources": ["SEC 13F filings"]
+  },
+  "youtube.com": {
+    "name": "YouTube (Alphabet Inc.)",
+    "parent": "google.com",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 7.4 },
+      { "name": "BlackRock", "percentage": 6.3 }
+    ],
+    "country": "USA",
+    "flags": [],
+    "sources": ["Subsidiary of Alphabet"]
+  },
+  "facebook.com": {
+    "name": "Meta Platforms, Inc.",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.2 },
+      { "name": "BlackRock", "percentage": 6.5 },
+      { "name": "Mark Zuckerberg", "percentage": 13.6 }
+    ],
+    "country": "USA",
+    "headquarters": "Menlo Park, CA",
+    "flags": [],
+    "sources": ["SEC 13F filings"]
+  },
+  "instagram.com": {
+    "name": "Instagram (Meta Platforms)",
+    "parent": "facebook.com",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.2 },
+      { "name": "BlackRock", "percentage": 6.5 },
+      { "name": "Mark Zuckerberg", "percentage": 13.6 }
+    ],
+    "country": "USA",
+    "flags": [],
+    "sources": ["Subsidiary of Meta"]
+  },
+  "tiktok.com": {
+    "name": "TikTok (ByteDance Ltd.)",
+    "shareholders": [
+      { "name": "ByteDance (Private)", "percentage": 100 }
+    ],
+    "country": "China",
+    "headquarters": "Beijing, China",
+    "flags": ["chinese-owned"],
+    "notes": "Owned by ByteDance, a Chinese company. Subject to Chinese data laws.",
+    "sources": ["Company disclosures"]
+  },
+  "alibaba.com": {
+    "name": "Alibaba Group Holding Ltd.",
+    "shareholders": [
+      { "name": "SoftBank Group", "percentage": 24.8 },
+      { "name": "Jack Ma", "percentage": 4.8 }
+    ],
+    "country": "China",
+    "headquarters": "Hangzhou, China",
+    "flags": ["chinese-owned"],
+    "sources": ["Company filings"]
+  },
+  "aliexpress.com": {
+    "name": "AliExpress (Alibaba Group)",
+    "parent": "alibaba.com",
+    "shareholders": [
+      { "name": "SoftBank Group", "percentage": 24.8 }
+    ],
+    "country": "China",
+    "flags": ["chinese-owned"],
+    "sources": ["Subsidiary of Alibaba"]
+  },
+  "temu.com": {
+    "name": "Temu (PDD Holdings)",
+    "shareholders": [
+      { "name": "PDD Holdings (Private)", "percentage": 100 }
+    ],
+    "country": "China",
+    "headquarters": "Shanghai, China",
+    "flags": ["chinese-owned"],
+    "sources": ["Company disclosures"]
+  },
+  "shein.com": {
+    "name": "SHEIN Group",
+    "shareholders": [
+      { "name": "Sequoia China", "percentage": null },
+      { "name": "Tiger Global", "percentage": null }
+    ],
+    "country": "China",
+    "headquarters": "Singapore (registered), China (operations)",
+    "flags": ["chinese-owned"],
+    "notes": "Originally Chinese company, now headquartered in Singapore",
+    "sources": ["Press reports", "Investor disclosures"]
+  },
+  "twitter.com": {
+    "name": "X Corp (formerly Twitter)",
+    "shareholders": [
+      { "name": "Elon Musk", "percentage": 79 },
+      { "name": "Private investors", "percentage": 21 }
+    ],
+    "country": "USA",
+    "headquarters": "San Francisco, CA",
+    "flags": [],
+    "sources": ["Acquisition filings 2022"]
+  },
+  "x.com": {
+    "name": "X Corp (formerly Twitter)",
+    "shareholders": [
+      { "name": "Elon Musk", "percentage": 79 },
+      { "name": "Private investors", "percentage": 21 }
+    ],
+    "country": "USA",
+    "headquarters": "San Francisco, CA",
+    "flags": [],
+    "sources": ["Acquisition filings 2022"]
+  },
+  "apple.com": {
+    "name": "Apple Inc.",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.4 },
+      { "name": "BlackRock", "percentage": 6.6 },
+      { "name": "Berkshire Hathaway", "percentage": 5.9 },
+      { "name": "State Street", "percentage": 3.8 }
+    ],
+    "country": "USA",
+    "headquarters": "Cupertino, CA",
+    "flags": [],
+    "sources": ["SEC 13F filings"]
+  },
+  "microsoft.com": {
+    "name": "Microsoft Corporation",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.8 },
+      { "name": "BlackRock", "percentage": 7.2 },
+      { "name": "State Street", "percentage": 4.0 }
+    ],
+    "country": "USA",
+    "headquarters": "Redmond, WA",
+    "flags": [],
+    "sources": ["SEC 13F filings"]
+  },
+  "netflix.com": {
+    "name": "Netflix, Inc.",
+    "shareholders": [
+      { "name": "Vanguard Group", "percentage": 8.1 },
+      { "name": "BlackRock", "percentage": 6.9 },
+      { "name": "Capital Group", "percentage": 5.2 }
+    ],
+    "country": "USA",
+    "headquarters": "Los Gatos, CA",
+    "flags": [],
+    "sources": ["SEC 13F filings"]
+  },
+  "walmart.com": {
+    "name": "Walmart Inc.",
+    "shareholders": [
+      { "name": "Walton Family", "percentage": 47.0 },
+      { "name": "Vanguard Group", "percentage": 5.2 },
+      { "name": "BlackRock", "percentage": 4.1 }
+    ],
+    "country": "USA",
+    "headquarters": "Bentonville, AR",
+    "flags": [],
+    "sources": ["SEC 13F filings", "Proxy statements"]
+  },
+  "spotify.com": {
+    "name": "Spotify Technology S.A.",
+    "shareholders": [
+      { "name": "Daniel Ek", "percentage": 16.5 },
+      { "name": "Martin Lorentzon", "percentage": 10.9 },
+      { "name": "Tencent", "percentage": 9.1 }
+    ],
+    "country": "Sweden",
+    "headquarters": "Stockholm, Sweden",
+    "flags": [],
+    "notes": "Tencent (Chinese company) holds significant stake",
+    "sources": ["SEC filings", "Company reports"]
+  },
+  "reddit.com": {
+    "name": "Reddit, Inc.",
+    "shareholders": [
+      { "name": "Advance Publications", "percentage": 30 },
+      { "name": "Tencent", "percentage": null }
+    ],
+    "country": "USA",
+    "headquarters": "San Francisco, CA",
+    "flags": [],
+    "notes": "Received investment from Tencent (Chinese company)",
+    "sources": ["Press reports", "Company disclosures"]
+  },
+  "telegram.org": {
+    "name": "Telegram Messenger Inc.",
+    "shareholders": [
+      { "name": "Pavel Durov", "percentage": null }
+    ],
+    "country": "UAE",
+    "headquarters": "Dubai, UAE",
+    "flags": [],
+    "notes": "Founded by Russian entrepreneurs, now based in UAE",
+    "sources": ["Company disclosures"]
+  }
+}
