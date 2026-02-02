@@ -116,33 +116,50 @@ async function build() {
   let tagAssignmentCount = 0;
 
   for (const [companyId, company] of Object.entries(companies)) {
-    // Resolve entity references in shareholders
+    // Resolve entity references in shareholders with full metadata
     const shareholders = company.shareholders.map(sh => {
       if (sh.entityId && entities[sh.entityId]) {
+        const entity = entities[sh.entityId];
         return {
-          name: entities[sh.entityId].name,
-          percentage: sh.percentage
+          name: entity.name,
+          percentage: sh.percentage,
+          type: entity.type,
+          description: entity.description || null,
+          country: entity.country || null,
+          wikipedia: entity.wikipedia || null,
+          wikidata: entity.wikidata || null
         };
       }
       return {
         name: sh.name || sh.entityId,
-        percentage: sh.percentage
+        percentage: sh.percentage,
+        type: 'unknown'
       };
     });
 
-    // Get flags from tag assignments (only active ones)
+    // Get flags from tag assignments (only active ones) with justifications
     const companyAssignments = tagAssignments[companyId] || [];
-    const flags = companyAssignments
+    const flagsData = companyAssignments
       .filter(a => a.status === 'active')
-      .map(a => a.tagId);
-    tagAssignmentCount += flags.length;
+      .map(a => {
+        const tagDef = tagDefinitions[a.tagId] || {};
+        return {
+          id: a.tagId,
+          justification: a.justification,
+          sources: a.sources || [],
+          definition: tagDef.definition || null,
+          category: tagDef.category || null
+        };
+      });
+    tagAssignmentCount += flagsData.length;
 
     // Build company entry
     const entry = {
       name: company.name,
       shareholders,
       country: company.country,
-      flags,
+      flags: flagsData.map(f => f.id),  // Simple array for backward compatibility
+      flagsData,  // Full flag data with justifications
       sources: company.sources
     };
 

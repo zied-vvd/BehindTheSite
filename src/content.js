@@ -66,6 +66,18 @@
     'controversial': { label: '⚠️ Controversial', type: 'warning' }
   };
 
+  // Entity type labels
+  const ENTITY_TYPE_LABELS = {
+    'institution': '🏦 Investment Firm',
+    'individual': '👤 Individual',
+    'fund': '💼 Fund',
+    'government': '🏛️ Government',
+    'nonprofit': '🎗️ Nonprofit',
+    'private': '🔒 Private Company',
+    'other': '📋 Other',
+    'unknown': '❓ Unknown'
+  };
+
   // Extract root domain from hostname
   function getRootDomain(hostname) {
     const parts = hostname.split('.');
@@ -161,47 +173,32 @@
       "amazon.com": {
         "name": "Amazon.com, Inc.",
         "shareholders": [
-          { "name": "Vanguard Group", "percentage": 7.1 },
-          { "name": "BlackRock", "percentage": 6.4 },
-          { "name": "Jeff Bezos", "percentage": 9.5 }
+          { "name": "Vanguard Group", "percentage": 7.1, "type": "institution" },
+          { "name": "BlackRock", "percentage": 6.4, "type": "institution" },
+          { "name": "Jeff Bezos", "percentage": 9.5, "type": "individual" }
         ],
         "country": "USA",
-        "flags": ["poor-labor", "monopoly", "tax-avoidance"]
+        "flags": ["poor-labor", "monopoly", "tax-avoidance"],
+        "flagsData": []
       },
       "google.com": {
         "name": "Alphabet Inc.",
         "shareholders": [
-          { "name": "Vanguard Group", "percentage": 7.4 },
-          { "name": "BlackRock", "percentage": 6.3 },
-          { "name": "Larry Page", "percentage": 6.0 }
+          { "name": "Vanguard Group", "percentage": 7.4, "type": "institution" },
+          { "name": "BlackRock", "percentage": 6.3, "type": "institution" },
+          { "name": "Larry Page", "percentage": 6.0, "type": "individual" }
         ],
         "country": "USA",
-        "flags": ["data-harvesting", "monopoly", "lobbying"]
-      },
-      "tiktok.com": {
-        "name": "ByteDance Ltd.",
-        "shareholders": [
-          { "name": "ByteDance (Private)", "percentage": 100 }
-        ],
-        "country": "China",
-        "flags": ["chinese-owned", "data-harvesting", "censorship"]
-      },
-      "youtube.com": {
-        "name": "YouTube (Alphabet Inc.)",
-        "shareholders": [
-          { "name": "Vanguard Group", "percentage": 7.4 },
-          { "name": "BlackRock", "percentage": 6.3 }
-        ],
-        "country": "USA",
-        "flags": ["data-harvesting"]
+        "flags": ["data-harvesting", "monopoly", "lobbying"],
+        "flagsData": []
       }
     };
   }
 
   // Create badge HTML
-  function createBadge(text, type = 'default') {
+  function createBadge(text, type = 'default', clickable = false) {
     const badge = document.createElement('span');
-    badge.className = `bts-badge bts-badge-${type}`;
+    badge.className = `bts-badge bts-badge-${type}${clickable ? ' bts-clickable' : ''}`;
     badge.textContent = text;
     return badge;
   }
@@ -209,16 +206,127 @@
   // Filter flags based on user preferences
   function filterFlags(flags, preferences) {
     if (!preferences || !preferences.tags || preferences.tags.length === 0) {
-      // No preferences = show all flags
       return flags;
     }
-
     const userTags = new Set(preferences.tags);
     return flags.filter(flag => userTags.has(flag));
   }
 
+  // Create details panel for expanded info
+  function createDetailsPanel() {
+    const panel = document.createElement('div');
+    panel.id = 'bts-details-panel';
+    panel.className = 'bts-details-panel';
+    panel.style.display = 'none';
+    return panel;
+  }
+
+  // Show shareholder details
+  function showShareholderDetails(panel, shareholder, banner) {
+    const typeLabel = ENTITY_TYPE_LABELS[shareholder.type] || ENTITY_TYPE_LABELS['unknown'];
+
+    let html = `
+      <div class="bts-details-header">
+        <span class="bts-details-title">${shareholder.name}</span>
+        <span class="bts-details-type">${typeLabel}</span>
+        <button class="bts-details-close">×</button>
+      </div>
+      <div class="bts-details-body">
+    `;
+
+    if (shareholder.percentage) {
+      html += `<div class="bts-details-stat"><strong>Ownership:</strong> ${shareholder.percentage}%</div>`;
+    }
+
+    if (shareholder.country) {
+      html += `<div class="bts-details-stat"><strong>Country:</strong> ${shareholder.country}</div>`;
+    }
+
+    if (shareholder.description) {
+      html += `<div class="bts-details-desc">${shareholder.description}</div>`;
+    }
+
+    // Add search links
+    html += `
+      <div class="bts-details-links">
+        <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(shareholder.name)}" target="_blank" rel="noopener">Wikipedia</a>
+        <a href="https://www.google.com/search?q=${encodeURIComponent(shareholder.name + ' investor')}" target="_blank" rel="noopener">Google</a>
+        <a href="https://news.google.com/search?q=${encodeURIComponent(shareholder.name)}" target="_blank" rel="noopener">News</a>
+      </div>
+    `;
+
+    html += '</div>';
+    panel.innerHTML = html;
+    panel.style.display = 'block';
+    document.body.style.marginTop = '148px'; // Expand for panel
+
+    // Close button
+    panel.querySelector('.bts-details-close').addEventListener('click', () => {
+      panel.style.display = 'none';
+      document.body.style.marginTop = '48px';
+    });
+  }
+
+  // Show flag details
+  function showFlagDetails(panel, flagId, flagData, companyInfo) {
+    const flagLabel = FLAG_LABELS[flagId] || { label: flagId, type: 'info' };
+    const fullFlagData = (companyInfo.flagsData || []).find(f => f.id === flagId) || {};
+
+    let html = `
+      <div class="bts-details-header">
+        <span class="bts-details-title">${flagLabel.label}</span>
+        <span class="bts-details-type bts-badge-${flagLabel.type}">${flagData.category || 'Tag'}</span>
+        <button class="bts-details-close">×</button>
+      </div>
+      <div class="bts-details-body">
+    `;
+
+    if (fullFlagData.definition) {
+      html += `<div class="bts-details-definition"><strong>Definition:</strong> ${fullFlagData.definition}</div>`;
+    }
+
+    if (fullFlagData.justification) {
+      html += `<div class="bts-details-justification"><strong>Why this applies:</strong> ${fullFlagData.justification}</div>`;
+    }
+
+    // Show sources
+    if (fullFlagData.sources && fullFlagData.sources.length > 0) {
+      html += `<div class="bts-details-sources"><strong>Sources:</strong><ul>`;
+      fullFlagData.sources.forEach(source => {
+        if (source.url) {
+          html += `<li><a href="${source.url}" target="_blank" rel="noopener">${source.title || source.url}</a> <span class="bts-source-type">(${source.type})</span></li>`;
+        } else {
+          html += `<li>${source.title} <span class="bts-source-type">(${source.type})</span></li>`;
+        }
+      });
+      html += '</ul></div>';
+    }
+
+    // Add search links
+    html += `
+      <div class="bts-details-links">
+        <a href="https://news.google.com/search?q=${encodeURIComponent(companyInfo.name + ' ' + flagLabel.label.replace(/[^\w\s]/g, ''))}" target="_blank" rel="noopener">Related News</a>
+      </div>
+    `;
+
+    html += '</div>';
+    panel.innerHTML = html;
+    panel.style.display = 'block';
+    document.body.style.marginTop = '148px';
+
+    // Close button
+    panel.querySelector('.bts-details-close').addEventListener('click', () => {
+      panel.style.display = 'none';
+      document.body.style.marginTop = '48px';
+    });
+  }
+
   // Create the banner element
   function createBanner(companyInfo, preferences) {
+    const wrapper = document.createElement('div');
+    wrapper.id = 'bts-wrapper';
+    wrapper.className = 'bts-wrapper';
+
     const banner = document.createElement('div');
     banner.id = 'bts-banner';
     banner.className = 'bts-banner';
@@ -239,35 +347,49 @@
     const countryBadge = createBadge(`🌍 ${companyInfo.country}`, 'country');
     content.appendChild(countryBadge);
 
-    // Top shareholders (always show)
+    // Details panel (hidden initially)
+    const detailsPanel = createDetailsPanel();
+
+    // Top shareholders (clickable)
     if (companyInfo.shareholders && companyInfo.shareholders.length > 0) {
       const topShareholders = companyInfo.shareholders.slice(0, 3);
       topShareholders.forEach(sh => {
         const pct = sh.percentage != null ? ` (${sh.percentage}%)` : '';
-        const badge = createBadge(`${sh.name}${pct}`, 'shareholder');
+        const badge = createBadge(`${sh.name}${pct}`, 'shareholder', true);
+        badge.addEventListener('click', () => {
+          showShareholderDetails(detailsPanel, sh, banner);
+        });
         content.appendChild(badge);
       });
     }
 
-    // Filtered flags based on user preferences
+    // Filtered flags based on user preferences (clickable)
     const flags = companyInfo.flags || [];
     const filteredFlags = filterFlags(flags, preferences);
+    const flagsData = companyInfo.flagsData || [];
 
     filteredFlags.forEach(flag => {
-      const flagData = FLAG_LABELS[flag];
-      if (flagData) {
-        const badge = createBadge(flagData.label, flagData.type);
+      const flagInfo = FLAG_LABELS[flag];
+      const flagData = flagsData.find(f => f.id === flag) || {};
+
+      if (flagInfo) {
+        const badge = createBadge(flagInfo.label, flagInfo.type, true);
+        badge.addEventListener('click', () => {
+          showFlagDetails(detailsPanel, flag, flagData, companyInfo);
+        });
         content.appendChild(badge);
       } else {
-        // Custom or unknown flag
-        const badge = createBadge(`🏷️ ${flag}`, 'info');
+        const badge = createBadge(`🏷️ ${flag}`, 'info', true);
+        badge.addEventListener('click', () => {
+          showFlagDetails(detailsPanel, flag, {}, companyInfo);
+        });
         content.appendChild(badge);
       }
     });
 
     banner.appendChild(content);
 
-    // Close button - hides for 30 days on this site
+    // Close button
     const closeBtn = document.createElement('button');
     closeBtn.className = 'bts-close';
     closeBtn.innerHTML = '×';
@@ -275,32 +397,30 @@
     closeBtn.addEventListener('click', async () => {
       const domain = getRootDomain(window.location.hostname);
       await hideSiteFor30Days(domain);
-      banner.remove();
+      wrapper.remove();
       document.body.style.marginTop = '';
     });
     banner.appendChild(closeBtn);
 
-    return banner;
+    wrapper.appendChild(banner);
+    wrapper.appendChild(detailsPanel);
+
+    return wrapper;
   }
 
   // Check if we should show banner based on preferences
   function shouldShowBanner(companyInfo, preferences) {
-    // Always show if no preferences set (not onboarded yet)
     if (!preferences || !preferences.onboardingComplete) {
       return true;
     }
 
-    // If user has tags selected, only show if there's a match
     if (preferences.tags && preferences.tags.length > 0) {
       const userTags = new Set(preferences.tags);
       const companyFlags = companyInfo.flags || [];
-
-      // Check for any matching flag
       const hasMatch = companyFlags.some(flag => userTags.has(flag));
       return hasMatch;
     }
 
-    // No tags selected = show all
     return true;
   }
 
@@ -309,13 +429,11 @@
     const hostname = window.location.hostname;
     const domain = getRootDomain(hostname);
 
-    // Check if site is hidden for 30 days first
     if (await isSiteHidden(domain)) {
       console.log('BehindTheSite: Banner hidden for this site (user dismissed)');
       return;
     }
 
-    // Load data and preferences in parallel
     const [companyData, preferences] = await Promise.all([
       fetchCompanyData(),
       getUserPreferences()
@@ -327,20 +445,16 @@
       return;
     }
 
-    // Check if we should show based on user preferences
     if (!shouldShowBanner(companyInfo, preferences)) {
       return;
     }
 
-    // Check if banner already exists
-    if (document.getElementById('bts-banner')) {
+    if (document.getElementById('bts-wrapper')) {
       return;
     }
 
     const banner = createBanner(companyInfo, preferences);
     document.body.insertBefore(banner, document.body.firstChild);
-
-    // Push page content down
     document.body.style.marginTop = '48px';
   }
 

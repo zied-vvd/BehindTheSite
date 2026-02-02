@@ -4,11 +4,21 @@
     "shareholders": [
       {
         "name": "SoftBank Group",
-        "percentage": 24.8
+        "percentage": 24.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Jack Ma",
-        "percentage": 4.8
+        "percentage": 4.8,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "China",
@@ -16,6 +26,47 @@
       "authoritarian-ties",
       "chinese-owned",
       "poor-labor"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "poor-labor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented patterns of labor practices that violate workers' rights or fall significantly below industry standards.",
+        "category": "labor"
+      }
     ],
     "sources": [
       "Company filings"
@@ -27,13 +78,46 @@
     "shareholders": [
       {
         "name": "SoftBank Group",
-        "percentage": 24.8
+        "percentage": 24.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "China",
     "flags": [
       "chinese-owned",
       "poor-labor"
+    ],
+    "flagsData": [
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "poor-labor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented patterns of labor practices that violate workers' rights or fall significantly below industry standards.",
+        "category": "labor"
+      }
     ],
     "sources": [
       "Subsidiary of Alibaba"
@@ -45,19 +129,39 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 7.1
+        "percentage": 7.1,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.4
+        "percentage": 6.4,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Jeff Bezos",
-        "percentage": 9.5
+        "percentage": 9.5,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "State Street",
-        "percentage": 3.8
+        "percentage": 3.8,
+        "type": "government",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
@@ -67,6 +171,73 @@
       "poor-labor",
       "tax-avoidance",
       "union-busting"
+    ],
+    "flagsData": [
+      {
+        "id": "carbon-heavy",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant carbon emissions relative to industry peers or absolute thresholds.",
+        "category": "environment"
+      },
+      {
+        "id": "monopoly",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company holds dominant market position with anti-competitive practices or market power that harms consumers.",
+        "category": "ethics"
+      },
+      {
+        "id": "poor-labor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented patterns of labor practices that violate workers' rights or fall significantly below industry standards.",
+        "category": "labor"
+      },
+      {
+        "id": "tax-avoidance",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company engages in aggressive tax avoidance strategies that significantly reduce tax burden below fair share.",
+        "category": "ethics"
+      },
+      {
+        "id": "union-busting",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has engaged in documented anti-union activities or unfair labor practices.",
+        "category": "labor"
+      }
     ],
     "sources": [
       "SEC 13F filings",
@@ -79,25 +250,73 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.4
+        "percentage": 8.4,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.6
+        "percentage": 6.6,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Berkshire Hathaway",
-        "percentage": 5.9
+        "percentage": 5.9,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "State Street",
-        "percentage": 3.8
+        "percentage": 3.8,
+        "type": "government",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "conflict-minerals",
       "tax-avoidance"
+    ],
+    "flagsData": [
+      {
+        "id": "conflict-minerals",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company uses minerals (tin, tantalum, tungsten, gold) sourced from conflict regions without adequate supply chain verification.",
+        "category": "peace"
+      },
+      {
+        "id": "tax-avoidance",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company engages in aggressive tax avoidance strategies that significantly reduce tax burden below fair share.",
+        "category": "ethics"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -109,15 +328,18 @@
     "shareholders": [
       {
         "name": "Robin Li (Founder/CEO)",
-        "percentage": 16.4
+        "percentage": 16.4,
+        "type": "unknown"
       },
       {
         "name": "Vanguard Group",
-        "percentage": 2.1
+        "percentage": 2.1,
+        "type": "unknown"
       },
       {
         "name": "BlackRock",
-        "percentage": 1.8
+        "percentage": 1.8,
+        "type": "unknown"
       }
     ],
     "country": "China",
@@ -126,6 +348,65 @@
       "censorship",
       "chinese-owned",
       "data-harvesting"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Baidu operates under Chinese Communist Party oversight and complies with government censorship directives. CEO Robin Li has publicly stated the company prioritizes government relationships. Baidu AI technology is used in Chinese surveillance systems.",
+        "sources": [
+          {
+            "type": "ngo",
+            "url": "https://rankingdigitalrights.org/index2022/companies/Baidu",
+            "title": "Ranking Digital Rights - Baidu"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "censorship",
+        "justification": "Baidu actively censors search results to comply with Chinese government requirements. Content related to Tiananmen Square, Tibet, Taiwan independence, and other sensitive topics is filtered. The company employs thousands of content moderators.",
+        "sources": [
+          {
+            "type": "academic",
+            "url": "https://citizenlab.ca/",
+            "title": "Citizen Lab - Chinese Censorship Research"
+          },
+          {
+            "type": "ngo",
+            "url": "https://freedomhouse.org/country/china/freedom-net/2023",
+            "title": "Freedom House - China Internet Freedom"
+          }
+        ],
+        "definition": "Company engages in or enables politically-motivated censorship beyond legal requirements.",
+        "category": "democracy"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Baidu, Inc. is a Chinese technology company headquartered in Beijing. Founded in 2000, it operates China's dominant search engine with over 70% market share. Subject to Chinese cybersecurity and data laws.",
+        "sources": [
+          {
+            "type": "regulatory",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001329099",
+            "title": "SEC EDGAR - Baidu Inc. Filings"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "Baidu collects extensive user data through its search engine, maps, cloud services, and AI products. Under Chinese law, this data must be stored in China and made available to authorities upon request.",
+        "sources": [
+          {
+            "type": "news",
+            "url": "https://www.nytimes.com/2018/07/26/technology/china-surveillance-baidu.html",
+            "title": "NYT - Chinese Tech Companies and Surveillance"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "SEC 20-F filings",
@@ -139,17 +420,55 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.6
+        "percentage": 8.6,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.4
+        "percentage": 6.4,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "military-contractor",
       "weapons-manufacturer"
+    ],
+    "flagsData": [
+      {
+        "id": "military-contractor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company provides significant services or technology to military organizations.",
+        "category": "peace"
+      },
+      {
+        "id": "weapons-manufacturer",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company manufactures weapons, ammunition, or weapons systems.",
+        "category": "peace"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -161,17 +480,55 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 3.1
+        "percentage": 3.1,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 2.7
+        "percentage": 2.7,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "UK",
     "flags": [
       "carbon-heavy",
       "oil-industry"
+    ],
+    "flagsData": [
+      {
+        "id": "carbon-heavy",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant carbon emissions relative to industry peers or absolute thresholds.",
+        "category": "environment"
+      },
+      {
+        "id": "oil-industry",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company's primary business involves extraction, refining, or distribution of fossil fuels.",
+        "category": "environment"
+      }
     ],
     "sources": [
       "Company filings"
@@ -183,20 +540,43 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 7.2
+        "percentage": 7.2,
+        "type": "unknown"
       },
       {
         "name": "BlackRock",
-        "percentage": 6.1
+        "percentage": 6.1,
+        "type": "unknown"
       },
       {
         "name": "Gil Shwed (Founder/CEO)",
-        "percentage": 18.5
+        "percentage": 18.5,
+        "type": "unknown"
       }
     ],
     "country": "Israel",
     "flags": [
       "israeli-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "israeli-ties",
+        "justification": "Check Point Software Technologies Ltd. is an Israeli multinational cybersecurity company headquartered in Tel Aviv, Israel. Founded in 1993 by Gil Shwed, Marius Nacht, and Shlomo Kramer in Ramat Gan, Israel. Gil Shwed, who served in IDF Unit 8200 (Israeli Intelligence Corps), remains CEO. The company is a major Israeli tech employer and defense contractor.",
+        "sources": [
+          {
+            "type": "company",
+            "url": "https://www.checkpoint.com/about-us/",
+            "title": "Check Point About Us"
+          },
+          {
+            "type": "news",
+            "url": "https://www.forbes.com/profile/gil-shwed/",
+            "title": "Forbes - Gil Shwed Profile"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Israeli entities, military, or government.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "SEC 13F filings",
@@ -210,17 +590,55 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.2
+        "percentage": 8.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.5
+        "percentage": 6.5,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "carbon-heavy",
       "oil-industry"
+    ],
+    "flagsData": [
+      {
+        "id": "carbon-heavy",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant carbon emissions relative to industry peers or absolute thresholds.",
+        "category": "environment"
+      },
+      {
+        "id": "oil-industry",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company's primary business involves extraction, refining, or distribution of fossil fuels.",
+        "category": "environment"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -232,21 +650,64 @@
     "shareholders": [
       {
         "name": "Berkshire Hathaway",
-        "percentage": 9.3
+        "percentage": 9.3,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Vanguard Group",
-        "percentage": 8.1
+        "percentage": 8.1,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.4
+        "percentage": 6.4,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "plastic-producer",
       "processed-food"
+    ],
+    "flagsData": [
+      {
+        "id": "plastic-producer",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is a significant producer of single-use plastics or packaging.",
+        "category": "environment"
+      },
+      {
+        "id": "processed-food",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company primarily produces ultra-processed foods with significant public health concerns.",
+        "category": "health"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -258,12 +719,32 @@
     "shareholders": [
       {
         "name": "Gabriel Weinberg",
-        "percentage": null
+        "percentage": null,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "privacy-focused"
+    ],
+    "flagsData": [
+      {
+        "id": "privacy-focused",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has privacy as a core value with minimal data collection and strong user protections.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -275,11 +756,13 @@
     "shareholders": [
       {
         "name": "Federmann Enterprises",
-        "percentage": 44
+        "percentage": 44,
+        "type": "unknown"
       },
       {
         "name": "Public float",
-        "percentage": 56
+        "percentage": 56,
+        "type": "unknown"
       }
     ],
     "country": "Israel",
@@ -288,6 +771,80 @@
       "military-contractor",
       "surveillance",
       "weapons-manufacturer"
+    ],
+    "flagsData": [
+      {
+        "id": "israeli-ties",
+        "justification": "Elbit Systems Ltd. is Israel's largest publicly traded defense company, headquartered in Haifa, Israel. The company is a major supplier to the Israel Defense Forces (IDF) and develops military technology including drones, surveillance systems, and weapons systems used in Israeli military operations.",
+        "sources": [
+          {
+            "type": "company",
+            "url": "https://elbitsystems.com/about-us/",
+            "title": "Elbit Systems About Us"
+          },
+          {
+            "type": "ngo",
+            "url": "https://www.whoprofits.org/company/elbit-systems/",
+            "title": "Who Profits - Elbit Systems Profile"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Israeli entities, military, or government.",
+        "category": "ownership"
+      },
+      {
+        "id": "military-contractor",
+        "justification": "Elbit Systems is a primary contractor for the Israel Defense Forces and exports military equipment to over 50 countries. The company provides surveillance systems for border walls, military drones, and defense electronics. It has significant US military contracts through its American subsidiary.",
+        "sources": [
+          {
+            "type": "government",
+            "url": "https://www.usaspending.gov/",
+            "title": "USASpending.gov - Federal Contract Data"
+          },
+          {
+            "type": "company",
+            "url": "https://elbitsystems.com/media-room/",
+            "title": "Elbit Systems Contract Announcements"
+          }
+        ],
+        "definition": "Company provides significant services or technology to military organizations.",
+        "category": "peace"
+      },
+      {
+        "id": "surveillance",
+        "justification": "Elbit Systems develops and sells surveillance technology including border monitoring systems, reconnaissance drones, and intelligence gathering equipment. The company's systems are used for surveillance along the Israeli separation barrier and have been exported to border agencies worldwide including US Customs and Border Protection.",
+        "sources": [
+          {
+            "type": "news",
+            "url": "https://theintercept.com/2019/08/25/elbit-systems-border-technology/",
+            "title": "The Intercept - Elbit Border Technology Investigation"
+          },
+          {
+            "type": "ngo",
+            "url": "https://www.whoprofits.org/company/elbit-systems/",
+            "title": "Who Profits Research Center"
+          }
+        ],
+        "definition": "Company develops or deploys surveillance technology, including facial recognition, location tracking, or mass monitoring systems.",
+        "category": "privacy"
+      },
+      {
+        "id": "weapons-manufacturer",
+        "justification": "Elbit Systems manufactures a wide range of weapons and military systems including Hermes drones (used in military operations), artillery systems, mortar systems, small arms, and guided munitions. The company is ranked among SIPRI's top 100 arms-producing companies globally.",
+        "sources": [
+          {
+            "type": "academic",
+            "url": "https://www.sipri.org/databases/armsindustry",
+            "title": "SIPRI Arms Industry Database"
+          },
+          {
+            "type": "company",
+            "url": "https://elbitsystems.com/products/",
+            "title": "Elbit Systems Products"
+          }
+        ],
+        "definition": "Company manufactures weapons, ammunition, or weapons systems.",
+        "category": "peace"
+      }
     ],
     "sources": [
       "Company filings",
@@ -301,11 +858,21 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.5
+        "percentage": 8.5,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.8
+        "percentage": 6.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
@@ -313,6 +880,47 @@
       "carbon-heavy",
       "lobbying",
       "oil-industry"
+    ],
+    "flagsData": [
+      {
+        "id": "carbon-heavy",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant carbon emissions relative to industry peers or absolute thresholds.",
+        "category": "environment"
+      },
+      {
+        "id": "lobbying",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company spends significantly on lobbying government officials and policymakers.",
+        "category": "ethics"
+      },
+      {
+        "id": "oil-industry",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company's primary business involves extraction, refining, or distribution of fossil fuels.",
+        "category": "environment"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -324,15 +932,30 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.2
+        "percentage": 8.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.5
+        "percentage": 6.5,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Mark Zuckerberg",
-        "percentage": 13.6
+        "percentage": 13.6,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
@@ -341,6 +964,60 @@
       "data-harvesting",
       "media-manipulation",
       "monopoly"
+    ],
+    "flagsData": [
+      {
+        "id": "data-breaches",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has experienced significant data breaches exposing user information.",
+        "category": "privacy"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      },
+      {
+        "id": "media-manipulation",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company platform has been used for or complicit in spreading misinformation or manipulating public discourse.",
+        "category": "democracy"
+      },
+      {
+        "id": "monopoly",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company holds dominant market position with anti-competitive practices or market power that harms consumers.",
+        "category": "ethics"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -352,20 +1029,43 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 5.4
+        "percentage": 5.4,
+        "type": "unknown"
       },
       {
         "name": "BlackRock",
-        "percentage": 4.8
+        "percentage": 4.8,
+        "type": "unknown"
       },
       {
         "name": "Accel Partners",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       }
     ],
     "country": "Israel",
     "flags": [
       "israeli-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "israeli-ties",
+        "justification": "Fiverr International Ltd. is an Israeli online marketplace company headquartered in Tel Aviv, Israel. Founded in 2010 by Israeli entrepreneurs Micha Kaufman and Shai Wininger. The company is publicly traded on NYSE and maintains its headquarters and significant operations in Israel.",
+        "sources": [
+          {
+            "type": "company",
+            "url": "https://www.fiverr.com/about",
+            "title": "Fiverr About Page"
+          },
+          {
+            "type": "regulatory",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001762301",
+            "title": "SEC EDGAR - Fiverr International Ltd. Filings"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Israeli entities, military, or government.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "SEC 13F filings",
@@ -378,19 +1078,39 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 7.4
+        "percentage": 7.4,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.3
+        "percentage": 6.3,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Larry Page",
-        "percentage": 6
+        "percentage": 6,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Sergey Brin",
-        "percentage": 5.7
+        "percentage": 5.7,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
@@ -399,6 +1119,60 @@
       "lobbying",
       "military-contractor",
       "monopoly"
+    ],
+    "flagsData": [
+      {
+        "id": "data-harvesting",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      },
+      {
+        "id": "lobbying",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company spends significantly on lobbying government officials and policymakers.",
+        "category": "ethics"
+      },
+      {
+        "id": "military-contractor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company provides significant services or technology to military organizations.",
+        "category": "peace"
+      },
+      {
+        "id": "monopoly",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company holds dominant market position with anti-competitive practices or market power that harms consumers.",
+        "category": "ethics"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -410,11 +1184,17 @@
     "shareholders": [
       {
         "name": "Employee ownership",
-        "percentage": 99
+        "percentage": 99,
+        "type": "unknown"
       },
       {
         "name": "Ren Zhengfei",
-        "percentage": 1
+        "percentage": 1,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "China",
@@ -423,6 +1203,60 @@
       "chinese-owned",
       "sanctioned-country",
       "surveillance"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "sanctioned-country",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is based in or has significant ties to a country under international sanctions.",
+        "category": "ownership"
+      },
+      {
+        "id": "surveillance",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company develops or deploys surveillance technology, including facial recognition, location tracking, or mass monitoring systems.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Company disclosures",
@@ -435,20 +1269,50 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.2
+        "percentage": 8.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.5
+        "percentage": 6.5,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Mark Zuckerberg",
-        "percentage": 13.6
+        "percentage": 13.6,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "data-harvesting"
+    ],
+    "flagsData": [
+      {
+        "id": "data-harvesting",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Subsidiary of Meta"
@@ -460,20 +1324,38 @@
     "shareholders": [
       {
         "name": "Richard Liu (Founder)",
-        "percentage": 12.7
+        "percentage": 12.7,
+        "type": "unknown"
       },
       {
         "name": "Tencent",
-        "percentage": 15.1
+        "percentage": 15.1,
+        "type": "unknown"
       },
       {
         "name": "Walmart",
-        "percentage": 9.3
+        "percentage": 9.3,
+        "type": "unknown"
       }
     ],
     "country": "China",
     "flags": [
       "chinese-owned"
+    ],
+    "flagsData": [
+      {
+        "id": "chinese-owned",
+        "justification": "JD.com, Inc. is a Chinese e-commerce company headquartered in Beijing. One of China's two largest online retailers. Major shareholders include founder Richard Liu and Tencent. Subject to Chinese data and commerce regulations.",
+        "sources": [
+          {
+            "type": "regulatory",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001549802",
+            "title": "SEC EDGAR - JD.com Filings"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "SEC 20-F filings",
@@ -487,7 +1369,12 @@
     "shareholders": [
       {
         "name": "Eugene Kaspersky",
-        "percentage": null
+        "percentage": null,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "Russia",
@@ -495,6 +1382,47 @@
       "authoritarian-ties",
       "russian-ties",
       "surveillance"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "russian-ties",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Russian entities, individuals, or the Russian state.",
+        "category": "ownership"
+      },
+      {
+        "id": "surveillance",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company develops or deploys surveillance technology, including facial recognition, location tracking, or mass monitoring systems.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -506,21 +1434,64 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.4
+        "percentage": 8.4,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 7.2
+        "percentage": 7.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "State Street",
-        "percentage": 4.5
+        "percentage": 4.5,
+        "type": "government",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "military-contractor",
       "weapons-manufacturer"
+    ],
+    "flagsData": [
+      {
+        "id": "military-contractor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company provides significant services or technology to military organizations.",
+        "category": "peace"
+      },
+      {
+        "id": "weapons-manufacturer",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company manufactures weapons, ammunition, or weapons systems.",
+        "category": "peace"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -532,17 +1503,47 @@
     "shareholders": [
       {
         "name": "Sogaz",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       },
       {
         "name": "MF Technologies",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       }
     ],
     "country": "Russia",
     "flags": [
       "authoritarian-ties",
       "russian-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Mail.ru/VK Company operates under Russian jurisdiction and complies with Russian data localization and surveillance laws. Subject to SORM requirements giving intelligence services access to communications.",
+        "sources": [
+          {
+            "type": "ngo",
+            "url": "https://freedomhouse.org/country/russia/freedom-net/2023",
+            "title": "Freedom House - Russia Internet Freedom"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "russian-ties",
+        "justification": "Mail.ru Group (now VK Company) is a major Russian internet company headquartered in Moscow. Controls Russia's largest email service, VK social network, and various online services. Majority controlled by entities with Kremlin ties.",
+        "sources": [
+          {
+            "type": "company",
+            "url": "https://vk.company/en/",
+            "title": "VK Company Official Site"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Russian entities, individuals, or the Russian state.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -555,11 +1556,21 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.5
+        "percentage": 8.5,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.9
+        "percentage": 6.9,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
@@ -567,6 +1578,47 @@
       "deforestation",
       "plastic-producer",
       "processed-food"
+    ],
+    "flagsData": [
+      {
+        "id": "deforestation",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented links to deforestation through its supply chain or operations.",
+        "category": "environment"
+      },
+      {
+        "id": "plastic-producer",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is a significant producer of single-use plastics or packaging.",
+        "category": "environment"
+      },
+      {
+        "id": "processed-food",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company primarily produces ultra-processed foods with significant public health concerns.",
+        "category": "health"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -578,15 +1630,30 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.8
+        "percentage": 8.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 7.2
+        "percentage": 7.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "State Street",
-        "percentage": 4
+        "percentage": 4,
+        "type": "government",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
@@ -594,6 +1661,47 @@
       "lobbying",
       "military-contractor",
       "monopoly"
+    ],
+    "flagsData": [
+      {
+        "id": "lobbying",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company spends significantly on lobbying government officials and policymakers.",
+        "category": "ethics"
+      },
+      {
+        "id": "military-contractor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company provides significant services or technology to military organizations.",
+        "category": "peace"
+      },
+      {
+        "id": "monopoly",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company holds dominant market position with anti-competitive practices or market power that harms consumers.",
+        "category": "ethics"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -605,20 +1713,43 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 4.9
+        "percentage": 4.9,
+        "type": "unknown"
       },
       {
         "name": "BlackRock",
-        "percentage": 4.1
+        "percentage": 4.1,
+        "type": "unknown"
       },
       {
         "name": "Sapir Capital",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       }
     ],
     "country": "Israel",
     "flags": [
       "israeli-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "israeli-ties",
+        "justification": "monday.com Ltd. is an Israeli cloud-based work operating system company headquartered in Tel Aviv, Israel. Founded in 2012 by Roy Mann and Eran Zinman in Israel. The company is publicly traded on NASDAQ and maintains its headquarters and primary R&D operations in Israel.",
+        "sources": [
+          {
+            "type": "company",
+            "url": "https://monday.com/about-us",
+            "title": "monday.com About Us"
+          },
+          {
+            "type": "regulatory",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845338",
+            "title": "SEC EDGAR - monday.com Ltd. Filings"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Israeli entities, military, or government.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "SEC 13F filings",
@@ -631,11 +1762,21 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 3.1
+        "percentage": 3.1,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 2.8
+        "percentage": 2.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "Switzerland",
@@ -644,6 +1785,60 @@
       "deforestation",
       "plastic-producer",
       "processed-food"
+    ],
+    "flagsData": [
+      {
+        "id": "child-labor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented use of child labor in operations or supply chain.",
+        "category": "labor"
+      },
+      {
+        "id": "deforestation",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented links to deforestation through its supply chain or operations.",
+        "category": "environment"
+      },
+      {
+        "id": "plastic-producer",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is a significant producer of single-use plastics or packaging.",
+        "category": "environment"
+      },
+      {
+        "id": "processed-food",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company primarily produces ultra-processed foods with significant public health concerns.",
+        "category": "health"
+      }
     ],
     "sources": [
       "Company filings",
@@ -656,19 +1851,35 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.1
+        "percentage": 8.1,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.9
+        "percentage": 6.9,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Capital Group",
-        "percentage": 5.2
+        "percentage": 5.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [],
+    "flagsData": [],
     "sources": [
       "SEC 13F filings"
     ],
@@ -679,17 +1890,60 @@
     "shareholders": [
       {
         "name": "Novalpina Capital",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       },
       {
         "name": "Founders (Shalev Hulio, Omri Lavie)",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       }
     ],
     "country": "Israel",
     "flags": [
       "israeli-ties",
       "surveillance"
+    ],
+    "flagsData": [
+      {
+        "id": "israeli-ties",
+        "justification": "NSO Group is an Israeli technology company headquartered in Herzliya, Israel. Founded by former members of Unit 8200 (Israeli Intelligence Corps). The company's Pegasus spyware has been sold to governments worldwide and has been linked to surveillance of journalists, activists, and political figures.",
+        "sources": [
+          {
+            "type": "government",
+            "url": "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list",
+            "title": "Commerce Adds NSO Group to Entity List",
+            "date": "2021-11-03"
+          },
+          {
+            "type": "news",
+            "url": "https://www.theguardian.com/news/series/pegasus-project",
+            "title": "The Pegasus Project - Guardian Investigation"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Israeli entities, military, or government.",
+        "category": "ownership"
+      },
+      {
+        "id": "surveillance",
+        "justification": "NSO Group develops and sells Pegasus spyware, which can be covertly installed on mobile phones to access messages, emails, calls, camera, and microphone. The Pegasus Project investigation by 17 media organizations documented its use against journalists, human rights activists, and political opposition figures across multiple countries.",
+        "sources": [
+          {
+            "type": "news",
+            "url": "https://www.amnesty.org/en/latest/news/2021/07/the-pegasus-project/",
+            "title": "Amnesty International - The Pegasus Project",
+            "date": "2021-07-18"
+          },
+          {
+            "type": "legal",
+            "url": "https://www.apple.com/newsroom/2021/11/apple-sues-nso-group-to-curb-the-abuse-of-state-sponsored-spyware/",
+            "title": "Apple Sues NSO Group",
+            "date": "2021-11-23"
+          }
+        ],
+        "definition": "Company develops or deploys surveillance technology, including facial recognition, location tracking, or mass monitoring systems.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Company disclosures",
@@ -703,11 +1957,21 @@
     "shareholders": [
       {
         "name": "Holdfast Collective",
-        "percentage": 98
+        "percentage": 98,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Patagonia Purpose Trust",
-        "percentage": 2
+        "percentage": 2,
+        "type": "fund",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
@@ -715,6 +1979,47 @@
       "b-corp",
       "fair-trade",
       "green-certified"
+    ],
+    "flagsData": [
+      {
+        "id": "b-corp",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is certified as a B Corporation, meeting rigorous standards of social and environmental performance.",
+        "category": "ethics"
+      },
+      {
+        "id": "fair-trade",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is Fair Trade certified or demonstrates equivalent commitment to fair wages and working conditions throughout supply chain.",
+        "category": "labor"
+      },
+      {
+        "id": "green-certified",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has achieved recognized environmental certifications or demonstrates leadership in sustainability.",
+        "category": "environment"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -726,17 +2031,55 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.3
+        "percentage": 8.3,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.8
+        "percentage": 6.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "plastic-producer",
       "processed-food"
+    ],
+    "flagsData": [
+      {
+        "id": "plastic-producer",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is a significant producer of single-use plastics or packaging.",
+        "category": "environment"
+      },
+      {
+        "id": "processed-food",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company primarily produces ultra-processed foods with significant public health concerns.",
+        "category": "health"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -748,12 +2091,32 @@
     "shareholders": [
       {
         "name": "Proton Technologies AG",
-        "percentage": 100
+        "percentage": 100,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "Switzerland",
     "flags": [
       "privacy-focused"
+    ],
+    "flagsData": [
+      {
+        "id": "privacy-focused",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has privacy as a core value with minimal data collection and strong user protections.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -765,17 +2128,55 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 8.3
+        "percentage": 8.3,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.8
+        "percentage": 6.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "military-contractor",
       "weapons-manufacturer"
+    ],
+    "flagsData": [
+      {
+        "id": "military-contractor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company provides significant services or technology to military organizations.",
+        "category": "peace"
+      },
+      {
+        "id": "weapons-manufacturer",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company manufactures weapons, ammunition, or weapons systems.",
+        "category": "peace"
+      }
     ],
     "sources": [
       "SEC 13F filings"
@@ -787,16 +2188,41 @@
     "shareholders": [
       {
         "name": "Advance Publications",
-        "percentage": 30
+        "percentage": 30,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Tencent",
-        "percentage": null
+        "percentage": null,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "chinese-owned"
+    ],
+    "flagsData": [
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Received investment from Tencent (Chinese company)",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "Press reports",
@@ -810,11 +2236,21 @@
     "shareholders": [
       {
         "name": "Sequoia China",
-        "percentage": null
+        "percentage": null,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Tiger Global",
-        "percentage": null
+        "percentage": null,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "China",
@@ -822,6 +2258,47 @@
       "child-labor",
       "chinese-owned",
       "poor-labor"
+    ],
+    "flagsData": [
+      {
+        "id": "child-labor",
+        "justification": "Migrated from original BehindTheSite data. Originally Chinese company, now headquartered in Singapore. Known for labor concerns.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented use of child labor in operations or supply chain.",
+        "category": "labor"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Originally Chinese company, now headquartered in Singapore. Known for labor concerns.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "poor-labor",
+        "justification": "Migrated from original BehindTheSite data. Originally Chinese company, now headquartered in Singapore. Known for labor concerns.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented patterns of labor practices that violate workers' rights or fall significantly below industry standards.",
+        "category": "labor"
+      }
     ],
     "sources": [
       "Press reports",
@@ -835,11 +2312,21 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 3.2
+        "percentage": 3.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 2.8
+        "percentage": 2.8,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "UK",
@@ -847,6 +2334,47 @@
       "carbon-heavy",
       "deforestation",
       "oil-industry"
+    ],
+    "flagsData": [
+      {
+        "id": "carbon-heavy",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant carbon emissions relative to industry peers or absolute thresholds.",
+        "category": "environment"
+      },
+      {
+        "id": "deforestation",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented links to deforestation through its supply chain or operations.",
+        "category": "environment"
+      },
+      {
+        "id": "oil-industry",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company's primary business involves extraction, refining, or distribution of fossil fuels.",
+        "category": "environment"
+      }
     ],
     "sources": [
       "Company filings"
@@ -858,12 +2386,28 @@
     "shareholders": [
       {
         "name": "Non-profit",
-        "percentage": 100
+        "percentage": 100,
+        "type": "unknown"
       }
     ],
     "country": "USA",
     "flags": [
       "privacy-focused"
+    ],
+    "flagsData": [
+      {
+        "id": "privacy-focused",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has privacy as a core value with minimal data collection and strong user protections.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Foundation disclosures"
@@ -875,20 +2419,50 @@
     "shareholders": [
       {
         "name": "Daniel Ek",
-        "percentage": 16.5
+        "percentage": 16.5,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Martin Lorentzon",
-        "percentage": 10.9
+        "percentage": 10.9,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Tencent",
-        "percentage": 9.1
+        "percentage": 9.1,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "Sweden",
     "flags": [
       "chinese-owned"
+    ],
+    "flagsData": [
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Tencent (Chinese company) holds significant stake",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "SEC filings",
@@ -902,12 +2476,32 @@
     "shareholders": [
       {
         "name": "Pavel Durov",
-        "percentage": null
+        "percentage": null,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "UAE",
     "flags": [
       "russian-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "russian-ties",
+        "justification": "Migrated from original BehindTheSite data. Founded by Russian entrepreneurs, now based in UAE",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Russian entities, individuals, or the Russian state.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -920,7 +2514,12 @@
     "shareholders": [
       {
         "name": "PDD Holdings (Private)",
-        "percentage": 100
+        "percentage": 100,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "China",
@@ -928,6 +2527,47 @@
       "authoritarian-ties",
       "chinese-owned",
       "poor-labor"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "poor-labor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented patterns of labor practices that violate workers' rights or fall significantly below industry standards.",
+        "category": "labor"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -939,11 +2579,13 @@
     "shareholders": [
       {
         "name": "Prosus (Naspers)",
-        "percentage": 26
+        "percentage": 26,
+        "type": "unknown"
       },
       {
         "name": "Ma Huateng (Pony Ma)",
-        "percentage": 7.4
+        "percentage": 7.4,
+        "type": "unknown"
       }
     ],
     "country": "China",
@@ -952,6 +2594,60 @@
       "censorship",
       "chinese-owned",
       "data-harvesting"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Tencent operates under Chinese Communist Party oversight with a Party committee embedded in the company. WeChat is used as a tool of state surveillance and censorship. The company actively assists government content moderation and has been cited for sharing user data with Chinese authorities.",
+        "sources": [
+          {
+            "type": "news",
+            "url": "https://www.nytimes.com/2019/01/02/business/china-tencent-wechat-surveillance.html",
+            "title": "NYT - Tencent and Chinese Surveillance"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "censorship",
+        "justification": "Tencent's WeChat platform actively censors content for users in China, including political content, news, and images. Citizen Lab research has documented extensive keyword filtering and image censorship even for users outside China communicating with users inside.",
+        "sources": [
+          {
+            "type": "academic",
+            "url": "https://citizenlab.ca/2020/05/we-chat-they-watch/",
+            "title": "Citizen Lab - WeChat Surveillance and Censorship"
+          }
+        ],
+        "definition": "Company engages in or enables politically-motivated censorship beyond legal requirements.",
+        "category": "democracy"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Tencent Holdings Ltd. is a Chinese multinational conglomerate headquartered in Shenzhen. One of the world's largest tech companies by market cap. Owns WeChat (1.2B+ users), QQ, and major stakes in global gaming companies including Riot Games, Epic Games, and Activision Blizzard.",
+        "sources": [
+          {
+            "type": "regulatory",
+            "url": "https://www.hkexnews.hk/",
+            "title": "Hong Kong Stock Exchange - Tencent Filings"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "Tencent collects vast amounts of user data through WeChat, QQ, and its gaming platforms. WeChat integrates payments, social media, and services, creating comprehensive user profiles. Data is subject to Chinese government access under national security laws.",
+        "sources": [
+          {
+            "type": "ngo",
+            "url": "https://rankingdigitalrights.org/index2022/companies/Tencent",
+            "title": "Ranking Digital Rights - Tencent"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Hong Kong Stock Exchange filings",
@@ -965,7 +2661,12 @@
     "shareholders": [
       {
         "name": "ByteDance (Private)",
-        "percentage": 100
+        "percentage": 100,
+        "type": "private",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "China",
@@ -974,6 +2675,60 @@
       "censorship",
       "chinese-owned",
       "data-harvesting"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Migrated from original BehindTheSite data. Owned by ByteDance, a Chinese company. Subject to Chinese data laws.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "censorship",
+        "justification": "Migrated from original BehindTheSite data. Owned by ByteDance, a Chinese company. Subject to Chinese data laws.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company engages in or enables politically-motivated censorship beyond legal requirements.",
+        "category": "democracy"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Migrated from original BehindTheSite data. Owned by ByteDance, a Chinese company. Subject to Chinese data laws.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "Migrated from original BehindTheSite data. Owned by ByteDance, a Chinese company. Subject to Chinese data laws.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Company disclosures"
@@ -986,16 +2741,37 @@
     "shareholders": [
       {
         "name": "Elon Musk",
-        "percentage": 79
+        "percentage": 79,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Private investors",
-        "percentage": 21
+        "percentage": 21,
+        "type": "unknown"
       }
     ],
     "country": "USA",
     "flags": [
       "media-manipulation"
+    ],
+    "flagsData": [
+      {
+        "id": "media-manipulation",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company platform has been used for or complicit in spreading misinformation or manipulating public discourse.",
+        "category": "democracy"
+      }
     ],
     "sources": [
       "Acquisition filings 2022"
@@ -1007,11 +2783,13 @@
     "shareholders": [
       {
         "name": "Sogaz (Gazprom insurance)",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       },
       {
         "name": "Mail.ru Group",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       }
     ],
     "country": "Russia",
@@ -1019,6 +2797,52 @@
       "authoritarian-ties",
       "data-harvesting",
       "russian-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "VK is controlled by Kremlin-allied shareholders and complies with Russian government requests for user data and content removal. The platform is used by Russian authorities for surveillance and has cooperated with FSB requests.",
+        "sources": [
+          {
+            "type": "ngo",
+            "url": "https://freedomhouse.org/country/russia/freedom-net/2023",
+            "title": "Freedom House - Russia Internet Freedom Report"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "VK collects extensive user data including messages, location, contacts, and browsing behavior. Under Russian law (SORM), this data must be accessible to Russian intelligence services upon request.",
+        "sources": [
+          {
+            "type": "government",
+            "url": "https://www.hrw.org/news/2020/03/18/russia-expanded-internet-surveillance",
+            "title": "Human Rights Watch - Russia Internet Surveillance"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      },
+      {
+        "id": "russian-ties",
+        "justification": "VK (VKontakte) is Russia's largest social network, headquartered in Saint Petersburg. After founder Pavel Durov was forced out in 2014, control passed to Kremlin-allied investors. Now majority owned by entities linked to Gazprom, the Russian state energy company.",
+        "sources": [
+          {
+            "type": "news",
+            "url": "https://www.reuters.com/article/russia-vkontakte-usmanov-idUSL6N0N311G20140411",
+            "title": "Reuters - VKontakte ownership changes"
+          },
+          {
+            "type": "news",
+            "url": "https://www.theguardian.com/world/2014/apr/22/pavel-durov-russian-mark-zuckerberg-vkontakte",
+            "title": "Guardian - Durov leaves VK"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Russian entities, individuals, or the Russian state.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "Company disclosures",
@@ -1032,21 +2856,64 @@
     "shareholders": [
       {
         "name": "Walton Family",
-        "percentage": 47
+        "percentage": 47,
+        "type": "fund",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Vanguard Group",
-        "percentage": 5.2
+        "percentage": 5.2,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 4.1
+        "percentage": 4.1,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "poor-labor",
       "union-busting"
+    ],
+    "flagsData": [
+      {
+        "id": "poor-labor",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has documented patterns of labor practices that violate workers' rights or fall significantly below industry standards.",
+        "category": "labor"
+      },
+      {
+        "id": "union-busting",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has engaged in documented anti-union activities or unfair labor practices.",
+        "category": "labor"
+      }
     ],
     "sources": [
       "SEC 13F filings",
@@ -1059,11 +2926,13 @@
     "shareholders": [
       {
         "name": "Alibaba Group",
-        "percentage": 30
+        "percentage": 30,
+        "type": "unknown"
       },
       {
         "name": "New Wave Holdings",
-        "percentage": 45
+        "percentage": 45,
+        "type": "unknown"
       }
     ],
     "country": "China",
@@ -1071,6 +2940,52 @@
       "authoritarian-ties",
       "censorship",
       "chinese-owned"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Weibo operates under direct Chinese government oversight and actively cooperates with state censorship and surveillance. The platform is used by Chinese authorities to monitor public opinion and identify dissent. Users have been detained based on Weibo posts.",
+        "sources": [
+          {
+            "type": "ngo",
+            "url": "https://www.amnesty.org/en/latest/news/2020/03/china-social-media-alters-approach-censorship/",
+            "title": "Amnesty International - Chinese Social Media Censorship"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "censorship",
+        "justification": "Weibo operates one of the most heavily censored social media platforms in the world. The company employs thousands of content moderators and uses AI to detect and remove politically sensitive content. Topics including Tiananmen, Tibet, Xinjiang, and criticism of CCP leadership are systematically censored.",
+        "sources": [
+          {
+            "type": "academic",
+            "url": "https://citizenlab.ca/",
+            "title": "Citizen Lab - Chinese Social Media Censorship Research"
+          },
+          {
+            "type": "ngo",
+            "url": "https://freedomhouse.org/country/china/freedom-net/2023",
+            "title": "Freedom House - China Internet Freedom"
+          }
+        ],
+        "definition": "Company engages in or enables politically-motivated censorship beyond legal requirements.",
+        "category": "democracy"
+      },
+      {
+        "id": "chinese-owned",
+        "justification": "Weibo Corporation is a Chinese microblogging platform headquartered in Beijing. Often called 'Chinese Twitter' with over 500 million users. Major shareholders include Alibaba Group (30%) and New Wave Holdings. Subject to Chinese internet regulations.",
+        "sources": [
+          {
+            "type": "regulatory",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001595761",
+            "title": "SEC EDGAR - Weibo Corporation Filings"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "SEC 20-F filings",
@@ -1084,20 +2999,43 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 6.8
+        "percentage": 6.8,
+        "type": "unknown"
       },
       {
         "name": "BlackRock",
-        "percentage": 5.9
+        "percentage": 5.9,
+        "type": "unknown"
       },
       {
         "name": "Baillie Gifford",
-        "percentage": 4.2
+        "percentage": 4.2,
+        "type": "unknown"
       }
     ],
     "country": "Israel",
     "flags": [
       "israeli-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "israeli-ties",
+        "justification": "Wix.com Ltd. is an Israeli cloud-based web development platform company headquartered in Tel Aviv, Israel. Founded in 2006 by Israeli entrepreneurs Avishai Abrahami, Nadav Abrahami, and Giora Kaplan. The company is publicly traded on NASDAQ and maintains its primary operations in Israel.",
+        "sources": [
+          {
+            "type": "company",
+            "url": "https://www.wix.com/about/us",
+            "title": "Wix About Us"
+          },
+          {
+            "type": "regulatory",
+            "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001576789",
+            "title": "SEC EDGAR - Wix.com Ltd. Filings"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Israeli entities, military, or government.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "SEC 13F filings",
@@ -1110,16 +3048,37 @@
     "shareholders": [
       {
         "name": "Elon Musk",
-        "percentage": 79
+        "percentage": 79,
+        "type": "individual",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "Private investors",
-        "percentage": 21
+        "percentage": 21,
+        "type": "unknown"
       }
     ],
     "country": "USA",
     "flags": [
       "media-manipulation"
+    ],
+    "flagsData": [
+      {
+        "id": "media-manipulation",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company platform has been used for or complicit in spreading misinformation or manipulating public discourse.",
+        "category": "democracy"
+      }
     ],
     "sources": [
       "Acquisition filings 2022"
@@ -1131,17 +3090,52 @@
     "shareholders": [
       {
         "name": "Lei Jun (Founder/CEO)",
-        "percentage": 24.1
+        "percentage": 24.1,
+        "type": "unknown"
       },
       {
         "name": "Lin Bin (Co-founder)",
-        "percentage": 10.5
+        "percentage": 10.5,
+        "type": "unknown"
       }
     ],
     "country": "China",
     "flags": [
       "chinese-owned",
       "data-harvesting"
+    ],
+    "flagsData": [
+      {
+        "id": "chinese-owned",
+        "justification": "Xiaomi Corporation is a Chinese electronics company headquartered in Beijing. Major smartphone manufacturer and smart home device maker. Was briefly added to US investment blacklist in 2021 (later removed after legal challenge). Subject to Chinese data laws.",
+        "sources": [
+          {
+            "type": "regulatory",
+            "url": "https://www.hkexnews.hk/",
+            "title": "Hong Kong Stock Exchange - Xiaomi Filings"
+          },
+          {
+            "type": "government",
+            "url": "https://www.defense.gov/",
+            "title": "US Defense Department Investment Restrictions"
+          }
+        ],
+        "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+        "category": "ownership"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "Xiaomi phones and devices collect extensive user data including app usage, location, browsing history, and device information. Research has documented data being sent to servers in China even for users outside China. The company's MIUI operating system contains significant telemetry.",
+        "sources": [
+          {
+            "type": "academic",
+            "url": "https://www.forbes.com/sites/thomasbrewster/2020/04/30/exclusive-warning-over-chinese-mobile-giant-xiaomi-recording-millions-of-peoples-private-web-and-phone-use/",
+            "title": "Forbes - Xiaomi Data Collection Investigation"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Hong Kong Stock Exchange filings",
@@ -1155,7 +3149,8 @@
     "shareholders": [
       {
         "name": "Various institutional",
-        "percentage": null
+        "percentage": null,
+        "type": "unknown"
       }
     ],
     "country": "Russia",
@@ -1164,6 +3159,60 @@
       "censorship",
       "data-harvesting",
       "russian-ties"
+    ],
+    "flagsData": [
+      {
+        "id": "authoritarian-ties",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+        "category": "ownership"
+      },
+      {
+        "id": "censorship",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company engages in or enables politically-motivated censorship beyond legal requirements.",
+        "category": "democracy"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      },
+      {
+        "id": "russian-ties",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company has significant ownership, operational, or financial ties to Russian entities, individuals, or the Russian state.",
+        "category": "ownership"
+      }
     ],
     "sources": [
       "Company filings"
@@ -1175,17 +3224,55 @@
     "shareholders": [
       {
         "name": "Vanguard Group",
-        "percentage": 7.4
+        "percentage": 7.4,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       },
       {
         "name": "BlackRock",
-        "percentage": 6.3
+        "percentage": 6.3,
+        "type": "institution",
+        "description": null,
+        "country": null,
+        "wikipedia": null,
+        "wikidata": null
       }
     ],
     "country": "USA",
     "flags": [
       "censorship",
       "data-harvesting"
+    ],
+    "flagsData": [
+      {
+        "id": "censorship",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company engages in or enables politically-motivated censorship beyond legal requirements.",
+        "category": "democracy"
+      },
+      {
+        "id": "data-harvesting",
+        "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+        "sources": [
+          {
+            "type": "other",
+            "title": "Original BehindTheSite data (needs verification)",
+            "date": "2026-02-01"
+          }
+        ],
+        "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+        "category": "privacy"
+      }
     ],
     "sources": [
       "Subsidiary of Alphabet"
