@@ -1,0 +1,39 @@
+{
+  "id": "data-breaches",
+  "label": "🔓 Data Breaches",
+  "category": "privacy",
+  "type": "warning",
+  "definition": "Company has experienced significant data breaches exposing user information.",
+  "criteria": [
+    {
+      "description": "Major data breach affecting >1 million users in past 5 years"
+    },
+    {
+      "description": "Multiple breaches indicating systemic security issues"
+    },
+    {
+      "description": "Breach involved sensitive data (financial, health, passwords)"
+    },
+    {
+      "description": "Inadequate response or delayed disclosure of breach"
+    }
+  ],
+  "counterCriteria": [
+    "Significant security improvements post-breach with verification",
+    "No breaches in 3+ years with strong security certifications"
+  ],
+  "references": [
+    {
+      "title": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com/",
+      "description": "Data breach database"
+    },
+    {
+      "title": "Privacy Rights Clearinghouse",
+      "url": "https://privacyrights.org/data-breaches",
+      "description": "Breach chronology database"
+    }
+  ],
+  "relatedTags": ["data-harvesting"],
+  "created": "2026-02-01T00:00:00Z"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "monday.com",
+  "name": "monday.com Ltd.",
+  "shareholders": [
+    { "name": "Vanguard Group", "percentage": 4.9 },
+    { "name": "BlackRock", "percentage": 4.1 },
+    { "name": "Sapir Capital", "percentage": null }
+  ],
+  "country": "Israel",
+  "headquarters": "Tel Aviv, Israel",
+  "sources": ["SEC 13F filings", "Company disclosures"],
+  "created": "2026-02-01T00:00:00Z"
+}

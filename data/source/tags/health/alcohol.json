@@ -1,0 +1,27 @@
+{
+  "id": "alcohol",
+  "label": "🍺 Alcohol",
+  "category": "health",
+  "type": "info",
+  "definition": "Company manufactures, distributes, or primarily profits from alcoholic beverages.",
+  "criteria": [
+    {
+      "description": "Primary business involves alcohol manufacturing or distribution"
+    },
+    {
+      "description": "Significant revenue from alcoholic beverage sales"
+    }
+  ],
+  "counterCriteria": [
+    "Company has diversified away from alcohol as primary business"
+  ],
+  "references": [
+    {
+      "title": "WHO Alcohol",
+      "url": "https://www.who.int/health-topics/alcohol",
+      "description": "World Health Organization alcohol resources"
+    }
+  ],
+  "relatedTags": [],
+  "created": "2026-02-01T00:00:00Z"
+}

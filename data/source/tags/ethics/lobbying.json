@@ -1,0 +1,36 @@
+{
+  "id": "lobbying",
+  "label": "🏛️ Heavy Lobbying",
+  "category": "ethics",
+  "type": "info",
+  "definition": "Company spends significantly on lobbying government officials and policymakers.",
+  "criteria": [
+    {
+      "description": "Annual lobbying expenditure exceeds $5 million"
+    },
+    {
+      "description": "Ranked among top corporate lobbying spenders"
+    },
+    {
+      "description": "Significant spending on industry trade associations that lobby"
+    }
+  ],
+  "counterCriteria": [
+    "Lobbying expenditure reduced significantly",
+    "Transparent lobbying with alignment to stated values"
+  ],
+  "references": [
+    {
+      "title": "OpenSecrets Lobbying",
+      "url": "https://www.opensecrets.org/federal-lobbying",
+      "description": "US lobbying disclosure database"
+    },
+    {
+      "title": "LobbyFacts",
+      "url": "https://www.lobbyfacts.eu/",
+      "description": "EU lobbying transparency"
+    }
+  ],
+  "relatedTags": ["monopoly", "tax-avoidance"],
+  "created": "2026-02-01T00:00:00Z"
+}

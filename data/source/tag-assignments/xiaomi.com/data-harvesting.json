@@ -1,0 +1,16 @@
+{
+  "companyId": "xiaomi.com",
+  "tagId": "data-harvesting",
+  "justification": "Xiaomi phones and devices collect extensive user data including app usage, location, browsing history, and device information. Research has documented data being sent to servers in China even for users outside China. The company's MIUI operating system contains significant telemetry.",
+  "sources": [
+    {
+      "type": "academic",
+      "url": "https://www.forbes.com/sites/thomasbrewster/2020/04/30/exclusive-warning-over-chinese-mobile-giant-xiaomi-recording-millions-of-peoples-private-web-and-phone-use/",
+      "title": "Forbes - Xiaomi Data Collection Investigation"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "companyId": "elbitsystems.com",
+  "tagId": "israeli-ties",
+  "justification": "Elbit Systems Ltd. is Israel's largest publicly traded defense company, headquartered in Haifa, Israel. The company is a major supplier to the Israel Defense Forces (IDF) and develops military technology including drones, surveillance systems, and weapons systems used in Israeli military operations.",
+  "sources": [
+    {
+      "type": "company",
+      "url": "https://elbitsystems.com/about-us/",
+      "title": "Elbit Systems About Us"
+    },
+    {
+      "type": "ngo",
+      "url": "https://www.whoprofits.org/company/elbit-systems/",
+      "title": "Who Profits - Elbit Systems Profile"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

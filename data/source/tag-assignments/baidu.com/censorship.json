@@ -1,0 +1,21 @@
+{
+  "companyId": "baidu.com",
+  "tagId": "censorship",
+  "justification": "Baidu actively censors search results to comply with Chinese government requirements. Content related to Tiananmen Square, Tibet, Taiwan independence, and other sensitive topics is filtered. The company employs thousands of content moderators.",
+  "sources": [
+    {
+      "type": "academic",
+      "url": "https://citizenlab.ca/",
+      "title": "Citizen Lab - Chinese Censorship Research"
+    },
+    {
+      "type": "ngo",
+      "url": "https://freedomhouse.org/country/china/freedom-net/2023",
+      "title": "Freedom House - China Internet Freedom"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

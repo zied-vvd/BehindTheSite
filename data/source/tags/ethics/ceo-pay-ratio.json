@@ -1,0 +1,36 @@
+{
+  "id": "ceo-pay-ratio",
+  "label": "📈 Extreme CEO Pay",
+  "category": "ethics",
+  "type": "warning",
+  "definition": "Company has extreme disparity between executive and worker compensation.",
+  "criteria": [
+    {
+      "description": "CEO-to-median-worker pay ratio exceeds 300:1"
+    },
+    {
+      "description": "Executive compensation increased while workforce faced layoffs or wage stagnation"
+    },
+    {
+      "description": "Ranked among worst CEO pay ratios in industry"
+    }
+  ],
+  "counterCriteria": [
+    "CEO pay ratio reduced to below 100:1",
+    "Worker profit-sharing or equity programs implemented"
+  ],
+  "references": [
+    {
+      "title": "AFL-CIO Executive Paywatch",
+      "url": "https://aflcio.org/paywatch",
+      "description": "CEO pay ratio tracking"
+    },
+    {
+      "title": "SEC Pay Ratio Disclosure",
+      "url": "https://www.sec.gov/",
+      "description": "Required pay ratio disclosures for public companies"
+    }
+  ],
+  "relatedTags": ["poor-labor"],
+  "created": "2026-02-01T00:00:00Z"
+}

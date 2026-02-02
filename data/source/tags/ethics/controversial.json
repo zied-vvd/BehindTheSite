@@ -1,0 +1,31 @@
+{
+  "id": "controversial",
+  "label": "⚠️ Controversial",
+  "category": "ethics",
+  "type": "warning",
+  "definition": "Company is involved in significant controversies that don't fit other specific categories.",
+  "criteria": [
+    {
+      "description": "Subject of significant public controversy or boycotts"
+    },
+    {
+      "description": "Leadership involved in notable scandals"
+    },
+    {
+      "description": "Business practices widely criticized but not fitting other tags"
+    }
+  ],
+  "counterCriteria": [
+    "Controversy resolved with verified remediation",
+    "Leadership changed with new practices implemented"
+  ],
+  "references": [
+    {
+      "title": "Corporate Research Project",
+      "url": "https://www.corp-research.org/",
+      "description": "Corporate accountability research"
+    }
+  ],
+  "relatedTags": [],
+  "created": "2026-02-01T00:00:00Z"
+}

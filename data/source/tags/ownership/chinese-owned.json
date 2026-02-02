@@ -1,0 +1,31 @@
+{
+  "id": "chinese-owned",
+  "label": "🇨🇳 Chinese Owned",
+  "category": "ownership",
+  "type": "warning",
+  "definition": "Company is majority-owned by Chinese entities, individuals, or the Chinese state, subjecting it to Chinese data laws and potential government influence.",
+  "criteria": [
+    {
+      "description": "Majority ownership (>50%) by Chinese individuals, companies, or government entities"
+    },
+    {
+      "description": "Headquarters or primary operations in mainland China"
+    },
+    {
+      "description": "Significant investment (>10%) from Chinese state-linked funds or entities"
+    }
+  ],
+  "counterCriteria": [
+    "Company has legally divested Chinese ownership",
+    "Operations have been fully relocated outside China with verified data separation"
+  ],
+  "references": [
+    {
+      "title": "SEC EDGAR Company Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar",
+      "description": "For US-listed companies with Chinese ownership"
+    }
+  ],
+  "relatedTags": ["authoritarian-ties", "foreign-owned"],
+  "created": "2026-02-01T00:00:00Z"
+}

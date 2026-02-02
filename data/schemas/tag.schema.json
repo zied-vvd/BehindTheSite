@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://behindthesite.dev/schemas/tag.schema.json",
+  "title": "Tag",
+  "description": "A tag definition with clear criteria for application",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (slug format, e.g., 'poor-labor')",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "label": {
+      "type": "string",
+      "description": "Human-readable label with optional emoji (e.g., '⚠️ Poor Labor Practices')",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "description": "Category this tag belongs to",
+      "enum": ["ownership", "environment", "peace", "labor", "privacy", "ethics", "health", "democracy"]
+    },
+    "type": {
+      "type": "string",
+      "description": "Badge type determining visual styling",
+      "enum": ["warning", "info", "positive"]
+    },
+    "definition": {
+      "type": "string",
+      "description": "Clear definition of what this tag represents"
+    },
+    "criteria": {
+      "type": "array",
+      "description": "Specific criteria that must be met for this tag to apply",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "Description of the criterion"
+          },
+          "threshold": {
+            "type": "string",
+            "description": "Quantitative threshold if applicable"
+          },
+          "required": {
+            "type": "boolean",
+            "description": "Whether this criterion is required (default: any one criterion is sufficient)",
+            "default": false
+          }
+        },
+        "required": ["description"]
+      },
+      "minItems": 1
+    },
+    "counterCriteria": {
+      "type": "array",
+      "description": "Conditions that would disqualify or remove this tag",
+      "items": {
+        "type": "string"
+      }
+    },
+    "references": {
+      "type": "array",
+      "description": "Authoritative sources for evaluating this tag",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Name of the reference source"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the reference"
+          },
+          "description": {
+            "type": "string",
+            "description": "Brief description of what this source provides"
+          }
+        },
+        "required": ["title"]
+      }
+    },
+    "relatedTags": {
+      "type": "array",
+      "description": "IDs of related tags for cross-reference",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this tag was defined"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this tag was last updated"
+    }
+  },
+  "required": ["id", "label", "category", "type", "definition", "criteria"],
+  "additionalProperties": false
+}

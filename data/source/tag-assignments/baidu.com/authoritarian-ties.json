@@ -1,0 +1,16 @@
+{
+  "companyId": "baidu.com",
+  "tagId": "authoritarian-ties",
+  "justification": "Baidu operates under Chinese Communist Party oversight and complies with government censorship directives. CEO Robin Li has publicly stated the company prioritizes government relationships. Baidu AI technology is used in Chinese surveillance systems.",
+  "sources": [
+    {
+      "type": "ngo",
+      "url": "https://rankingdigitalrights.org/index2022/companies/Baidu",
+      "title": "Ranking Digital Rights - Baidu"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

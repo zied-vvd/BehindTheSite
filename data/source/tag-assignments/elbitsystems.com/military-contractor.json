@@ -1,0 +1,21 @@
+{
+  "companyId": "elbitsystems.com",
+  "tagId": "military-contractor",
+  "justification": "Elbit Systems is a primary contractor for the Israel Defense Forces and exports military equipment to over 50 countries. The company provides surveillance systems for border walls, military drones, and defense electronics. It has significant US military contracts through its American subsidiary.",
+  "sources": [
+    {
+      "type": "government",
+      "url": "https://www.usaspending.gov/",
+      "title": "USASpending.gov - Federal Contract Data"
+    },
+    {
+      "type": "company",
+      "url": "https://elbitsystems.com/media-room/",
+      "title": "Elbit Systems Contract Announcements"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

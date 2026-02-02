@@ -1,0 +1,16 @@
+{
+  "companyId": "vk.com",
+  "tagId": "authoritarian-ties",
+  "justification": "VK is controlled by Kremlin-allied shareholders and complies with Russian government requests for user data and content removal. The platform is used by Russian authorities for surveillance and has cooperated with FSB requests.",
+  "sources": [
+    {
+      "type": "ngo",
+      "url": "https://freedomhouse.org/country/russia/freedom-net/2023",
+      "title": "Freedom House - Russia Internet Freedom Report"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

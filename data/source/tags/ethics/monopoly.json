@@ -1,0 +1,39 @@
+{
+  "id": "monopoly",
+  "label": "🏰 Monopoly",
+  "category": "ethics",
+  "type": "warning",
+  "definition": "Company holds dominant market position with anti-competitive practices or market power that harms consumers.",
+  "criteria": [
+    {
+      "description": "Market share exceeding 50% in primary market"
+    },
+    {
+      "description": "Subject to antitrust investigations or enforcement actions"
+    },
+    {
+      "description": "Documented anti-competitive practices (predatory pricing, exclusivity deals)"
+    },
+    {
+      "description": "Acquisitions of competitors to maintain dominance"
+    }
+  ],
+  "counterCriteria": [
+    "Market share has decreased significantly",
+    "Antitrust remedies implemented and verified"
+  ],
+  "references": [
+    {
+      "title": "FTC Antitrust Cases",
+      "url": "https://www.ftc.gov/enforcement/cases-proceedings",
+      "description": "Federal Trade Commission enforcement"
+    },
+    {
+      "title": "EU Competition Cases",
+      "url": "https://competition-cases.ec.europa.eu/",
+      "description": "European Commission competition decisions"
+    }
+  ],
+  "relatedTags": ["lobbying"],
+  "created": "2026-02-01T00:00:00Z"
+}

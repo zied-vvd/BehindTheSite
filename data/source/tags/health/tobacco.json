@@ -1,0 +1,36 @@
+{
+  "id": "tobacco",
+  "label": "🚬 Tobacco",
+  "category": "health",
+  "type": "warning",
+  "definition": "Company manufactures, distributes, or primarily profits from tobacco products.",
+  "criteria": [
+    {
+      "description": "Primary business involves tobacco manufacturing or distribution"
+    },
+    {
+      "description": "Significant revenue (>10%) from tobacco products"
+    },
+    {
+      "description": "Owns tobacco brands or subsidiaries"
+    }
+  ],
+  "counterCriteria": [
+    "Company has fully divested from tobacco",
+    "Tobacco revenue reduced to insignificant portion (<1%)"
+  ],
+  "references": [
+    {
+      "title": "WHO Tobacco Industry",
+      "url": "https://www.who.int/health-topics/tobacco",
+      "description": "World Health Organization tobacco resources"
+    },
+    {
+      "title": "Tobacco-Free Portfolios",
+      "url": "https://tobaccofreeportfolios.org/",
+      "description": "Tobacco-free investing resources"
+    }
+  ],
+  "relatedTags": [],
+  "created": "2026-02-01T00:00:00Z"
+}

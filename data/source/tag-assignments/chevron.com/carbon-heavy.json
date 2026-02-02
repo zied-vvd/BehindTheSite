@@ -1,0 +1,22 @@
+{
+  "companyId": "chevron.com",
+  "tagId": "carbon-heavy",
+  "justification": "Migrated from original BehindTheSite data. Justification needs to be added with specific evidence.",
+  "sources": [
+    {
+      "type": "other",
+      "title": "Original BehindTheSite data (needs verification)",
+      "date": "2026-02-01"
+    }
+  ],
+  "status": "active",
+  "voting": {
+    "enabled": false,
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  "author": {
+    "github": "behindthesite-migration"
+  },
+  "created": "2026-02-02T04:07:53.216Z"
+}

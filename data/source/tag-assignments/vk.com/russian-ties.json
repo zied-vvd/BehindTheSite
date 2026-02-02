@@ -1,0 +1,21 @@
+{
+  "companyId": "vk.com",
+  "tagId": "russian-ties",
+  "justification": "VK (VKontakte) is Russia's largest social network, headquartered in Saint Petersburg. After founder Pavel Durov was forced out in 2014, control passed to Kremlin-allied investors. Now majority owned by entities linked to Gazprom, the Russian state energy company.",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://www.reuters.com/article/russia-vkontakte-usmanov-idUSL6N0N311G20140411",
+      "title": "Reuters - VKontakte ownership changes"
+    },
+    {
+      "type": "news",
+      "url": "https://www.theguardian.com/world/2014/apr/22/pavel-durov-russian-mark-zuckerberg-vkontakte",
+      "title": "Guardian - Durov leaves VK"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

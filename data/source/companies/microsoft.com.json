@@ -1,0 +1,24 @@
+{
+  "id": "microsoft.com",
+  "name": "Microsoft Corporation",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.8
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 7.2
+    },
+    {
+      "entityId": "state-street",
+      "percentage": 4
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Redmond, WA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

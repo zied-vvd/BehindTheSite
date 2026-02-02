@@ -1,0 +1,16 @@
+{
+  "companyId": "baidu.com",
+  "tagId": "data-harvesting",
+  "justification": "Baidu collects extensive user data through its search engine, maps, cloud services, and AI products. Under Chinese law, this data must be stored in China and made available to authorities upon request.",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://www.nytimes.com/2018/07/26/technology/china-surveillance-baidu.html",
+      "title": "NYT - Chinese Tech Companies and Surveillance"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

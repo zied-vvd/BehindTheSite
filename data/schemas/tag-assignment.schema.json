@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://behindthesite.dev/schemas/tag-assignment.schema.json",
+  "title": "Tag Assignment",
+  "description": "Links a company to a tag with justification and sources (community notes style)",
+  "type": "object",
+  "properties": {
+    "companyId": {
+      "type": "string",
+      "description": "Domain of the company this tag applies to",
+      "pattern": "^[a-z0-9][a-z0-9.-]*\\.[a-z]{2,}$"
+    },
+    "tagId": {
+      "type": "string",
+      "description": "ID of the tag being assigned",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "justification": {
+      "type": "string",
+      "description": "Detailed explanation of why this tag applies to this company",
+      "minLength": 50
+    },
+    "sources": {
+      "type": "array",
+      "description": "Evidence supporting this tag assignment",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of source",
+            "enum": ["regulatory", "news", "academic", "legal", "company", "ngo", "government", "other"]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the source"
+          },
+          "title": {
+            "type": "string",
+            "description": "Title or description of the source"
+          },
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Publication date of the source"
+          },
+          "archived": {
+            "type": "string",
+            "format": "uri",
+            "description": "Archive.org or similar archived URL"
+          }
+        },
+        "required": ["type", "title"]
+      },
+      "minItems": 1
+    },
+    "wikiLinks": {
+      "type": "array",
+      "description": "Relevant Wikipedia articles for context",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Wikipedia URL"
+          },
+          "title": {
+            "type": "string",
+            "description": "Article title"
+          }
+        },
+        "required": ["url", "title"]
+      }
+    },
+    "status": {
+      "type": "string",
+      "description": "Current status of this assignment",
+      "enum": ["active", "disputed", "pending_review", "historical"],
+      "default": "active"
+    },
+    "validUntil": {
+      "type": "string",
+      "format": "date",
+      "description": "Date after which this assignment should be re-reviewed"
+    },
+    "voting": {
+      "type": "object",
+      "description": "Community voting data (for future use)",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether voting is enabled for this assignment",
+          "default": false
+        },
+        "upvotes": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "downvotes": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "lastVote": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of last vote"
+        }
+      },
+      "additionalProperties": false
+    },
+    "author": {
+      "type": "object",
+      "description": "Who created this tag assignment",
+      "properties": {
+        "github": {
+          "type": "string",
+          "description": "GitHub username"
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name"
+        }
+      }
+    },
+    "reviewedBy": {
+      "type": "array",
+      "description": "List of reviewers who approved this assignment",
+      "items": {
+        "type": "object",
+        "properties": {
+          "github": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this assignment was created"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this assignment was last updated"
+    }
+  },
+  "required": ["companyId", "tagId", "justification", "sources", "status", "created"],
+  "additionalProperties": false
+}

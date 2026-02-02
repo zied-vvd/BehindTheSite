@@ -1,0 +1,13 @@
+{
+  "id": "xiaomi.com",
+  "name": "Xiaomi Corporation",
+  "shareholders": [
+    { "name": "Lei Jun (Founder/CEO)", "percentage": 24.1 },
+    { "name": "Lin Bin (Co-founder)", "percentage": 10.5 }
+  ],
+  "country": "China",
+  "headquarters": "Beijing, China",
+  "notes": "Major Chinese electronics and smartphone manufacturer. Was briefly on US investment blacklist.",
+  "sources": ["Hong Kong Stock Exchange filings", "Company reports"],
+  "created": "2026-02-01T00:00:00Z"
+}

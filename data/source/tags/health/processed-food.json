@@ -1,0 +1,39 @@
+{
+  "id": "processed-food",
+  "label": "🍟 Ultra-Processed",
+  "category": "health",
+  "type": "warning",
+  "definition": "Company primarily produces ultra-processed foods with significant public health concerns.",
+  "criteria": [
+    {
+      "description": "Majority of products classified as ultra-processed (NOVA Group 4)"
+    },
+    {
+      "description": "Products high in added sugar, sodium, or unhealthy fats"
+    },
+    {
+      "description": "Marketing unhealthy foods to children"
+    },
+    {
+      "description": "Opposition to public health measures (sugar taxes, labeling)"
+    }
+  ],
+  "counterCriteria": [
+    "Significant reformulation to healthier products",
+    "Commitment to reducing marketing to children"
+  ],
+  "references": [
+    {
+      "title": "Access to Nutrition Index",
+      "url": "https://accesstonutrition.org/",
+      "description": "Food company nutrition rankings"
+    },
+    {
+      "title": "NOVA Food Classification",
+      "url": "https://world.openfoodfacts.org/nova",
+      "description": "Ultra-processed food classification"
+    }
+  ],
+  "relatedTags": ["plastic-producer"],
+  "created": "2026-02-01T00:00:00Z"
+}

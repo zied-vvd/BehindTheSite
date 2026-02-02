@@ -1,0 +1,39 @@
+{
+  "id": "child-labor",
+  "label": "🧒 Child Labor Concerns",
+  "category": "labor",
+  "type": "warning",
+  "definition": "Company has documented use of child labor in operations or supply chain.",
+  "criteria": [
+    {
+      "description": "Direct employment of children below legal working age"
+    },
+    {
+      "description": "Supply chain includes suppliers with documented child labor"
+    },
+    {
+      "description": "Listed in US DOL List of Goods Produced by Child Labor"
+    },
+    {
+      "description": "Credible NGO reports of child labor in supply chain"
+    }
+  ],
+  "counterCriteria": [
+    "Comprehensive child labor auditing and remediation program",
+    "Verified child-labor-free certification"
+  ],
+  "references": [
+    {
+      "title": "US DOL List of Goods",
+      "url": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods",
+      "description": "Goods produced by child or forced labor"
+    },
+    {
+      "title": "ILO Child Labour",
+      "url": "https://www.ilo.org/topics/child-labour",
+      "description": "International Labour Organization data"
+    }
+  ],
+  "relatedTags": ["poor-labor"],
+  "created": "2026-02-01T00:00:00Z"
+}

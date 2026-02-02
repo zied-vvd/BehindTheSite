@@ -1,0 +1,13 @@
+{
+  "id": "vk.com",
+  "name": "VK (VKontakte)",
+  "shareholders": [
+    { "name": "Sogaz (Gazprom insurance)", "percentage": null },
+    { "name": "Mail.ru Group", "percentage": null }
+  ],
+  "country": "Russia",
+  "headquarters": "Saint Petersburg, Russia",
+  "notes": "Russia's largest social network. Now controlled by Kremlin-linked entities after founder Pavel Durov left.",
+  "sources": ["Company disclosures", "Press reports"],
+  "created": "2026-02-01T00:00:00Z"
+}

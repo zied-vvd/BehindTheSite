@@ -1,0 +1,20 @@
+{
+  "id": "bp.com",
+  "name": "BP plc",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 3.1
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 2.7
+    }
+  ],
+  "country": "UK",
+  "sources": [
+    "Company filings"
+  ],
+  "headquarters": "London, UK",
+  "created": "2026-02-02T04:07:53.216Z"
+}

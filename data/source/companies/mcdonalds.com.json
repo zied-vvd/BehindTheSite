@@ -1,0 +1,20 @@
+{
+  "id": "mcdonalds.com",
+  "name": "McDonald's Corporation",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.5
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.9
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Chicago, IL",
+  "created": "2026-02-02T04:07:53.216Z"
+}

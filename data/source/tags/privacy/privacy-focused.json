@@ -1,0 +1,39 @@
+{
+  "id": "privacy-focused",
+  "label": "🛡️ Privacy Focused",
+  "category": "privacy",
+  "type": "positive",
+  "definition": "Company has privacy as a core value with minimal data collection and strong user protections.",
+  "criteria": [
+    {
+      "description": "Business model does not rely on advertising or data monetization"
+    },
+    {
+      "description": "End-to-end encryption or zero-knowledge architecture"
+    },
+    {
+      "description": "Minimal data collection with clear user control"
+    },
+    {
+      "description": "Strong ratings from privacy advocacy organizations"
+    }
+  ],
+  "counterCriteria": [
+    "Introduction of tracking or data monetization",
+    "Privacy policy changes reducing user protections"
+  ],
+  "references": [
+    {
+      "title": "EFF Tools",
+      "url": "https://www.eff.org/pages/tools",
+      "description": "EFF-recommended privacy tools"
+    },
+    {
+      "title": "Privacy Guides",
+      "url": "https://www.privacyguides.org/",
+      "description": "Privacy-focused service recommendations"
+    }
+  ],
+  "relatedTags": [],
+  "created": "2026-02-01T00:00:00Z"
+}

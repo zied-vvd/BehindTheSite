@@ -1,0 +1,36 @@
+{
+  "id": "military-contractor",
+  "label": "🎖️ Military Contractor",
+  "category": "peace",
+  "type": "warning",
+  "definition": "Company provides significant services or technology to military organizations.",
+  "criteria": [
+    {
+      "description": "Significant defense contracts (>10% of revenue)"
+    },
+    {
+      "description": "Provides technology or services used in warfare or military operations"
+    },
+    {
+      "description": "Listed among top defense contractors"
+    }
+  ],
+  "counterCriteria": [
+    "Contracts limited to humanitarian or peacekeeping operations",
+    "Company has divested from military contracts"
+  ],
+  "references": [
+    {
+      "title": "Defense News Top 100",
+      "url": "https://www.defensenews.com/top-100/",
+      "description": "Annual ranking of defense contractors"
+    },
+    {
+      "title": "USASpending.gov",
+      "url": "https://www.usaspending.gov/",
+      "description": "US government contract data"
+    }
+  ],
+  "relatedTags": ["weapons-manufacturer", "surveillance"],
+  "created": "2026-02-01T00:00:00Z"
+}

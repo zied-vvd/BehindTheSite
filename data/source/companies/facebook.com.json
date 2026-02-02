@@ -1,0 +1,24 @@
+{
+  "id": "facebook.com",
+  "name": "Meta Platforms, Inc.",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.2
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.5
+    },
+    {
+      "entityId": "mark-zuckerberg",
+      "percentage": 13.6
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Menlo Park, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

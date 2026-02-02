@@ -1,0 +1,20 @@
+{
+  "id": "youtube.com",
+  "name": "YouTube (Alphabet Inc.)",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 7.4
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.3
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "Subsidiary of Alphabet"
+  ],
+  "parent": "google.com",
+  "created": "2026-02-02T04:07:53.216Z"
+}

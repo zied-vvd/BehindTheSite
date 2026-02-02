@@ -1,0 +1,24 @@
+{
+  "id": "instagram.com",
+  "name": "Instagram (Meta Platforms)",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.2
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.5
+    },
+    {
+      "entityId": "mark-zuckerberg",
+      "percentage": 13.6
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "Subsidiary of Meta"
+  ],
+  "parent": "facebook.com",
+  "created": "2026-02-02T04:07:53.216Z"
+}

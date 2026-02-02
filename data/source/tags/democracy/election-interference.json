@@ -1,0 +1,39 @@
+{
+  "id": "election-interference",
+  "label": "🗳️ Election Issues",
+  "category": "democracy",
+  "type": "warning",
+  "definition": "Company platform has been implicated in election interference or failure to prevent election-related abuse.",
+  "criteria": [
+    {
+      "description": "Platform used for documented foreign election interference"
+    },
+    {
+      "description": "Failure to prevent coordinated campaigns targeting elections"
+    },
+    {
+      "description": "Spread of election misinformation without adequate controls"
+    },
+    {
+      "description": "Political advertising without transparency or restrictions"
+    }
+  ],
+  "counterCriteria": [
+    "Strong election integrity policies with enforcement",
+    "Third-party verified effectiveness of election protections"
+  ],
+  "references": [
+    {
+      "title": "Election Integrity Partnership",
+      "url": "https://www.eipartnership.net/",
+      "description": "Election misinformation research"
+    },
+    {
+      "title": "Mozilla Foundation - Elections",
+      "url": "https://foundation.mozilla.org/",
+      "description": "Tech platform election accountability"
+    }
+  ],
+  "relatedTags": ["media-manipulation"],
+  "created": "2026-02-01T00:00:00Z"
+}

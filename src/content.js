@@ -4,7 +4,7 @@
 (async function() {
   'use strict';
 
-  const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/zied-vvd/BehindTheSite/main/data/companies.json';
+  const GITHUB_DATA_URL = 'https://raw.githubusercontent.com/zied-vvd/BehindTheSite/main/data/dist/companies.json';
 
   // All available flag labels
   const FLAG_LABELS = {
@@ -87,6 +87,47 @@
       console.log('BehindTheSite: Could not load preferences', error);
       return null;
     }
+  }
+
+  // Get hidden sites (sites dismissed for 30 days)
+  async function getHiddenSites() {
+    try {
+      const { hiddenSites } = await chrome.storage.local.get(['hiddenSites']);
+      return hiddenSites || {};
+    } catch (error) {
+      console.log('BehindTheSite: Could not load hidden sites', error);
+      return {};
+    }
+  }
+
+  // Hide banner for a site for 30 days
+  async function hideSiteFor30Days(domain) {
+    try {
+      const hiddenSites = await getHiddenSites();
+      const thirtyDays = 30 * 24 * 60 * 60 * 1000;
+      hiddenSites[domain] = Date.now() + thirtyDays;
+      await chrome.storage.local.set({ hiddenSites });
+      console.log(`BehindTheSite: Banner hidden for ${domain} for 30 days`);
+    } catch (error) {
+      console.log('BehindTheSite: Could not save hidden site', error);
+    }
+  }
+
+  // Check if site is hidden
+  async function isSiteHidden(domain) {
+    const hiddenSites = await getHiddenSites();
+    const hiddenUntil = hiddenSites[domain];
+    if (!hiddenUntil) return false;
+
+    // Check if still hidden
+    if (Date.now() < hiddenUntil) {
+      return true;
+    }
+
+    // Expired - clean up
+    delete hiddenSites[domain];
+    await chrome.storage.local.set({ hiddenSites });
+    return false;
   }
 
   // Fetch company data from GitHub
@@ -226,12 +267,14 @@
 
     banner.appendChild(content);
 
-    // Close button
+    // Close button - hides for 30 days on this site
     const closeBtn = document.createElement('button');
     closeBtn.className = 'bts-close';
     closeBtn.innerHTML = '×';
-    closeBtn.title = 'Close banner';
-    closeBtn.addEventListener('click', () => {
+    closeBtn.title = 'Hide for 30 days on this site';
+    closeBtn.addEventListener('click', async () => {
+      const domain = getRootDomain(window.location.hostname);
+      await hideSiteFor30Days(domain);
       banner.remove();
       document.body.style.marginTop = '';
     });
@@ -265,6 +308,12 @@
   async function init() {
     const hostname = window.location.hostname;
     const domain = getRootDomain(hostname);
+
+    // Check if site is hidden for 30 days first
+    if (await isSiteHidden(domain)) {
+      console.log('BehindTheSite: Banner hidden for this site (user dismissed)');
+      return;
+    }
 
     // Load data and preferences in parallel
     const [companyData, preferences] = await Promise.all([

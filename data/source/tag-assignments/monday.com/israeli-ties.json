@@ -1,0 +1,21 @@
+{
+  "companyId": "monday.com",
+  "tagId": "israeli-ties",
+  "justification": "monday.com Ltd. is an Israeli cloud-based work operating system company headquartered in Tel Aviv, Israel. Founded in 2012 by Roy Mann and Eran Zinman in Israel. The company is publicly traded on NASDAQ and maintains its headquarters and primary R&D operations in Israel.",
+  "sources": [
+    {
+      "type": "company",
+      "url": "https://monday.com/about-us",
+      "title": "monday.com About Us"
+    },
+    {
+      "type": "regulatory",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845338",
+      "title": "SEC EDGAR - monday.com Ltd. Filings"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

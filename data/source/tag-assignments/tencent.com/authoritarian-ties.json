@@ -1,0 +1,16 @@
+{
+  "companyId": "tencent.com",
+  "tagId": "authoritarian-ties",
+  "justification": "Tencent operates under Chinese Communist Party oversight with a Party committee embedded in the company. WeChat is used as a tool of state surveillance and censorship. The company actively assists government content moderation and has been cited for sharing user data with Chinese authorities.",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://www.nytimes.com/2019/01/02/business/china-tencent-wechat-surveillance.html",
+      "title": "NYT - Tencent and Chinese Surveillance"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

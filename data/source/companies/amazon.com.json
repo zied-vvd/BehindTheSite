@@ -1,0 +1,29 @@
+{
+  "id": "amazon.com",
+  "name": "Amazon.com, Inc.",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 7.1
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.4
+    },
+    {
+      "entityId": "jeff-bezos",
+      "percentage": 9.5
+    },
+    {
+      "entityId": "state-street",
+      "percentage": 3.8
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings",
+    "Company proxy statements"
+  ],
+  "headquarters": "Seattle, WA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

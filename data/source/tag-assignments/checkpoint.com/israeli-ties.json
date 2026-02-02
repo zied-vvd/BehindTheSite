@@ -1,0 +1,21 @@
+{
+  "companyId": "checkpoint.com",
+  "tagId": "israeli-ties",
+  "justification": "Check Point Software Technologies Ltd. is an Israeli multinational cybersecurity company headquartered in Tel Aviv, Israel. Founded in 1993 by Gil Shwed, Marius Nacht, and Shlomo Kramer in Ramat Gan, Israel. Gil Shwed, who served in IDF Unit 8200 (Israeli Intelligence Corps), remains CEO. The company is a major Israeli tech employer and defense contractor.",
+  "sources": [
+    {
+      "type": "company",
+      "url": "https://www.checkpoint.com/about-us/",
+      "title": "Check Point About Us"
+    },
+    {
+      "type": "news",
+      "url": "https://www.forbes.com/profile/gil-shwed/",
+      "title": "Forbes - Gil Shwed Profile"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "jd.com",
+  "name": "JD.com, Inc.",
+  "shareholders": [
+    { "name": "Richard Liu (Founder)", "percentage": 12.7 },
+    { "name": "Tencent", "percentage": 15.1 },
+    { "name": "Walmart", "percentage": 9.3 }
+  ],
+  "country": "China",
+  "headquarters": "Beijing, China",
+  "notes": "China's second-largest e-commerce company after Alibaba.",
+  "sources": ["SEC 20-F filings", "Company disclosures"],
+  "created": "2026-02-01T00:00:00Z"
+}

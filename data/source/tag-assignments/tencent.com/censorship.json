@@ -1,0 +1,16 @@
+{
+  "companyId": "tencent.com",
+  "tagId": "censorship",
+  "justification": "Tencent's WeChat platform actively censors content for users in China, including political content, news, and images. Citizen Lab research has documented extensive keyword filtering and image censorship even for users outside China communicating with users inside.",
+  "sources": [
+    {
+      "type": "academic",
+      "url": "https://citizenlab.ca/2020/05/we-chat-they-watch/",
+      "title": "Citizen Lab - WeChat Surveillance and Censorship"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "raytheon.com",
+  "name": "RTX Corporation (formerly Raytheon)",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.3
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.8
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Arlington, VA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

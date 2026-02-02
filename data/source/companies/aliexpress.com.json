@@ -1,0 +1,16 @@
+{
+  "id": "aliexpress.com",
+  "name": "AliExpress (Alibaba Group)",
+  "shareholders": [
+    {
+      "entityId": "softbank-group",
+      "percentage": 24.8
+    }
+  ],
+  "country": "China",
+  "sources": [
+    "Subsidiary of Alibaba"
+  ],
+  "parent": "alibaba.com",
+  "created": "2026-02-02T04:07:53.216Z"
+}

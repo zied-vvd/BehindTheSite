@@ -1,0 +1,21 @@
+{
+  "companyId": "fiverr.com",
+  "tagId": "israeli-ties",
+  "justification": "Fiverr International Ltd. is an Israeli online marketplace company headquartered in Tel Aviv, Israel. Founded in 2010 by Israeli entrepreneurs Micha Kaufman and Shai Wininger. The company is publicly traded on NYSE and maintains its headquarters and significant operations in Israel.",
+  "sources": [
+    {
+      "type": "company",
+      "url": "https://www.fiverr.com/about",
+      "title": "Fiverr About Page"
+    },
+    {
+      "type": "regulatory",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001762301",
+      "title": "SEC EDGAR - Fiverr International Ltd. Filings"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

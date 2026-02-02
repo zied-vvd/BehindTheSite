@@ -1,0 +1,16 @@
+{
+  "companyId": "baidu.com",
+  "tagId": "chinese-owned",
+  "justification": "Baidu, Inc. is a Chinese technology company headquartered in Beijing. Founded in 2000, it operates China's dominant search engine with over 70% market share. Subject to Chinese cybersecurity and data laws.",
+  "sources": [
+    {
+      "type": "regulatory",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001329099",
+      "title": "SEC EDGAR - Baidu Inc. Filings"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "sanctioned-country",
+  "label": "🚫 Sanctioned Country",
+  "category": "ownership",
+  "type": "warning",
+  "definition": "Company is based in or has significant ties to a country under international sanctions.",
+  "criteria": [
+    {
+      "description": "Headquarters in a country under comprehensive US, EU, or UN sanctions"
+    },
+    {
+      "description": "Majority ownership by entities in sanctioned countries"
+    },
+    {
+      "description": "Subject to export controls or trade restrictions"
+    }
+  ],
+  "counterCriteria": [
+    "Sanctions have been lifted",
+    "Company has relocated and divested from sanctioned jurisdiction"
+  ],
+  "references": [
+    {
+      "title": "OFAC Sanctions Programs",
+      "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+      "description": "US Treasury sanctions programs by country"
+    },
+    {
+      "title": "EU Sanctions Map",
+      "url": "https://www.sanctionsmap.eu/",
+      "description": "European Union sanctions database"
+    }
+  ],
+  "relatedTags": ["russian-ties", "authoritarian-ties"],
+  "created": "2026-02-01T00:00:00Z"
+}

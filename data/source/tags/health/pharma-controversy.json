@@ -1,0 +1,39 @@
+{
+  "id": "pharma-controversy",
+  "label": "💊 Pharma Controversy",
+  "category": "health",
+  "type": "warning",
+  "definition": "Pharmaceutical company involved in significant controversies including price gouging, misleading marketing, or opioid crisis.",
+  "criteria": [
+    {
+      "description": "Significant legal settlements for deceptive marketing practices"
+    },
+    {
+      "description": "Involvement in opioid epidemic (manufacturing, distribution, promotion)"
+    },
+    {
+      "description": "Documented extreme price increases for essential medications"
+    },
+    {
+      "description": "Delayed generic drug availability through pay-for-delay deals"
+    }
+  ],
+  "counterCriteria": [
+    "Full remediation of issues with independent verification",
+    "Changed practices with regulatory approval"
+  ],
+  "references": [
+    {
+      "title": "Violation Tracker - Pharma",
+      "url": "https://violationtracker.goodjobsfirst.org/",
+      "description": "Pharmaceutical company violations database"
+    },
+    {
+      "title": "Access to Medicine Index",
+      "url": "https://accesstomedicinefoundation.org/",
+      "description": "Pharmaceutical company access rankings"
+    }
+  ],
+  "relatedTags": [],
+  "created": "2026-02-01T00:00:00Z"
+}

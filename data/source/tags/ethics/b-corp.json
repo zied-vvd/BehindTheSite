@@ -1,0 +1,36 @@
+{
+  "id": "b-corp",
+  "label": "✅ B Corp",
+  "category": "ethics",
+  "type": "positive",
+  "definition": "Company is certified as a B Corporation, meeting rigorous standards of social and environmental performance.",
+  "criteria": [
+    {
+      "description": "Current B Corp certification from B Lab"
+    },
+    {
+      "description": "B Impact Assessment score of 80 or higher"
+    },
+    {
+      "description": "Legal accountability to stakeholders (benefit corporation status)"
+    }
+  ],
+  "counterCriteria": [
+    "B Corp certification revoked or not renewed",
+    "Significant decline in B Impact score"
+  ],
+  "references": [
+    {
+      "title": "B Corp Directory",
+      "url": "https://www.bcorporation.net/en-us/find-a-b-corp",
+      "description": "Search certified B Corps"
+    },
+    {
+      "title": "B Lab Standards",
+      "url": "https://www.bcorporation.net/en-us/standards",
+      "description": "B Corp certification requirements"
+    }
+  ],
+  "relatedTags": ["fair-trade", "living-wage", "green-certified"],
+  "created": "2026-02-01T00:00:00Z"
+}

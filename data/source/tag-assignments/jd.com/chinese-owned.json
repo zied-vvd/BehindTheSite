@@ -1,0 +1,16 @@
+{
+  "companyId": "jd.com",
+  "tagId": "chinese-owned",
+  "justification": "JD.com, Inc. is a Chinese e-commerce company headquartered in Beijing. One of China's two largest online retailers. Major shareholders include founder Richard Liu and Tencent. Subject to Chinese data and commerce regulations.",
+  "sources": [
+    {
+      "type": "regulatory",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001549802",
+      "title": "SEC EDGAR - JD.com Filings"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

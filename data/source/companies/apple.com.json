@@ -1,0 +1,28 @@
+{
+  "id": "apple.com",
+  "name": "Apple Inc.",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.4
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.6
+    },
+    {
+      "entityId": "berkshire-hathaway",
+      "percentage": 5.9
+    },
+    {
+      "entityId": "state-street",
+      "percentage": 3.8
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Cupertino, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "telegram.org",
+  "name": "Telegram Messenger Inc.",
+  "shareholders": [
+    {
+      "entityId": "pavel-durov",
+      "percentage": null
+    }
+  ],
+  "country": "UAE",
+  "sources": [
+    "Company disclosures"
+  ],
+  "headquarters": "Dubai, UAE",
+  "notes": "Founded by Russian entrepreneurs, now based in UAE",
+  "created": "2026-02-02T04:07:53.216Z"
+}

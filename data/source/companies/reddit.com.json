@@ -1,0 +1,22 @@
+{
+  "id": "reddit.com",
+  "name": "Reddit, Inc.",
+  "shareholders": [
+    {
+      "entityId": "advance-publications",
+      "percentage": 30
+    },
+    {
+      "entityId": "tencent",
+      "percentage": null
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "Press reports",
+    "Company disclosures"
+  ],
+  "headquarters": "San Francisco, CA",
+  "notes": "Received investment from Tencent (Chinese company)",
+  "created": "2026-02-02T04:07:53.216Z"
+}

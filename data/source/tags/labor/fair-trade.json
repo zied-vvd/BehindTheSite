@@ -1,0 +1,36 @@
+{
+  "id": "fair-trade",
+  "label": "✅ Fair Trade",
+  "category": "labor",
+  "type": "positive",
+  "definition": "Company is Fair Trade certified or demonstrates equivalent commitment to fair wages and working conditions throughout supply chain.",
+  "criteria": [
+    {
+      "description": "Fair Trade USA, Fairtrade International, or equivalent certification"
+    },
+    {
+      "description": "Majority of products sourced from fair trade certified suppliers"
+    },
+    {
+      "description": "Transparent supply chain with verified fair wages"
+    }
+  ],
+  "counterCriteria": [
+    "Certification revoked or not renewed",
+    "Documented violations of fair trade standards"
+  ],
+  "references": [
+    {
+      "title": "Fair Trade USA",
+      "url": "https://www.fairtradecertified.org/",
+      "description": "Fair trade certification"
+    },
+    {
+      "title": "Fairtrade International",
+      "url": "https://www.fairtrade.net/",
+      "description": "Global fair trade standards"
+    }
+  ],
+  "relatedTags": ["living-wage", "b-corp"],
+  "created": "2026-02-01T00:00:00Z"
+}

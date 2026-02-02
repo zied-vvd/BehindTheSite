@@ -1,0 +1,14 @@
+{
+  "id": "checkpoint.com",
+  "name": "Check Point Software Technologies Ltd.",
+  "shareholders": [
+    { "name": "Vanguard Group", "percentage": 7.2 },
+    { "name": "BlackRock", "percentage": 6.1 },
+    { "name": "Gil Shwed (Founder/CEO)", "percentage": 18.5 }
+  ],
+  "country": "Israel",
+  "headquarters": "Tel Aviv, Israel",
+  "notes": "Major Israeli cybersecurity company. Founder Gil Shwed served in IDF Unit 8200.",
+  "sources": ["SEC 13F filings", "Company proxy statements"],
+  "created": "2026-02-01T00:00:00Z"
+}

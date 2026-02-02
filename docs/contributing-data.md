@@ -1,178 +1,266 @@
 # Contributing Data
 
-Thank you for helping build a more transparent web! This guide explains how to add or update company data.
+Thank you for helping build a more transparent web! This guide explains how to add or update company data using the new modular data system.
 
 ## Quick Start
 
 1. Fork the repository
-2. Edit `data/companies.json`
-3. Submit a pull request
+2. Run `npm install` to install dependencies
+3. Add/edit files in `data/source/`
+4. Run `npm run validate` to check your changes
+5. Run `npm run build` to generate output
+6. Submit a pull request
 
 ## Adding a New Company
 
-### 1. Find the Domain
+### Step 1: Create the Company File
 
-Use the company's primary domain (without `www.`):
-
-- ✅ `example.com`
-- ❌ `www.example.com`
-- ❌ `https://example.com`
-
-### 2. Research the Company
-
-Gather information from reliable sources:
-
-**For shareholders:**
-- SEC 13F filings (for US public companies)
-- Company proxy statements
-- Annual reports
-- Regulatory filings
-
-**For flags:**
-- News reports from major outlets
-- NGO reports (Human Rights Watch, Amnesty, etc.)
-- Government reports
-- Academic research
-
-### 3. Create the Entry
+Create `data/source/companies/{domain}.json`:
 
 ```json
-"example.com": {
+{
+  "id": "example.com",
   "name": "Example Corporation",
   "shareholders": [
-    { "name": "Major Investor", "percentage": 15.0 },
-    { "name": "Another Investor", "percentage": 10.0 }
+    { "entityId": "vanguard-group", "percentage": 8.5 },
+    { "name": "John Founder", "percentage": 15.0 }
   ],
   "country": "USA",
   "headquarters": "New York, NY",
-  "flags": ["relevant-flag-1", "relevant-flag-2"],
-  "sources": ["SEC 13F Q4 2024", "Company annual report 2024"]
+  "sources": ["SEC 13F Q4 2025", "Company annual report 2025"],
+  "created": "2026-02-01T00:00:00Z"
 }
 ```
 
-### 4. Validate Your JSON
+**Note**: Use `entityId` to reference existing entities in `data/source/entities/`, or `name` for individuals or new entities.
 
-Before submitting, validate your JSON:
+### Step 2: Create Entity Files (if needed)
 
-- Use a JSON validator (like jsonlint.com)
-- Ensure no trailing commas
-- Check all brackets are closed
+If a major shareholder doesn't exist yet, create `data/source/entities/{id}.json`:
 
-### 5. Submit a Pull Request
+```json
+{
+  "id": "new-investment-firm",
+  "name": "New Investment Firm LLC",
+  "type": "institution",
+  "country": "USA",
+  "created": "2026-02-01T00:00:00Z"
+}
+```
+
+### Step 3: Create Tag Assignments
+
+For each tag that applies, create `data/source/tag-assignments/{domain}/{tag-id}.json`:
+
+```json
+{
+  "companyId": "example.com",
+  "tagId": "poor-labor",
+  "justification": "OSHA records show Example Corp received 5 serious safety violations in 2024-2025, with worker injury rates 40% above industry average according to BLS data.",
+  "sources": [
+    {
+      "type": "regulatory",
+      "url": "https://www.osha.gov/...",
+      "title": "OSHA Inspection Records",
+      "date": "2025-06-15"
+    },
+    {
+      "type": "news",
+      "url": "https://www.nytimes.com/...",
+      "title": "Investigation: Warehouse Safety Failures",
+      "date": "2025-08-20"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "your-username" },
+  "created": "2026-02-01T00:00:00Z"
+}
+```
+
+### Step 4: Validate and Build
+
+```bash
+npm run validate  # Check all files are valid
+npm run build     # Generate dist/companies.json
+```
+
+### Step 5: Submit PR
 
 Include in your PR description:
 
 ```markdown
 ## Added: example.com
 
-- **Company**: Example Corporation
-- **Country**: USA
-- **Major shareholders**: Major Investor (15%), Another Investor (10%)
-- **Flags**: relevant-flag-1, relevant-flag-2
+**Company**: Example Corporation
+**Country**: USA
+**Major shareholders**: Vanguard Group (8.5%), John Founder (15%)
+**Tags assigned**: poor-labor
 
 ### Sources
-- https://www.sec.gov/... (SEC 13F filing)
-- https://example.com/annual-report (Company report)
+- OSHA Inspection Records: https://osha.gov/...
+- NYT Investigation: https://nytimes.com/...
+
+### Justification for poor-labor tag
+OSHA records document 5 serious violations with injury rates 40% above industry average.
 ```
 
 ## Updating Existing Data
 
-Shareholder percentages change quarterly. When updating:
+### Updating Company Information
 
-1. Include the date/quarter of your data
-2. Cite your source
-3. Note what changed in your PR
+Edit `data/source/companies/{domain}.json` directly. Remember to:
+- Update the `updated` field with current timestamp
+- Cite your source for any changes
+- Add a changelog entry
 
-## Guidelines
+### Updating Tag Assignments
 
-### Do's
+Edit or add files in `data/source/tag-assignments/{domain}/`:
+- To add a tag: Create a new `{tag-id}.json` file
+- To remove a tag: Change `status` to `"historical"` (don't delete)
+- To update justification: Edit the existing file
 
-✅ Use official sources (SEC, company filings, regulatory bodies)
-✅ Include multiple sources when possible
-✅ Note when percentages are approximate
-✅ Use `null` for unknown percentages
-✅ Add context in the `notes` field
-✅ Be objective and factual
+### Updating Entities
 
-### Don'ts
+Edit `data/source/entities/{id}.json` for shareholder information changes.
 
-❌ Use social media as a primary source
-❌ Add flags without evidence
-❌ Make political editorializations
-❌ Guess at ownership percentages
-❌ Copy data from unreliable sites
+## Tag Assignment Guidelines
 
-## Flag Guidelines
+### Writing Good Justifications
 
-### When to Add a Flag
+Justifications should be:
+- **Factual**: Based on verifiable evidence
+- **Specific**: Include numbers, dates, outcomes
+- **Substantial**: At least 50 characters explaining why the tag applies
+- **Neutral**: Objective language, no editorializing
 
-Only add flags that are:
+**Good example:**
+> "Amazon warehouse injury rates were documented at 6.5 per 100 workers in 2024, compared to 3.1 for the industry average. OSHA issued citations for 12 serious violations across 5 facilities."
 
-1. **Factually accurate** - Verifiable from reputable sources
-2. **Significant** - Not minor or one-time issues
-3. **Current** - Still relevant (not decades-old history)
+**Bad example:**
+> "Amazon is known to be bad for workers."
 
-### Examples
+### Required Sources
 
-**✅ Good flag usage:**
+Every tag assignment needs at least one source. Preferred source types:
+
+**Tier 1 (Preferred)**
+- `regulatory`: SEC filings, OSHA records, FTC actions
+- `legal`: Court documents, settlements, judgments
+- `government`: Official government reports
+
+**Tier 2 (Good)**
+- `news`: Major outlets (Reuters, Bloomberg, NYT, WSJ)
+- `ngo`: Established NGOs (Human Rights Watch, EFF, etc.)
+- `academic`: Peer-reviewed research
+
+**Tier 3 (Supplementary)**
+- `company`: Company's own disclosures
+- `other`: Wikipedia (with citations), industry publications
+
+### Tag Criteria
+
+Before assigning a tag, check its criteria in `data/source/tags/{category}/{tag-id}.json`. Each tag has:
+- `definition`: What the tag represents
+- `criteria`: Conditions that must be met
+- `counterCriteria`: Conditions that would disqualify
+
+Only assign a tag if the company clearly meets at least one criterion.
+
+## Creating a New Tag
+
+If you need a tag that doesn't exist:
+
+1. Open an issue to discuss the new tag
+2. Once approved, create `data/source/tags/{category}/{tag-id}.json`:
+
 ```json
-"flags": ["chinese-owned"]
-// Company is headquartered in China and majority Chinese-owned
+{
+  "id": "new-tag",
+  "label": "🏷️ New Tag Label",
+  "category": "ethics",
+  "type": "warning",
+  "definition": "Clear definition of what this tag represents...",
+  "criteria": [
+    { "description": "Specific, measurable criterion" },
+    { "description": "Another criterion", "threshold": "quantitative threshold" }
+  ],
+  "counterCriteria": ["When this tag should NOT apply"],
+  "references": [
+    { "title": "Reference Source", "url": "https://..." }
+  ],
+  "created": "2026-02-01T00:00:00Z"
+}
 ```
 
-**❌ Bad flag usage:**
+3. Add the tag to `FLAG_LABELS` in `src/content.js`
+4. Add to appropriate concern mapping in `src/onboarding.js`
+
+## Changelog
+
+For significant changes, add an entry to `data/source/changelog/{year}/{year-month}.json`:
+
 ```json
-"flags": ["controversial"]
-// Too vague - what controversy? Use specific flags
+{
+  "month": "2026-02",
+  "entries": [
+    {
+      "date": "2026-02-15",
+      "type": "company_added",
+      "target": { "type": "company", "id": "example.com" },
+      "description": "Added Example Corporation with poor-labor tag",
+      "author": { "github": "your-username" },
+      "pullRequest": "#123"
+    }
+  ]
+}
 ```
 
-### Adding New Flag Types
+## Local Development
 
-If you need a flag that doesn't exist:
+```bash
+# Install dependencies
+npm install
 
-1. Open an issue describing the flag
-2. Explain why it's needed
-3. Suggest an ID, label, and category
-4. We'll discuss and potentially add it
+# Validate all source files
+npm run validate
 
-## Acceptable Sources
+# Build distribution file
+npm run build
 
-### Tier 1 (Preferred)
-
-- SEC filings (13F, 10-K, proxy statements)
-- Regulatory filings (FCA, BaFin, etc.)
-- Official company reports
-- Court documents
-
-### Tier 2 (Acceptable)
-
-- Major news outlets (Reuters, Bloomberg, WSJ, NYT)
-- Reputable NGO reports
-- Academic research
-- Government reports
-
-### Tier 3 (Supplementary)
-
-- Wikipedia (with citations)
-- Industry publications
-- Investigative journalism
-
-### Not Acceptable
-
-- Social media posts
-- Anonymous blogs
-- Unverified claims
-- "I heard that..."
+# Run both validate and build
+npm run check
+```
 
 ## PR Review Process
 
-1. **Automated checks** - JSON validation
-2. **Maintainer review** - Source verification
-3. **Discussion** - If needed for controversial entries
-4. **Merge** - Once approved
+1. **Automated validation** runs on all PRs
+2. **Maintainer reviews** sources and justifications
+3. **Discussion** for contested tags
+4. **Merge** once approved
+5. **Auto-build** updates `dist/companies.json`
+
+## Guidelines Summary
+
+### Do's
+
+- Use official, verifiable sources
+- Write detailed justifications with specific evidence
+- Check tag criteria before assigning
+- Include dates on sources
+- Run validation before submitting
+
+### Don'ts
+
+- Assign tags without evidence
+- Use social media as primary sources
+- Write vague justifications
+- Guess at ownership percentages
+- Skip the validation step
 
 ## Getting Help
 
+- Check existing entries for examples
 - Open an issue for questions
-- Tag maintainers for urgent data corrections
-- Join discussions on existing PRs to learn the process
+- Tag maintainers for data corrections

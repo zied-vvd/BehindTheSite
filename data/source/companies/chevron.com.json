@@ -1,0 +1,20 @@
+{
+  "id": "chevron.com",
+  "name": "Chevron Corporation",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.2
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.5
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "San Ramon, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

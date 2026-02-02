@@ -1,0 +1,21 @@
+{
+  "companyId": "elbitsystems.com",
+  "tagId": "weapons-manufacturer",
+  "justification": "Elbit Systems manufactures a wide range of weapons and military systems including Hermes drones (used in military operations), artillery systems, mortar systems, small arms, and guided munitions. The company is ranked among SIPRI's top 100 arms-producing companies globally.",
+  "sources": [
+    {
+      "type": "academic",
+      "url": "https://www.sipri.org/databases/armsindustry",
+      "title": "SIPRI Arms Industry Database"
+    },
+    {
+      "type": "company",
+      "url": "https://elbitsystems.com/products/",
+      "title": "Elbit Systems Products"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

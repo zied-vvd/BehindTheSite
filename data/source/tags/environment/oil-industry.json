@@ -1,0 +1,31 @@
+{
+  "id": "oil-industry",
+  "label": "🛢️ Oil & Gas",
+  "category": "environment",
+  "type": "warning",
+  "definition": "Company's primary business involves extraction, refining, or distribution of fossil fuels.",
+  "criteria": [
+    {
+      "description": "Primary revenue (>50%) from oil, gas, or coal extraction/refining"
+    },
+    {
+      "description": "Major operator of fossil fuel infrastructure"
+    },
+    {
+      "description": "Significant investments in new fossil fuel exploration"
+    }
+  ],
+  "counterCriteria": [
+    "Company has committed to and is executing net-zero transition",
+    "Renewable energy now exceeds 50% of operations"
+  ],
+  "references": [
+    {
+      "title": "Carbon Tracker Initiative",
+      "url": "https://carbontracker.org/",
+      "description": "Financial analysis of fossil fuel companies"
+    }
+  ],
+  "relatedTags": ["carbon-heavy", "lobbying"],
+  "created": "2026-02-01T00:00:00Z"
+}

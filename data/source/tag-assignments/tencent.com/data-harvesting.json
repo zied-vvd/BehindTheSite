@@ -1,0 +1,16 @@
+{
+  "companyId": "tencent.com",
+  "tagId": "data-harvesting",
+  "justification": "Tencent collects vast amounts of user data through WeChat, QQ, and its gaming platforms. WeChat integrates payments, social media, and services, creating comprehensive user profiles. Data is subject to Chinese government access under national security laws.",
+  "sources": [
+    {
+      "type": "ngo",
+      "url": "https://rankingdigitalrights.org/index2022/companies/Tencent",
+      "title": "Ranking Digital Rights - Tencent"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

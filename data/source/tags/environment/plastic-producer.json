@@ -1,0 +1,36 @@
+{
+  "id": "plastic-producer",
+  "label": "🥤 Major Plastic Producer",
+  "category": "environment",
+  "type": "warning",
+  "definition": "Company is a significant producer of single-use plastics or packaging.",
+  "criteria": [
+    {
+      "description": "Ranked among top plastic polluters in Break Free From Plastic audits"
+    },
+    {
+      "description": "Primary business involves single-use plastic packaging"
+    },
+    {
+      "description": "No significant progress on plastic reduction commitments"
+    }
+  ],
+  "counterCriteria": [
+    "Transitioned majority of packaging to recycled/recyclable materials",
+    "Implemented and scaled refill/reuse systems"
+  ],
+  "references": [
+    {
+      "title": "Break Free From Plastic Brand Audit",
+      "url": "https://www.breakfreefromplastic.org/",
+      "description": "Annual audit of plastic pollution by brand"
+    },
+    {
+      "title": "Ellen MacArthur Foundation",
+      "url": "https://www.ellenmacarthurfoundation.org/",
+      "description": "Circular economy for plastics"
+    }
+  ],
+  "relatedTags": [],
+  "created": "2026-02-01T00:00:00Z"
+}

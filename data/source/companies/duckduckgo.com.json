@@ -1,0 +1,16 @@
+{
+  "id": "duckduckgo.com",
+  "name": "DuckDuckGo, Inc.",
+  "shareholders": [
+    {
+      "entityId": "gabriel-weinberg",
+      "percentage": null
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "Company disclosures"
+  ],
+  "headquarters": "Paoli, PA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

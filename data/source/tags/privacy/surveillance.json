@@ -1,0 +1,39 @@
+{
+  "id": "surveillance",
+  "label": "👁️ Surveillance Tech",
+  "category": "privacy",
+  "type": "warning",
+  "definition": "Company develops or deploys surveillance technology, including facial recognition, location tracking, or mass monitoring systems.",
+  "criteria": [
+    {
+      "description": "Develops or sells facial recognition technology"
+    },
+    {
+      "description": "Provides surveillance technology to governments or law enforcement"
+    },
+    {
+      "description": "Operates mass data collection or monitoring systems"
+    },
+    {
+      "description": "Technology used for political surveillance or repression"
+    }
+  ],
+  "counterCriteria": [
+    "Company has ceased surveillance technology development",
+    "Strict human rights policies preventing misuse"
+  ],
+  "references": [
+    {
+      "title": "Access Now",
+      "url": "https://www.accessnow.org/",
+      "description": "Digital rights advocacy"
+    },
+    {
+      "title": "Surveillance Technology Oversight Project",
+      "url": "https://www.stopspying.org/",
+      "description": "Surveillance technology database"
+    }
+  ],
+  "relatedTags": ["data-harvesting", "authoritarian-ties", "military-contractor"],
+  "created": "2026-02-01T00:00:00Z"
+}

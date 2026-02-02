@@ -1,0 +1,21 @@
+{
+  "id": "nestle.com",
+  "name": "Nestle S.A.",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 3.1
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 2.8
+    }
+  ],
+  "country": "Switzerland",
+  "sources": [
+    "Company filings",
+    "Press reports"
+  ],
+  "headquarters": "Vevey, Switzerland",
+  "created": "2026-02-02T04:07:53.216Z"
+}

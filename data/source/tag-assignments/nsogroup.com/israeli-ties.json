@@ -1,0 +1,22 @@
+{
+  "companyId": "nsogroup.com",
+  "tagId": "israeli-ties",
+  "justification": "NSO Group is an Israeli technology company headquartered in Herzliya, Israel. Founded by former members of Unit 8200 (Israeli Intelligence Corps). The company's Pegasus spyware has been sold to governments worldwide and has been linked to surveillance of journalists, activists, and political figures.",
+  "sources": [
+    {
+      "type": "government",
+      "url": "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list",
+      "title": "Commerce Adds NSO Group to Entity List",
+      "date": "2021-11-03"
+    },
+    {
+      "type": "news",
+      "url": "https://www.theguardian.com/news/series/pegasus-project",
+      "title": "The Pegasus Project - Guardian Investigation"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

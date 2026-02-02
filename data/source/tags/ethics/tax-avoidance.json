@@ -1,0 +1,36 @@
+{
+  "id": "tax-avoidance",
+  "label": "💸 Tax Avoidance",
+  "category": "ethics",
+  "type": "warning",
+  "definition": "Company engages in aggressive tax avoidance strategies that significantly reduce tax burden below fair share.",
+  "criteria": [
+    {
+      "description": "Effective tax rate significantly below statutory rate (<10% when statutory is >20%)"
+    },
+    {
+      "description": "Use of complex structures to shift profits to low-tax jurisdictions"
+    },
+    {
+      "description": "Named in tax avoidance investigations (Paradise Papers, etc.)"
+    }
+  ],
+  "counterCriteria": [
+    "Committed to and verified country-by-country tax reporting",
+    "Effective tax rate aligned with statutory rates"
+  ],
+  "references": [
+    {
+      "title": "Tax Justice Network",
+      "url": "https://taxjustice.net/",
+      "description": "Corporate tax research and advocacy"
+    },
+    {
+      "title": "Fair Tax Mark",
+      "url": "https://fairtaxmark.net/",
+      "description": "Fair tax certification"
+    }
+  ],
+  "relatedTags": ["tax-haven", "lobbying"],
+  "created": "2026-02-01T00:00:00Z"
+}

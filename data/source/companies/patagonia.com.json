@@ -1,0 +1,20 @@
+{
+  "id": "patagonia.com",
+  "name": "Patagonia, Inc.",
+  "shareholders": [
+    {
+      "entityId": "holdfast-collective",
+      "percentage": 98
+    },
+    {
+      "entityId": "patagonia-purpose-trust",
+      "percentage": 2
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "Company disclosures"
+  ],
+  "headquarters": "Ventura, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "authoritarian-ties",
+  "label": "⛓️ Authoritarian Ties",
+  "category": "ownership",
+  "type": "warning",
+  "definition": "Company has significant ties to authoritarian regimes, potentially enabling surveillance, censorship, or human rights violations.",
+  "criteria": [
+    {
+      "description": "Operations or ownership in countries rated 'Not Free' by Freedom House"
+    },
+    {
+      "description": "Evidence of compliance with authoritarian censorship demands"
+    },
+    {
+      "description": "Technology or services used for political repression"
+    },
+    {
+      "description": "Data sharing with authoritarian governments"
+    }
+  ],
+  "counterCriteria": [
+    "Company has withdrawn from authoritarian markets",
+    "Documented resistance to government overreach"
+  ],
+  "references": [
+    {
+      "title": "Freedom House Freedom in the World",
+      "url": "https://freedomhouse.org/report/freedom-world",
+      "description": "Annual assessment of political rights and civil liberties"
+    },
+    {
+      "title": "Ranking Digital Rights",
+      "url": "https://rankingdigitalrights.org/",
+      "description": "Corporate accountability index for digital rights"
+    }
+  ],
+  "relatedTags": ["chinese-owned", "russian-ties", "censorship", "surveillance"],
+  "created": "2026-02-01T00:00:00Z"
+}

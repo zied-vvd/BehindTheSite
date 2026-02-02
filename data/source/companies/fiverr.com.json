@@ -1,0 +1,13 @@
+{
+  "id": "fiverr.com",
+  "name": "Fiverr International Ltd.",
+  "shareholders": [
+    { "name": "Vanguard Group", "percentage": 5.4 },
+    { "name": "BlackRock", "percentage": 4.8 },
+    { "name": "Accel Partners", "percentage": null }
+  ],
+  "country": "Israel",
+  "headquarters": "Tel Aviv, Israel",
+  "sources": ["SEC 13F filings", "Company disclosures"],
+  "created": "2026-02-01T00:00:00Z"
+}

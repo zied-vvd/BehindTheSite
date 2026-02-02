@@ -1,0 +1,24 @@
+{
+  "id": "lockheedmartin.com",
+  "name": "Lockheed Martin Corporation",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.4
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 7.2
+    },
+    {
+      "entityId": "state-street",
+      "percentage": 4.5
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Bethesda, MD",
+  "created": "2026-02-02T04:07:53.216Z"
+}

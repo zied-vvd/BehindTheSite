@@ -1,0 +1,31 @@
+{
+  "id": "state-owned",
+  "label": "🏛️ State Owned",
+  "category": "ownership",
+  "type": "warning",
+  "definition": "Company is wholly or majority-owned by a government entity, potentially subject to state interests over consumer interests.",
+  "criteria": [
+    {
+      "description": "Majority ownership (>50%) by a government or sovereign wealth fund"
+    },
+    {
+      "description": "Operates as a government agency or state enterprise"
+    },
+    {
+      "description": "Significant government control over operations or data"
+    }
+  ],
+  "counterCriteria": [
+    "Company has been fully privatized",
+    "Government stake reduced below 20% with no operational control"
+  ],
+  "references": [
+    {
+      "title": "OECD State-Owned Enterprises",
+      "url": "https://www.oecd.org/corporate/state-owned-enterprises/",
+      "description": "OECD guidelines and data on SOEs"
+    }
+  ],
+  "relatedTags": ["authoritarian-ties"],
+  "created": "2026-02-01T00:00:00Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "union-busting",
+  "label": "🚷 Anti-Union",
+  "category": "labor",
+  "type": "warning",
+  "definition": "Company has engaged in documented anti-union activities or unfair labor practices.",
+  "criteria": [
+    {
+      "description": "NLRB complaints filed and sustained against the company"
+    },
+    {
+      "description": "Documented union-busting tactics (captive audience meetings, surveillance, retaliation)"
+    },
+    {
+      "description": "Pattern of firing or disciplining union organizers"
+    }
+  ],
+  "counterCriteria": [
+    "Company has recognized unions and engaged in good-faith bargaining",
+    "Neutrality agreements with labor organizations"
+  ],
+  "references": [
+    {
+      "title": "NLRB Case Search",
+      "url": "https://www.nlrb.gov/search/case",
+      "description": "National Labor Relations Board cases"
+    },
+    {
+      "title": "Union Busting Exposed",
+      "url": "https://www.unionbustingexposed.org/",
+      "description": "Database of anti-union activities"
+    }
+  ],
+  "relatedTags": ["poor-labor"],
+  "created": "2026-02-01T00:00:00Z"
+}

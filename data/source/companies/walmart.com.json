@@ -1,0 +1,25 @@
+{
+  "id": "walmart.com",
+  "name": "Walmart Inc.",
+  "shareholders": [
+    {
+      "entityId": "walton-family",
+      "percentage": 47
+    },
+    {
+      "entityId": "vanguard-group",
+      "percentage": 5.2
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 4.1
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings",
+    "Proxy statements"
+  ],
+  "headquarters": "Bentonville, AR",
+  "created": "2026-02-02T04:07:53.216Z"
+}

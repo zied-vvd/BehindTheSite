@@ -1,0 +1,20 @@
+{
+  "id": "alibaba.com",
+  "name": "Alibaba Group Holding Ltd.",
+  "shareholders": [
+    {
+      "entityId": "softbank-group",
+      "percentage": 24.8
+    },
+    {
+      "entityId": "jack-ma",
+      "percentage": 4.8
+    }
+  ],
+  "country": "China",
+  "sources": [
+    "Company filings"
+  ],
+  "headquarters": "Hangzhou, China",
+  "created": "2026-02-02T04:07:53.216Z"
+}

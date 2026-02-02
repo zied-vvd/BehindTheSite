@@ -1,0 +1,39 @@
+{
+  "id": "censorship",
+  "label": "🔇 Censorship",
+  "category": "democracy",
+  "type": "warning",
+  "definition": "Company engages in or enables politically-motivated censorship beyond legal requirements.",
+  "criteria": [
+    {
+      "description": "Censorship of lawful speech at government request without transparency"
+    },
+    {
+      "description": "Inconsistent content moderation suggesting political bias"
+    },
+    {
+      "description": "Complicity with authoritarian censorship demands"
+    },
+    {
+      "description": "Suppression of journalism or human rights content"
+    }
+  ],
+  "counterCriteria": [
+    "Transparent content policies with independent appeals",
+    "Resistance to government overreach with documented cases"
+  ],
+  "references": [
+    {
+      "title": "Ranking Digital Rights",
+      "url": "https://rankingdigitalrights.org/",
+      "description": "Content moderation transparency scores"
+    },
+    {
+      "title": "Freedom House - Freedom on the Net",
+      "url": "https://freedomhouse.org/report/freedom-net",
+      "description": "Internet freedom assessment"
+    }
+  ],
+  "relatedTags": ["authoritarian-ties", "media-manipulation"],
+  "created": "2026-02-01T00:00:00Z"
+}

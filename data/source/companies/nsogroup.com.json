@@ -1,0 +1,13 @@
+{
+  "id": "nsogroup.com",
+  "name": "NSO Group Technologies",
+  "shareholders": [
+    { "name": "Novalpina Capital", "percentage": null },
+    { "name": "Founders (Shalev Hulio, Omri Lavie)", "percentage": null }
+  ],
+  "country": "Israel",
+  "headquarters": "Herzliya, Israel",
+  "notes": "Developer of Pegasus spyware. Subject to US sanctions and multiple lawsuits.",
+  "sources": ["Company disclosures", "US Commerce Department Entity List"],
+  "created": "2026-02-01T00:00:00Z"
+}

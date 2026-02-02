@@ -1,0 +1,39 @@
+{
+  "id": "data-harvesting",
+  "label": "📊 Data Harvesting",
+  "category": "privacy",
+  "type": "warning",
+  "definition": "Company collects extensive personal data beyond what is necessary for service provision, often for advertising or sale to third parties.",
+  "criteria": [
+    {
+      "description": "Primary business model based on advertising using personal data"
+    },
+    {
+      "description": "Collects data beyond service requirements (tracking, fingerprinting)"
+    },
+    {
+      "description": "Shares or sells user data to third parties"
+    },
+    {
+      "description": "Poor privacy ratings from EFF, Ranking Digital Rights, or similar"
+    }
+  ],
+  "counterCriteria": [
+    "Company has transitioned to privacy-respecting business model",
+    "Verified minimal data collection with user control"
+  ],
+  "references": [
+    {
+      "title": "Ranking Digital Rights",
+      "url": "https://rankingdigitalrights.org/",
+      "description": "Corporate accountability for digital rights"
+    },
+    {
+      "title": "Privacy Not Included",
+      "url": "https://foundation.mozilla.org/privacynotincluded/",
+      "description": "Mozilla's privacy reviews"
+    }
+  ],
+  "relatedTags": ["surveillance", "data-breaches"],
+  "created": "2026-02-01T00:00:00Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "living-wage",
+  "label": "💰 Living Wage",
+  "category": "labor",
+  "type": "positive",
+  "definition": "Company pays all employees a living wage and has committed to living wages throughout supply chain.",
+  "criteria": [
+    {
+      "description": "All direct employees paid at or above local living wage"
+    },
+    {
+      "description": "Living wage commitment extends to contracted workers"
+    },
+    {
+      "description": "Membership in Fair Wage Network or equivalent"
+    }
+  ],
+  "counterCriteria": [
+    "Documented wage theft or minimum wage violations",
+    "Significant workforce paid below living wage"
+  ],
+  "references": [
+    {
+      "title": "Living Wage Foundation",
+      "url": "https://www.livingwage.org.uk/",
+      "description": "Living wage accreditation"
+    },
+    {
+      "title": "MIT Living Wage Calculator",
+      "url": "https://livingwage.mit.edu/",
+      "description": "US living wage data by location"
+    }
+  ],
+  "relatedTags": ["fair-trade", "b-corp"],
+  "created": "2026-02-01T00:00:00Z"
+}

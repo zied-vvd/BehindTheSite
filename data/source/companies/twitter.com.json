@@ -1,0 +1,20 @@
+{
+  "id": "twitter.com",
+  "name": "X Corp (formerly Twitter)",
+  "shareholders": [
+    {
+      "entityId": "elon-musk",
+      "percentage": 79
+    },
+    {
+      "name": "Private investors",
+      "percentage": 21
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "Acquisition filings 2022"
+  ],
+  "headquarters": "San Francisco, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

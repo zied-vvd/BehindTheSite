@@ -1,0 +1,34 @@
+{
+  "id": "israeli-ties",
+  "label": "🇮🇱 Israeli Ties",
+  "category": "ownership",
+  "type": "warning",
+  "definition": "Company has significant ownership, operational, or financial ties to Israeli entities, military, or government.",
+  "criteria": [
+    {
+      "description": "Significant ownership by Israeli entities or individuals"
+    },
+    {
+      "description": "Headquarters or substantial operations in Israel"
+    },
+    {
+      "description": "Direct contracts with Israeli military or government"
+    },
+    {
+      "description": "Technology used in surveillance or military operations in occupied territories"
+    }
+  ],
+  "counterCriteria": [
+    "Company has divested from military/surveillance contracts",
+    "Operations have been relocated with no remaining ties"
+  ],
+  "references": [
+    {
+      "title": "Who Profits Research Center",
+      "url": "https://www.whoprofits.org/",
+      "description": "Research on companies involved in Israeli occupation"
+    }
+  ],
+  "relatedTags": ["military-contractor", "surveillance"],
+  "created": "2026-02-01T00:00:00Z"
+}

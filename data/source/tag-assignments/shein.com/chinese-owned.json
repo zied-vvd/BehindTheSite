@@ -1,0 +1,22 @@
+{
+  "companyId": "shein.com",
+  "tagId": "chinese-owned",
+  "justification": "Migrated from original BehindTheSite data. Originally Chinese company, now headquartered in Singapore. Known for labor concerns.",
+  "sources": [
+    {
+      "type": "other",
+      "title": "Original BehindTheSite data (needs verification)",
+      "date": "2026-02-01"
+    }
+  ],
+  "status": "active",
+  "voting": {
+    "enabled": false,
+    "upvotes": 0,
+    "downvotes": 0
+  },
+  "author": {
+    "github": "behindthesite-migration"
+  },
+  "created": "2026-02-02T04:07:53.216Z"
+}

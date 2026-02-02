@@ -1,0 +1,14 @@
+{
+  "id": "baidu.com",
+  "name": "Baidu, Inc.",
+  "shareholders": [
+    { "name": "Robin Li (Founder/CEO)", "percentage": 16.4 },
+    { "name": "Vanguard Group", "percentage": 2.1 },
+    { "name": "BlackRock", "percentage": 1.8 }
+  ],
+  "country": "China",
+  "headquarters": "Beijing, China",
+  "notes": "China's dominant search engine. Subject to Chinese censorship requirements.",
+  "sources": ["SEC 20-F filings", "Company annual reports"],
+  "created": "2026-02-01T00:00:00Z"
+}

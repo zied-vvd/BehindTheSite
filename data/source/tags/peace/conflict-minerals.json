@@ -1,0 +1,36 @@
+{
+  "id": "conflict-minerals",
+  "label": "⛏️ Conflict Minerals",
+  "category": "peace",
+  "type": "warning",
+  "definition": "Company uses minerals (tin, tantalum, tungsten, gold) sourced from conflict regions without adequate supply chain verification.",
+  "criteria": [
+    {
+      "description": "Products contain 3TG minerals (tin, tantalum, tungsten, gold)"
+    },
+    {
+      "description": "Inadequate conflict minerals disclosure (SEC reporting)"
+    },
+    {
+      "description": "Supply chain traced to conflict-affected regions (DRC, etc.)"
+    }
+  ],
+  "counterCriteria": [
+    "Certified conflict-free supply chain (RMI, LBMA)",
+    "Comprehensive due diligence and third-party auditing"
+  ],
+  "references": [
+    {
+      "title": "Responsible Minerals Initiative",
+      "url": "https://www.responsiblemineralsinitiative.org/",
+      "description": "Conflict-free smelter program"
+    },
+    {
+      "title": "Enough Project",
+      "url": "https://enoughproject.org/",
+      "description": "Conflict minerals research and advocacy"
+    }
+  ],
+  "relatedTags": ["poor-labor"],
+  "created": "2026-02-01T00:00:00Z"
+}

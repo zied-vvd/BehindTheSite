@@ -1,0 +1,28 @@
+{
+  "id": "google.com",
+  "name": "Alphabet Inc.",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 7.4
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.3
+    },
+    {
+      "entityId": "larry-page",
+      "percentage": 6
+    },
+    {
+      "entityId": "sergey-brin",
+      "percentage": 5.7
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Mountain View, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

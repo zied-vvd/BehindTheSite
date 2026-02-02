@@ -1,0 +1,23 @@
+{
+  "companyId": "nsogroup.com",
+  "tagId": "surveillance",
+  "justification": "NSO Group develops and sells Pegasus spyware, which can be covertly installed on mobile phones to access messages, emails, calls, camera, and microphone. The Pegasus Project investigation by 17 media organizations documented its use against journalists, human rights activists, and political opposition figures across multiple countries.",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://www.amnesty.org/en/latest/news/2021/07/the-pegasus-project/",
+      "title": "Amnesty International - The Pegasus Project",
+      "date": "2021-07-18"
+    },
+    {
+      "type": "legal",
+      "url": "https://www.apple.com/newsroom/2021/11/apple-sues-nso-group-to-curb-the-abuse-of-state-sponsored-spyware/",
+      "title": "Apple Sues NSO Group",
+      "date": "2021-11-23"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

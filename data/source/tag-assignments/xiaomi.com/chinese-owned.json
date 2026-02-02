@@ -1,0 +1,21 @@
+{
+  "companyId": "xiaomi.com",
+  "tagId": "chinese-owned",
+  "justification": "Xiaomi Corporation is a Chinese electronics company headquartered in Beijing. Major smartphone manufacturer and smart home device maker. Was briefly added to US investment blacklist in 2021 (later removed after legal challenge). Subject to Chinese data laws.",
+  "sources": [
+    {
+      "type": "regulatory",
+      "url": "https://www.hkexnews.hk/",
+      "title": "Hong Kong Stock Exchange - Xiaomi Filings"
+    },
+    {
+      "type": "government",
+      "url": "https://www.defense.gov/",
+      "title": "US Defense Department Investment Restrictions"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

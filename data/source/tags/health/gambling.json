@@ -1,0 +1,31 @@
+{
+  "id": "gambling",
+  "label": "🎰 Gambling",
+  "category": "health",
+  "type": "warning",
+  "definition": "Company operates gambling services or primarily profits from gambling activities.",
+  "criteria": [
+    {
+      "description": "Primary business involves gambling or betting services"
+    },
+    {
+      "description": "Operates casinos, sports betting, or online gambling platforms"
+    },
+    {
+      "description": "Significant revenue from gambling-related activities"
+    }
+  ],
+  "counterCriteria": [
+    "Company has exited gambling business",
+    "Strong responsible gambling programs with verified effectiveness"
+  ],
+  "references": [
+    {
+      "title": "National Council on Problem Gambling",
+      "url": "https://www.ncpgambling.org/",
+      "description": "Problem gambling resources"
+    }
+  ],
+  "relatedTags": [],
+  "created": "2026-02-01T00:00:00Z"
+}

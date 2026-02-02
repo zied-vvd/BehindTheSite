@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://behindthesite.dev/schemas/changelog.schema.json",
+  "title": "Changelog",
+  "description": "Structured record of changes to the data",
+  "type": "object",
+  "properties": {
+    "month": {
+      "type": "string",
+      "description": "Year-month this changelog covers (e.g., '2026-02')",
+      "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$"
+    },
+    "entries": {
+      "type": "array",
+      "description": "List of changes in this period",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of the change"
+          },
+          "type": {
+            "type": "string",
+            "description": "Type of change",
+            "enum": [
+              "company_added",
+              "company_updated",
+              "company_removed",
+              "tag_assigned",
+              "tag_removed",
+              "tag_updated",
+              "entity_added",
+              "entity_updated",
+              "tag_defined",
+              "tag_definition_updated",
+              "bulk_import",
+              "correction"
+            ]
+          },
+          "target": {
+            "type": "object",
+            "description": "What was changed",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["company", "entity", "tag", "tag-assignment"]
+              },
+              "id": {
+                "type": "string",
+                "description": "ID of the item changed"
+              },
+              "tagId": {
+                "type": "string",
+                "description": "Tag ID (for tag-assignment changes)"
+              }
+            },
+            "required": ["type", "id"]
+          },
+          "description": {
+            "type": "string",
+            "description": "Human-readable description of the change"
+          },
+          "author": {
+            "type": "object",
+            "properties": {
+              "github": {
+                "type": "string"
+              }
+            }
+          },
+          "pullRequest": {
+            "type": "string",
+            "description": "GitHub PR number or URL"
+          }
+        },
+        "required": ["date", "type", "target", "description"]
+      }
+    }
+  },
+  "required": ["month", "entries"],
+  "additionalProperties": false
+}

@@ -1,0 +1,1195 @@
+{
+  "alibaba.com": {
+    "name": "Alibaba Group Holding Ltd.",
+    "shareholders": [
+      {
+        "name": "SoftBank Group",
+        "percentage": 24.8
+      },
+      {
+        "name": "Jack Ma",
+        "percentage": 4.8
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "authoritarian-ties",
+      "chinese-owned",
+      "poor-labor"
+    ],
+    "sources": [
+      "Company filings"
+    ],
+    "headquarters": "Hangzhou, China"
+  },
+  "aliexpress.com": {
+    "name": "AliExpress (Alibaba Group)",
+    "shareholders": [
+      {
+        "name": "SoftBank Group",
+        "percentage": 24.8
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "chinese-owned",
+      "poor-labor"
+    ],
+    "sources": [
+      "Subsidiary of Alibaba"
+    ],
+    "parent": "alibaba.com"
+  },
+  "amazon.com": {
+    "name": "Amazon.com, Inc.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 7.1
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.4
+      },
+      {
+        "name": "Jeff Bezos",
+        "percentage": 9.5
+      },
+      {
+        "name": "State Street",
+        "percentage": 3.8
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "carbon-heavy",
+      "monopoly",
+      "poor-labor",
+      "tax-avoidance",
+      "union-busting"
+    ],
+    "sources": [
+      "SEC 13F filings",
+      "Company proxy statements"
+    ],
+    "headquarters": "Seattle, WA"
+  },
+  "apple.com": {
+    "name": "Apple Inc.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.4
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.6
+      },
+      {
+        "name": "Berkshire Hathaway",
+        "percentage": 5.9
+      },
+      {
+        "name": "State Street",
+        "percentage": 3.8
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "conflict-minerals",
+      "tax-avoidance"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Cupertino, CA"
+  },
+  "baidu.com": {
+    "name": "Baidu, Inc.",
+    "shareholders": [
+      {
+        "name": "Robin Li (Founder/CEO)",
+        "percentage": 16.4
+      },
+      {
+        "name": "Vanguard Group",
+        "percentage": 2.1
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 1.8
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "authoritarian-ties",
+      "censorship",
+      "chinese-owned",
+      "data-harvesting"
+    ],
+    "sources": [
+      "SEC 20-F filings",
+      "Company annual reports"
+    ],
+    "headquarters": "Beijing, China",
+    "notes": "China's dominant search engine. Subject to Chinese censorship requirements."
+  },
+  "boeing.com": {
+    "name": "The Boeing Company",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.6
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.4
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "military-contractor",
+      "weapons-manufacturer"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Arlington, VA"
+  },
+  "bp.com": {
+    "name": "BP plc",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 3.1
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 2.7
+      }
+    ],
+    "country": "UK",
+    "flags": [
+      "carbon-heavy",
+      "oil-industry"
+    ],
+    "sources": [
+      "Company filings"
+    ],
+    "headquarters": "London, UK"
+  },
+  "checkpoint.com": {
+    "name": "Check Point Software Technologies Ltd.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 7.2
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.1
+      },
+      {
+        "name": "Gil Shwed (Founder/CEO)",
+        "percentage": 18.5
+      }
+    ],
+    "country": "Israel",
+    "flags": [
+      "israeli-ties"
+    ],
+    "sources": [
+      "SEC 13F filings",
+      "Company proxy statements"
+    ],
+    "headquarters": "Tel Aviv, Israel",
+    "notes": "Major Israeli cybersecurity company. Founder Gil Shwed served in IDF Unit 8200."
+  },
+  "chevron.com": {
+    "name": "Chevron Corporation",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.2
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.5
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "carbon-heavy",
+      "oil-industry"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "San Ramon, CA"
+  },
+  "coca-cola.com": {
+    "name": "The Coca-Cola Company",
+    "shareholders": [
+      {
+        "name": "Berkshire Hathaway",
+        "percentage": 9.3
+      },
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.1
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.4
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "plastic-producer",
+      "processed-food"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Atlanta, GA"
+  },
+  "duckduckgo.com": {
+    "name": "DuckDuckGo, Inc.",
+    "shareholders": [
+      {
+        "name": "Gabriel Weinberg",
+        "percentage": null
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "privacy-focused"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Paoli, PA"
+  },
+  "elbitsystems.com": {
+    "name": "Elbit Systems Ltd.",
+    "shareholders": [
+      {
+        "name": "Federmann Enterprises",
+        "percentage": 44
+      },
+      {
+        "name": "Public float",
+        "percentage": 56
+      }
+    ],
+    "country": "Israel",
+    "flags": [
+      "israeli-ties",
+      "military-contractor",
+      "surveillance",
+      "weapons-manufacturer"
+    ],
+    "sources": [
+      "Company filings",
+      "Tel Aviv Stock Exchange disclosures"
+    ],
+    "headquarters": "Haifa, Israel",
+    "notes": "Major Israeli defense contractor. Manufactures drones, surveillance systems, and weapons."
+  },
+  "exxonmobil.com": {
+    "name": "Exxon Mobil Corporation",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.5
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.8
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "carbon-heavy",
+      "lobbying",
+      "oil-industry"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Houston, TX"
+  },
+  "facebook.com": {
+    "name": "Meta Platforms, Inc.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.2
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.5
+      },
+      {
+        "name": "Mark Zuckerberg",
+        "percentage": 13.6
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "data-breaches",
+      "data-harvesting",
+      "media-manipulation",
+      "monopoly"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Menlo Park, CA"
+  },
+  "fiverr.com": {
+    "name": "Fiverr International Ltd.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 5.4
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 4.8
+      },
+      {
+        "name": "Accel Partners",
+        "percentage": null
+      }
+    ],
+    "country": "Israel",
+    "flags": [
+      "israeli-ties"
+    ],
+    "sources": [
+      "SEC 13F filings",
+      "Company disclosures"
+    ],
+    "headquarters": "Tel Aviv, Israel"
+  },
+  "google.com": {
+    "name": "Alphabet Inc.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 7.4
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.3
+      },
+      {
+        "name": "Larry Page",
+        "percentage": 6
+      },
+      {
+        "name": "Sergey Brin",
+        "percentage": 5.7
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "data-harvesting",
+      "lobbying",
+      "military-contractor",
+      "monopoly"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Mountain View, CA"
+  },
+  "huawei.com": {
+    "name": "Huawei Technologies Co., Ltd.",
+    "shareholders": [
+      {
+        "name": "Employee ownership",
+        "percentage": 99
+      },
+      {
+        "name": "Ren Zhengfei",
+        "percentage": 1
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "authoritarian-ties",
+      "chinese-owned",
+      "sanctioned-country",
+      "surveillance"
+    ],
+    "sources": [
+      "Company disclosures",
+      "US government reports"
+    ],
+    "headquarters": "Shenzhen, China"
+  },
+  "instagram.com": {
+    "name": "Instagram (Meta Platforms)",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.2
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.5
+      },
+      {
+        "name": "Mark Zuckerberg",
+        "percentage": 13.6
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "data-harvesting"
+    ],
+    "sources": [
+      "Subsidiary of Meta"
+    ],
+    "parent": "facebook.com"
+  },
+  "jd.com": {
+    "name": "JD.com, Inc.",
+    "shareholders": [
+      {
+        "name": "Richard Liu (Founder)",
+        "percentage": 12.7
+      },
+      {
+        "name": "Tencent",
+        "percentage": 15.1
+      },
+      {
+        "name": "Walmart",
+        "percentage": 9.3
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "chinese-owned"
+    ],
+    "sources": [
+      "SEC 20-F filings",
+      "Company disclosures"
+    ],
+    "headquarters": "Beijing, China",
+    "notes": "China's second-largest e-commerce company after Alibaba."
+  },
+  "kaspersky.com": {
+    "name": "Kaspersky Lab",
+    "shareholders": [
+      {
+        "name": "Eugene Kaspersky",
+        "percentage": null
+      }
+    ],
+    "country": "Russia",
+    "flags": [
+      "authoritarian-ties",
+      "russian-ties",
+      "surveillance"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Moscow, Russia"
+  },
+  "lockheedmartin.com": {
+    "name": "Lockheed Martin Corporation",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.4
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 7.2
+      },
+      {
+        "name": "State Street",
+        "percentage": 4.5
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "military-contractor",
+      "weapons-manufacturer"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Bethesda, MD"
+  },
+  "mail.ru": {
+    "name": "VK Company (formerly Mail.ru Group)",
+    "shareholders": [
+      {
+        "name": "Sogaz",
+        "percentage": null
+      },
+      {
+        "name": "MF Technologies",
+        "percentage": null
+      }
+    ],
+    "country": "Russia",
+    "flags": [
+      "authoritarian-ties",
+      "russian-ties"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Moscow, Russia",
+    "notes": "Major Russian internet company. Rebranded to VK Company. Controls VK social network, email services, and games."
+  },
+  "mcdonalds.com": {
+    "name": "McDonald's Corporation",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.5
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.9
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "deforestation",
+      "plastic-producer",
+      "processed-food"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Chicago, IL"
+  },
+  "microsoft.com": {
+    "name": "Microsoft Corporation",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.8
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 7.2
+      },
+      {
+        "name": "State Street",
+        "percentage": 4
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "lobbying",
+      "military-contractor",
+      "monopoly"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Redmond, WA"
+  },
+  "monday.com": {
+    "name": "monday.com Ltd.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 4.9
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 4.1
+      },
+      {
+        "name": "Sapir Capital",
+        "percentage": null
+      }
+    ],
+    "country": "Israel",
+    "flags": [
+      "israeli-ties"
+    ],
+    "sources": [
+      "SEC 13F filings",
+      "Company disclosures"
+    ],
+    "headquarters": "Tel Aviv, Israel"
+  },
+  "nestle.com": {
+    "name": "Nestle S.A.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 3.1
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 2.8
+      }
+    ],
+    "country": "Switzerland",
+    "flags": [
+      "child-labor",
+      "deforestation",
+      "plastic-producer",
+      "processed-food"
+    ],
+    "sources": [
+      "Company filings",
+      "Press reports"
+    ],
+    "headquarters": "Vevey, Switzerland"
+  },
+  "netflix.com": {
+    "name": "Netflix, Inc.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.1
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.9
+      },
+      {
+        "name": "Capital Group",
+        "percentage": 5.2
+      }
+    ],
+    "country": "USA",
+    "flags": [],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Los Gatos, CA"
+  },
+  "nsogroup.com": {
+    "name": "NSO Group Technologies",
+    "shareholders": [
+      {
+        "name": "Novalpina Capital",
+        "percentage": null
+      },
+      {
+        "name": "Founders (Shalev Hulio, Omri Lavie)",
+        "percentage": null
+      }
+    ],
+    "country": "Israel",
+    "flags": [
+      "israeli-ties",
+      "surveillance"
+    ],
+    "sources": [
+      "Company disclosures",
+      "US Commerce Department Entity List"
+    ],
+    "headquarters": "Herzliya, Israel",
+    "notes": "Developer of Pegasus spyware. Subject to US sanctions and multiple lawsuits."
+  },
+  "patagonia.com": {
+    "name": "Patagonia, Inc.",
+    "shareholders": [
+      {
+        "name": "Holdfast Collective",
+        "percentage": 98
+      },
+      {
+        "name": "Patagonia Purpose Trust",
+        "percentage": 2
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "b-corp",
+      "fair-trade",
+      "green-certified"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Ventura, CA"
+  },
+  "pepsico.com": {
+    "name": "PepsiCo, Inc.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.3
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.8
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "plastic-producer",
+      "processed-food"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Purchase, NY"
+  },
+  "protonmail.com": {
+    "name": "Proton AG",
+    "shareholders": [
+      {
+        "name": "Proton Technologies AG",
+        "percentage": 100
+      }
+    ],
+    "country": "Switzerland",
+    "flags": [
+      "privacy-focused"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Geneva, Switzerland"
+  },
+  "raytheon.com": {
+    "name": "RTX Corporation (formerly Raytheon)",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 8.3
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.8
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "military-contractor",
+      "weapons-manufacturer"
+    ],
+    "sources": [
+      "SEC 13F filings"
+    ],
+    "headquarters": "Arlington, VA"
+  },
+  "reddit.com": {
+    "name": "Reddit, Inc.",
+    "shareholders": [
+      {
+        "name": "Advance Publications",
+        "percentage": 30
+      },
+      {
+        "name": "Tencent",
+        "percentage": null
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "chinese-owned"
+    ],
+    "sources": [
+      "Press reports",
+      "Company disclosures"
+    ],
+    "headquarters": "San Francisco, CA",
+    "notes": "Received investment from Tencent (Chinese company)"
+  },
+  "shein.com": {
+    "name": "SHEIN Group",
+    "shareholders": [
+      {
+        "name": "Sequoia China",
+        "percentage": null
+      },
+      {
+        "name": "Tiger Global",
+        "percentage": null
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "child-labor",
+      "chinese-owned",
+      "poor-labor"
+    ],
+    "sources": [
+      "Press reports",
+      "Investor disclosures"
+    ],
+    "headquarters": "Singapore (registered), China (operations)",
+    "notes": "Originally Chinese company, now headquartered in Singapore. Known for labor concerns."
+  },
+  "shell.com": {
+    "name": "Shell plc",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 3.2
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 2.8
+      }
+    ],
+    "country": "UK",
+    "flags": [
+      "carbon-heavy",
+      "deforestation",
+      "oil-industry"
+    ],
+    "sources": [
+      "Company filings"
+    ],
+    "headquarters": "London, UK"
+  },
+  "signal.org": {
+    "name": "Signal Foundation",
+    "shareholders": [
+      {
+        "name": "Non-profit",
+        "percentage": 100
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "privacy-focused"
+    ],
+    "sources": [
+      "Foundation disclosures"
+    ],
+    "headquarters": "Mountain View, CA"
+  },
+  "spotify.com": {
+    "name": "Spotify Technology S.A.",
+    "shareholders": [
+      {
+        "name": "Daniel Ek",
+        "percentage": 16.5
+      },
+      {
+        "name": "Martin Lorentzon",
+        "percentage": 10.9
+      },
+      {
+        "name": "Tencent",
+        "percentage": 9.1
+      }
+    ],
+    "country": "Sweden",
+    "flags": [
+      "chinese-owned"
+    ],
+    "sources": [
+      "SEC filings",
+      "Company reports"
+    ],
+    "headquarters": "Stockholm, Sweden",
+    "notes": "Tencent (Chinese company) holds significant stake"
+  },
+  "telegram.org": {
+    "name": "Telegram Messenger Inc.",
+    "shareholders": [
+      {
+        "name": "Pavel Durov",
+        "percentage": null
+      }
+    ],
+    "country": "UAE",
+    "flags": [
+      "russian-ties"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Dubai, UAE",
+    "notes": "Founded by Russian entrepreneurs, now based in UAE"
+  },
+  "temu.com": {
+    "name": "Temu (PDD Holdings)",
+    "shareholders": [
+      {
+        "name": "PDD Holdings (Private)",
+        "percentage": 100
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "authoritarian-ties",
+      "chinese-owned",
+      "poor-labor"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Shanghai, China"
+  },
+  "tencent.com": {
+    "name": "Tencent Holdings Ltd.",
+    "shareholders": [
+      {
+        "name": "Prosus (Naspers)",
+        "percentage": 26
+      },
+      {
+        "name": "Ma Huateng (Pony Ma)",
+        "percentage": 7.4
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "authoritarian-ties",
+      "censorship",
+      "chinese-owned",
+      "data-harvesting"
+    ],
+    "sources": [
+      "Hong Kong Stock Exchange filings",
+      "Company annual reports"
+    ],
+    "headquarters": "Shenzhen, China",
+    "notes": "Chinese tech conglomerate. Owns WeChat, QQ, and major stakes in gaming companies worldwide including Riot Games, Epic Games."
+  },
+  "tiktok.com": {
+    "name": "TikTok (ByteDance Ltd.)",
+    "shareholders": [
+      {
+        "name": "ByteDance (Private)",
+        "percentage": 100
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "authoritarian-ties",
+      "censorship",
+      "chinese-owned",
+      "data-harvesting"
+    ],
+    "sources": [
+      "Company disclosures"
+    ],
+    "headquarters": "Beijing, China",
+    "notes": "Owned by ByteDance, a Chinese company. Subject to Chinese data laws."
+  },
+  "twitter.com": {
+    "name": "X Corp (formerly Twitter)",
+    "shareholders": [
+      {
+        "name": "Elon Musk",
+        "percentage": 79
+      },
+      {
+        "name": "Private investors",
+        "percentage": 21
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "media-manipulation"
+    ],
+    "sources": [
+      "Acquisition filings 2022"
+    ],
+    "headquarters": "San Francisco, CA"
+  },
+  "vk.com": {
+    "name": "VK (VKontakte)",
+    "shareholders": [
+      {
+        "name": "Sogaz (Gazprom insurance)",
+        "percentage": null
+      },
+      {
+        "name": "Mail.ru Group",
+        "percentage": null
+      }
+    ],
+    "country": "Russia",
+    "flags": [
+      "authoritarian-ties",
+      "data-harvesting",
+      "russian-ties"
+    ],
+    "sources": [
+      "Company disclosures",
+      "Press reports"
+    ],
+    "headquarters": "Saint Petersburg, Russia",
+    "notes": "Russia's largest social network. Now controlled by Kremlin-linked entities after founder Pavel Durov left."
+  },
+  "walmart.com": {
+    "name": "Walmart Inc.",
+    "shareholders": [
+      {
+        "name": "Walton Family",
+        "percentage": 47
+      },
+      {
+        "name": "Vanguard Group",
+        "percentage": 5.2
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 4.1
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "poor-labor",
+      "union-busting"
+    ],
+    "sources": [
+      "SEC 13F filings",
+      "Proxy statements"
+    ],
+    "headquarters": "Bentonville, AR"
+  },
+  "weibo.com": {
+    "name": "Weibo Corporation",
+    "shareholders": [
+      {
+        "name": "Alibaba Group",
+        "percentage": 30
+      },
+      {
+        "name": "New Wave Holdings",
+        "percentage": 45
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "authoritarian-ties",
+      "censorship",
+      "chinese-owned"
+    ],
+    "sources": [
+      "SEC 20-F filings",
+      "Company disclosures"
+    ],
+    "headquarters": "Beijing, China",
+    "notes": "Chinese microblogging platform, often called 'Chinese Twitter'. Subject to heavy censorship."
+  },
+  "wix.com": {
+    "name": "Wix.com Ltd.",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 6.8
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 5.9
+      },
+      {
+        "name": "Baillie Gifford",
+        "percentage": 4.2
+      }
+    ],
+    "country": "Israel",
+    "flags": [
+      "israeli-ties"
+    ],
+    "sources": [
+      "SEC 13F filings",
+      "Company annual report"
+    ],
+    "headquarters": "Tel Aviv, Israel"
+  },
+  "x.com": {
+    "name": "X Corp (formerly Twitter)",
+    "shareholders": [
+      {
+        "name": "Elon Musk",
+        "percentage": 79
+      },
+      {
+        "name": "Private investors",
+        "percentage": 21
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "media-manipulation"
+    ],
+    "sources": [
+      "Acquisition filings 2022"
+    ],
+    "headquarters": "San Francisco, CA"
+  },
+  "xiaomi.com": {
+    "name": "Xiaomi Corporation",
+    "shareholders": [
+      {
+        "name": "Lei Jun (Founder/CEO)",
+        "percentage": 24.1
+      },
+      {
+        "name": "Lin Bin (Co-founder)",
+        "percentage": 10.5
+      }
+    ],
+    "country": "China",
+    "flags": [
+      "chinese-owned",
+      "data-harvesting"
+    ],
+    "sources": [
+      "Hong Kong Stock Exchange filings",
+      "Company reports"
+    ],
+    "headquarters": "Beijing, China",
+    "notes": "Major Chinese electronics and smartphone manufacturer. Was briefly on US investment blacklist."
+  },
+  "yandex.com": {
+    "name": "Yandex N.V.",
+    "shareholders": [
+      {
+        "name": "Various institutional",
+        "percentage": null
+      }
+    ],
+    "country": "Russia",
+    "flags": [
+      "authoritarian-ties",
+      "censorship",
+      "data-harvesting",
+      "russian-ties"
+    ],
+    "sources": [
+      "Company filings"
+    ],
+    "headquarters": "Moscow, Russia"
+  },
+  "youtube.com": {
+    "name": "YouTube (Alphabet Inc.)",
+    "shareholders": [
+      {
+        "name": "Vanguard Group",
+        "percentage": 7.4
+      },
+      {
+        "name": "BlackRock",
+        "percentage": 6.3
+      }
+    ],
+    "country": "USA",
+    "flags": [
+      "censorship",
+      "data-harvesting"
+    ],
+    "sources": [
+      "Subsidiary of Alphabet"
+    ],
+    "parent": "google.com"
+  }
+}

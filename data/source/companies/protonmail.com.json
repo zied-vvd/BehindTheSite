@@ -1,0 +1,16 @@
+{
+  "id": "protonmail.com",
+  "name": "Proton AG",
+  "shareholders": [
+    {
+      "entityId": "proton-technologies-ag",
+      "percentage": 100
+    }
+  ],
+  "country": "Switzerland",
+  "sources": [
+    "Company disclosures"
+  ],
+  "headquarters": "Geneva, Switzerland",
+  "created": "2026-02-02T04:07:53.216Z"
+}

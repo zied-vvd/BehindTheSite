@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://behindthesite.dev/schemas/company.schema.json",
+  "title": "Company",
+  "description": "A company entry in the BehindTheSite database",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Domain name that serves as the unique identifier (e.g., 'amazon.com')",
+      "pattern": "^[a-z0-9][a-z0-9.-]*\\.[a-z]{2,}$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full legal name of the company",
+      "minLength": 1
+    },
+    "shareholders": {
+      "type": "array",
+      "description": "List of major shareholders/investors",
+      "items": {
+        "type": "object",
+        "properties": {
+          "entityId": {
+            "type": "string",
+            "description": "Reference to entity file (e.g., 'vanguard-group')"
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name (for individuals or entities without a file)"
+          },
+          "percentage": {
+            "type": ["number", "null"],
+            "description": "Ownership percentage (null if unknown)",
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        "anyOf": [
+          { "required": ["entityId"] },
+          { "required": ["name"] }
+        ]
+      },
+      "minItems": 1
+    },
+    "country": {
+      "type": "string",
+      "description": "Country of incorporation or primary operations"
+    },
+    "headquarters": {
+      "type": "string",
+      "description": "City and country/state of headquarters"
+    },
+    "parent": {
+      "type": "string",
+      "description": "Domain of parent company (if subsidiary)",
+      "pattern": "^[a-z0-9][a-z0-9.-]*\\.[a-z]{2,}$"
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative domains that should resolve to this company",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9.-]*\\.[a-z]{2,}$"
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional context or clarifications"
+    },
+    "sources": {
+      "type": "array",
+      "description": "Sources for company information (not tag assignments)",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "wikidata": {
+      "type": "string",
+      "description": "Wikidata entity ID (e.g., 'Q3884')",
+      "pattern": "^Q[0-9]+$"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this entry was created"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this entry was last updated"
+    }
+  },
+  "required": ["id", "name", "shareholders", "country", "sources"],
+  "additionalProperties": false
+}

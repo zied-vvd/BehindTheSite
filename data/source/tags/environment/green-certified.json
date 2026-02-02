@@ -1,0 +1,39 @@
+{
+  "id": "green-certified",
+  "label": "✅ Green Certified",
+  "category": "environment",
+  "type": "positive",
+  "definition": "Company has achieved recognized environmental certifications or demonstrates leadership in sustainability.",
+  "criteria": [
+    {
+      "description": "B Corp certification with strong environmental score"
+    },
+    {
+      "description": "Carbon neutral or net-zero operations (verified)"
+    },
+    {
+      "description": "1% for the Planet member or equivalent commitment"
+    },
+    {
+      "description": "Industry-leading environmental practices documented by credible third parties"
+    }
+  ],
+  "counterCriteria": [
+    "Certification revoked or expired",
+    "Documented greenwashing or misleading environmental claims"
+  ],
+  "references": [
+    {
+      "title": "B Lab Certification",
+      "url": "https://www.bcorporation.net/",
+      "description": "B Corp certification directory"
+    },
+    {
+      "title": "1% for the Planet",
+      "url": "https://www.onepercentfortheplanet.org/",
+      "description": "Member directory"
+    }
+  ],
+  "relatedTags": ["b-corp"],
+  "created": "2026-02-01T00:00:00Z"
+}

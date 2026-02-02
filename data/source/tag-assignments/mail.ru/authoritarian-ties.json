@@ -1,0 +1,16 @@
+{
+  "companyId": "mail.ru",
+  "tagId": "authoritarian-ties",
+  "justification": "Mail.ru/VK Company operates under Russian jurisdiction and complies with Russian data localization and surveillance laws. Subject to SORM requirements giving intelligence services access to communications.",
+  "sources": [
+    {
+      "type": "ngo",
+      "url": "https://freedomhouse.org/country/russia/freedom-net/2023",
+      "title": "Freedom House - Russia Internet Freedom"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

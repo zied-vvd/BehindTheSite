@@ -1,0 +1,24 @@
+{
+  "id": "coca-cola.com",
+  "name": "The Coca-Cola Company",
+  "shareholders": [
+    {
+      "entityId": "berkshire-hathaway",
+      "percentage": 9.3
+    },
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.1
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.4
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Atlanta, GA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

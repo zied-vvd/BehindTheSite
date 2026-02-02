@@ -1,0 +1,16 @@
+{
+  "id": "signal.org",
+  "name": "Signal Foundation",
+  "shareholders": [
+    {
+      "name": "Non-profit",
+      "percentage": 100
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "Foundation disclosures"
+  ],
+  "headquarters": "Mountain View, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

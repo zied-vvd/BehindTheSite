@@ -1,0 +1,21 @@
+{
+  "companyId": "weibo.com",
+  "tagId": "censorship",
+  "justification": "Weibo operates one of the most heavily censored social media platforms in the world. The company employs thousands of content moderators and uses AI to detect and remove politically sensitive content. Topics including Tiananmen, Tibet, Xinjiang, and criticism of CCP leadership are systematically censored.",
+  "sources": [
+    {
+      "type": "academic",
+      "url": "https://citizenlab.ca/",
+      "title": "Citizen Lab - Chinese Social Media Censorship Research"
+    },
+    {
+      "type": "ngo",
+      "url": "https://freedomhouse.org/country/china/freedom-net/2023",
+      "title": "Freedom House - China Internet Freedom"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

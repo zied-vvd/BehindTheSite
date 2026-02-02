@@ -1,0 +1,20 @@
+{
+  "id": "pepsico.com",
+  "name": "PepsiCo, Inc.",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.3
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.8
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Purchase, NY",
+  "created": "2026-02-02T04:07:53.216Z"
+}

@@ -1,0 +1,16 @@
+{
+  "companyId": "mail.ru",
+  "tagId": "russian-ties",
+  "justification": "Mail.ru Group (now VK Company) is a major Russian internet company headquartered in Moscow. Controls Russia's largest email service, VK social network, and various online services. Majority controlled by entities with Kremlin ties.",
+  "sources": [
+    {
+      "type": "company",
+      "url": "https://vk.company/en/",
+      "title": "VK Company Official Site"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

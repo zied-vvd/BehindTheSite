@@ -1,0 +1,13 @@
+{
+  "id": "elbitsystems.com",
+  "name": "Elbit Systems Ltd.",
+  "shareholders": [
+    { "name": "Federmann Enterprises", "percentage": 44.0 },
+    { "name": "Public float", "percentage": 56.0 }
+  ],
+  "country": "Israel",
+  "headquarters": "Haifa, Israel",
+  "notes": "Major Israeli defense contractor. Manufactures drones, surveillance systems, and weapons.",
+  "sources": ["Company filings", "Tel Aviv Stock Exchange disclosures"],
+  "created": "2026-02-01T00:00:00Z"
+}

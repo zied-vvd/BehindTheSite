@@ -1,0 +1,16 @@
+{
+  "id": "kaspersky.com",
+  "name": "Kaspersky Lab",
+  "shareholders": [
+    {
+      "entityId": "eugene-kaspersky",
+      "percentage": null
+    }
+  ],
+  "country": "Russia",
+  "sources": [
+    "Company disclosures"
+  ],
+  "headquarters": "Moscow, Russia",
+  "created": "2026-02-02T04:07:53.216Z"
+}

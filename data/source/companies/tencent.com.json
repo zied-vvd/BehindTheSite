@@ -1,0 +1,13 @@
+{
+  "id": "tencent.com",
+  "name": "Tencent Holdings Ltd.",
+  "shareholders": [
+    { "name": "Prosus (Naspers)", "percentage": 26.0 },
+    { "name": "Ma Huateng (Pony Ma)", "percentage": 7.4 }
+  ],
+  "country": "China",
+  "headquarters": "Shenzhen, China",
+  "notes": "Chinese tech conglomerate. Owns WeChat, QQ, and major stakes in gaming companies worldwide including Riot Games, Epic Games.",
+  "sources": ["Hong Kong Stock Exchange filings", "Company annual reports"],
+  "created": "2026-02-01T00:00:00Z"
+}

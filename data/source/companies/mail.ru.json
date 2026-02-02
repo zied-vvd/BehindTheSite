@@ -1,0 +1,13 @@
+{
+  "id": "mail.ru",
+  "name": "VK Company (formerly Mail.ru Group)",
+  "shareholders": [
+    { "name": "Sogaz", "percentage": null },
+    { "name": "MF Technologies", "percentage": null }
+  ],
+  "country": "Russia",
+  "headquarters": "Moscow, Russia",
+  "notes": "Major Russian internet company. Rebranded to VK Company. Controls VK social network, email services, and games.",
+  "sources": ["Company disclosures"],
+  "created": "2026-02-01T00:00:00Z"
+}

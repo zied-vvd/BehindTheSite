@@ -10,7 +10,9 @@ Thumbs.db
 
 # Build artifacts
 *.zip
-dist/
 
 # Logs
 *.log
+
+# Node
+node_modules/

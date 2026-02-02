@@ -1,0 +1,16 @@
+{
+  "companyId": "vk.com",
+  "tagId": "data-harvesting",
+  "justification": "VK collects extensive user data including messages, location, contacts, and browsing behavior. Under Russian law (SORM), this data must be accessible to Russian intelligence services upon request.",
+  "sources": [
+    {
+      "type": "government",
+      "url": "https://www.hrw.org/news/2020/03/18/russia-expanded-internet-surveillance",
+      "title": "Human Rights Watch - Russia Internet Surveillance"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

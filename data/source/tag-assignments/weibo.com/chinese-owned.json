@@ -1,0 +1,16 @@
+{
+  "companyId": "weibo.com",
+  "tagId": "chinese-owned",
+  "justification": "Weibo Corporation is a Chinese microblogging platform headquartered in Beijing. Often called 'Chinese Twitter' with over 500 million users. Major shareholders include Alibaba Group (30%) and New Wave Holdings. Subject to Chinese internet regulations.",
+  "sources": [
+    {
+      "type": "regulatory",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001595761",
+      "title": "SEC EDGAR - Weibo Corporation Filings"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

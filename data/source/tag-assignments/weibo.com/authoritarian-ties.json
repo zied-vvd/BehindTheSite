@@ -1,0 +1,16 @@
+{
+  "companyId": "weibo.com",
+  "tagId": "authoritarian-ties",
+  "justification": "Weibo operates under direct Chinese government oversight and actively cooperates with state censorship and surveillance. The platform is used by Chinese authorities to monitor public opinion and identify dissent. Users have been detained based on Weibo posts.",
+  "sources": [
+    {
+      "type": "ngo",
+      "url": "https://www.amnesty.org/en/latest/news/2020/03/china-social-media-alters-approach-censorship/",
+      "title": "Amnesty International - Chinese Social Media Censorship"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

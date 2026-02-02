@@ -1,0 +1,21 @@
+{
+  "companyId": "wix.com",
+  "tagId": "israeli-ties",
+  "justification": "Wix.com Ltd. is an Israeli cloud-based web development platform company headquartered in Tel Aviv, Israel. Founded in 2006 by Israeli entrepreneurs Avishai Abrahami, Nadav Abrahami, and Giora Kaplan. The company is publicly traded on NASDAQ and maintains its primary operations in Israel.",
+  "sources": [
+    {
+      "type": "company",
+      "url": "https://www.wix.com/about/us",
+      "title": "Wix About Us"
+    },
+    {
+      "type": "regulatory",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001576789",
+      "title": "SEC EDGAR - Wix.com Ltd. Filings"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

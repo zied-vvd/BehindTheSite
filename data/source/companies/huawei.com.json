@@ -1,0 +1,21 @@
+{
+  "id": "huawei.com",
+  "name": "Huawei Technologies Co., Ltd.",
+  "shareholders": [
+    {
+      "name": "Employee ownership",
+      "percentage": 99
+    },
+    {
+      "entityId": "ren-zhengfei",
+      "percentage": 1
+    }
+  ],
+  "country": "China",
+  "sources": [
+    "Company disclosures",
+    "US government reports"
+  ],
+  "headquarters": "Shenzhen, China",
+  "created": "2026-02-02T04:07:53.216Z"
+}

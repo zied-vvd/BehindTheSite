@@ -1,0 +1,36 @@
+{
+  "id": "carbon-heavy",
+  "label": "💨 High Carbon",
+  "category": "environment",
+  "type": "warning",
+  "definition": "Company has significant carbon emissions relative to industry peers or absolute thresholds.",
+  "criteria": [
+    {
+      "description": "Scope 1+2 emissions exceed 1 million tonnes CO2e annually"
+    },
+    {
+      "description": "Carbon intensity significantly above industry average"
+    },
+    {
+      "description": "No credible science-based emissions reduction targets"
+    }
+  ],
+  "counterCriteria": [
+    "Verified science-based target approved by SBTi",
+    "Demonstrated year-over-year emissions reductions"
+  ],
+  "references": [
+    {
+      "title": "CDP Climate Scores",
+      "url": "https://www.cdp.net/en/companies/companies-scores",
+      "description": "Corporate climate disclosure scores"
+    },
+    {
+      "title": "Science Based Targets",
+      "url": "https://sciencebasedtargets.org/",
+      "description": "Companies with verified climate targets"
+    }
+  ],
+  "relatedTags": ["oil-industry", "deforestation"],
+  "created": "2026-02-01T00:00:00Z"
+}

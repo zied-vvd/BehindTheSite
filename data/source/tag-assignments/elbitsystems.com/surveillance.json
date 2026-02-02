@@ -1,0 +1,21 @@
+{
+  "companyId": "elbitsystems.com",
+  "tagId": "surveillance",
+  "justification": "Elbit Systems develops and sells surveillance technology including border monitoring systems, reconnaissance drones, and intelligence gathering equipment. The company's systems are used for surveillance along the Israeli separation barrier and have been exported to border agencies worldwide including US Customs and Border Protection.",
+  "sources": [
+    {
+      "type": "news",
+      "url": "https://theintercept.com/2019/08/25/elbit-systems-border-technology/",
+      "title": "The Intercept - Elbit Border Technology Investigation"
+    },
+    {
+      "type": "ngo",
+      "url": "https://www.whoprofits.org/company/elbit-systems/",
+      "title": "Who Profits Research Center"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

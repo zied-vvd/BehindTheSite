@@ -1,0 +1,22 @@
+{
+  "id": "shein.com",
+  "name": "SHEIN Group",
+  "shareholders": [
+    {
+      "entityId": "sequoia-china",
+      "percentage": null
+    },
+    {
+      "entityId": "tiger-global",
+      "percentage": null
+    }
+  ],
+  "country": "China",
+  "sources": [
+    "Press reports",
+    "Investor disclosures"
+  ],
+  "headquarters": "Singapore (registered), China (operations)",
+  "notes": "Originally Chinese company, now headquartered in Singapore. Known for labor concerns.",
+  "created": "2026-02-02T04:07:53.216Z"
+}

@@ -1,0 +1,93 @@
+name: Validate Data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/source/**'
+      - 'data/schemas/**'
+      - 'scripts/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data/source/**'
+      - 'data/schemas/**'
+      - 'scripts/**'
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate data
+        run: npm run validate
+
+      - name: Build distribution
+        run: npm run build
+
+      - name: Verify build output
+        run: |
+          if [ ! -f "data/dist/companies.json" ]; then
+            echo "Error: Build output not found"
+            exit 1
+          fi
+          # Check JSON is valid
+          node -e "JSON.parse(require('fs').readFileSync('data/dist/companies.json'))"
+          echo "Build output verified successfully"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: companies-data
+          path: data/dist/companies.json
+          retention-days: 7
+
+  # Auto-commit build output on push to main
+  commit-build:
+    needs: validate-and-build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build distribution
+        run: npm run build
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/dist/companies.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push build output
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/dist/companies.json
+          git commit -m "chore: auto-build companies.json from source data"
+          git push

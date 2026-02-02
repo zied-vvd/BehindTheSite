@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://behindthesite.dev/schemas/entity.schema.json",
+  "title": "Entity",
+  "description": "A shareholder, investor, or other entity referenced by companies",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (slug format, e.g., 'vanguard-group')",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full legal name of the entity",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of entity",
+      "enum": ["institution", "individual", "fund", "government", "nonprofit", "private", "other"]
+    },
+    "country": {
+      "type": "string",
+      "description": "Country of incorporation or citizenship"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the entity"
+    },
+    "wikidata": {
+      "type": "string",
+      "description": "Wikidata entity ID (e.g., 'Q849452')",
+      "pattern": "^Q[0-9]+$"
+    },
+    "wikipedia": {
+      "type": "string",
+      "format": "uri",
+      "description": "Wikipedia URL for the entity"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official website URL"
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names for the entity",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this entry was created"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this entry was last updated"
+    }
+  },
+  "required": ["id", "name", "type"],
+  "additionalProperties": false
+}

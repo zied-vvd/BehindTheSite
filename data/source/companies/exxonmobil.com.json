@@ -1,0 +1,20 @@
+{
+  "id": "exxonmobil.com",
+  "name": "Exxon Mobil Corporation",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.5
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.8
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Houston, TX",
+  "created": "2026-02-02T04:07:53.216Z"
+}

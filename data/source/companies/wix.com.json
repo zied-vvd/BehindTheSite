@@ -1,0 +1,13 @@
+{
+  "id": "wix.com",
+  "name": "Wix.com Ltd.",
+  "shareholders": [
+    { "name": "Vanguard Group", "percentage": 6.8 },
+    { "name": "BlackRock", "percentage": 5.9 },
+    { "name": "Baillie Gifford", "percentage": 4.2 }
+  ],
+  "country": "Israel",
+  "headquarters": "Tel Aviv, Israel",
+  "sources": ["SEC 13F filings", "Company annual report"],
+  "created": "2026-02-01T00:00:00Z"
+}

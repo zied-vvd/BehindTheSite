@@ -1,0 +1,36 @@
+{
+  "id": "tax-haven",
+  "label": "🏝️ Uses Tax Havens",
+  "category": "ethics",
+  "type": "warning",
+  "definition": "Company uses subsidiaries in tax havens to reduce tax obligations.",
+  "criteria": [
+    {
+      "description": "Significant subsidiaries in recognized tax havens (Cayman Islands, Luxembourg, Ireland, etc.)"
+    },
+    {
+      "description": "Profit shifting to low-tax jurisdictions documented"
+    },
+    {
+      "description": "Shell companies without substantial operations in tax havens"
+    }
+  ],
+  "counterCriteria": [
+    "Closed tax haven subsidiaries",
+    "Transparent country-by-country reporting showing alignment with operations"
+  ],
+  "references": [
+    {
+      "title": "Tax Haven List",
+      "url": "https://taxjustice.net/",
+      "description": "Tax Justice Network secrecy jurisdictions"
+    },
+    {
+      "title": "ICIJ Offshore Leaks Database",
+      "url": "https://offshoreleaks.icij.org/",
+      "description": "Searchable database of offshore entities"
+    }
+  ],
+  "relatedTags": ["tax-avoidance"],
+  "created": "2026-02-01T00:00:00Z"
+}

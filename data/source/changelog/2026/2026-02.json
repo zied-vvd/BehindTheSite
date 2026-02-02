@@ -1,0 +1,17 @@
+{
+  "month": "2026-02",
+  "entries": [
+    {
+      "date": "2026-02-01",
+      "type": "bulk_import",
+      "target": {
+        "type": "company",
+        "id": "*"
+      },
+      "description": "Initial migration from companies.json: 37 companies, 28 entities, 87 tag assignments",
+      "author": {
+        "github": "behindthesite-migration"
+      }
+    }
+  ]
+}

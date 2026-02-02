@@ -1,0 +1,26 @@
+{
+  "id": "spotify.com",
+  "name": "Spotify Technology S.A.",
+  "shareholders": [
+    {
+      "entityId": "daniel-ek",
+      "percentage": 16.5
+    },
+    {
+      "entityId": "martin-lorentzon",
+      "percentage": 10.9
+    },
+    {
+      "entityId": "tencent",
+      "percentage": 9.1
+    }
+  ],
+  "country": "Sweden",
+  "sources": [
+    "SEC filings",
+    "Company reports"
+  ],
+  "headquarters": "Stockholm, Sweden",
+  "notes": "Tencent (Chinese company) holds significant stake",
+  "created": "2026-02-02T04:07:53.216Z"
+}

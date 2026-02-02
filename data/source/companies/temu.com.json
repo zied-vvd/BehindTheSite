@@ -1,0 +1,16 @@
+{
+  "id": "temu.com",
+  "name": "Temu (PDD Holdings)",
+  "shareholders": [
+    {
+      "entityId": "pdd-holdings-private",
+      "percentage": 100
+    }
+  ],
+  "country": "China",
+  "sources": [
+    "Company disclosures"
+  ],
+  "headquarters": "Shanghai, China",
+  "created": "2026-02-02T04:07:53.216Z"
+}

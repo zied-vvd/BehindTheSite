@@ -1,0 +1,24 @@
+{
+  "id": "netflix.com",
+  "name": "Netflix, Inc.",
+  "shareholders": [
+    {
+      "entityId": "vanguard-group",
+      "percentage": 8.1
+    },
+    {
+      "entityId": "blackrock",
+      "percentage": 6.9
+    },
+    {
+      "entityId": "capital-group",
+      "percentage": 5.2
+    }
+  ],
+  "country": "USA",
+  "sources": [
+    "SEC 13F filings"
+  ],
+  "headquarters": "Los Gatos, CA",
+  "created": "2026-02-02T04:07:53.216Z"
+}

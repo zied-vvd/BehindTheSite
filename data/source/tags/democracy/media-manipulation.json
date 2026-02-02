@@ -1,0 +1,39 @@
+{
+  "id": "media-manipulation",
+  "label": "📺 Media Manipulation",
+  "category": "democracy",
+  "type": "warning",
+  "definition": "Company platform has been used for or complicit in spreading misinformation or manipulating public discourse.",
+  "criteria": [
+    {
+      "description": "Platform used for documented large-scale misinformation campaigns"
+    },
+    {
+      "description": "Algorithmic amplification of divisive or false content"
+    },
+    {
+      "description": "Failure to adequately address coordinated inauthentic behavior"
+    },
+    {
+      "description": "Documented manipulation of news feeds or search results"
+    }
+  ],
+  "counterCriteria": [
+    "Significant investment in content moderation with verified results",
+    "Algorithmic transparency and third-party auditing"
+  ],
+  "references": [
+    {
+      "title": "Stanford Internet Observatory",
+      "url": "https://cyber.fsi.stanford.edu/io",
+      "description": "Research on internet abuse"
+    },
+    {
+      "title": "EU DisinfoLab",
+      "url": "https://www.disinfo.eu/",
+      "description": "Disinformation research"
+    }
+  ],
+  "relatedTags": ["election-interference", "censorship"],
+  "created": "2026-02-01T00:00:00Z"
+}

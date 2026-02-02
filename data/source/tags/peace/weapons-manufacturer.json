@@ -1,0 +1,36 @@
+{
+  "id": "weapons-manufacturer",
+  "label": "🔫 Weapons Manufacturer",
+  "category": "peace",
+  "type": "warning",
+  "definition": "Company manufactures weapons, ammunition, or weapons systems.",
+  "criteria": [
+    {
+      "description": "Primary business involves manufacturing lethal weapons or weapons systems"
+    },
+    {
+      "description": "Significant revenue (>10%) from weapons manufacturing"
+    },
+    {
+      "description": "Manufactures controversial weapons (cluster munitions, landmines, nuclear weapons)"
+    }
+  ],
+  "counterCriteria": [
+    "Company has exited weapons manufacturing entirely",
+    "Converted to purely civilian/defensive products"
+  ],
+  "references": [
+    {
+      "title": "SIPRI Arms Industry Database",
+      "url": "https://www.sipri.org/databases/armsindustry",
+      "description": "Stockholm International Peace Research Institute"
+    },
+    {
+      "title": "Don't Bank on the Bomb",
+      "url": "https://www.dontbankonthebomb.com/",
+      "description": "Nuclear weapons producers"
+    }
+  ],
+  "relatedTags": ["military-contractor", "conflict-minerals"],
+  "created": "2026-02-01T00:00:00Z"
+}

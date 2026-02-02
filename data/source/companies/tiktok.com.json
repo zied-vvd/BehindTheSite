@@ -1,0 +1,17 @@
+{
+  "id": "tiktok.com",
+  "name": "TikTok (ByteDance Ltd.)",
+  "shareholders": [
+    {
+      "entityId": "bytedance-private",
+      "percentage": 100
+    }
+  ],
+  "country": "China",
+  "sources": [
+    "Company disclosures"
+  ],
+  "headquarters": "Beijing, China",
+  "notes": "Owned by ByteDance, a Chinese company. Subject to Chinese data laws.",
+  "created": "2026-02-02T04:07:53.216Z"
+}

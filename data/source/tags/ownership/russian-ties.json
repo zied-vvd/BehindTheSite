@@ -1,0 +1,34 @@
+{
+  "id": "russian-ties",
+  "label": "🇷🇺 Russian Ties",
+  "category": "ownership",
+  "type": "warning",
+  "definition": "Company has significant ownership, operational, or financial ties to Russian entities, individuals, or the Russian state.",
+  "criteria": [
+    {
+      "description": "Significant ownership by Russian individuals or companies"
+    },
+    {
+      "description": "Headquarters or substantial operations in Russia"
+    },
+    {
+      "description": "Founded by Russian nationals with continued Russian ties"
+    },
+    {
+      "description": "Subject to Russian government influence or data laws"
+    }
+  ],
+  "counterCriteria": [
+    "Company has fully divested Russian ownership and relocated operations",
+    "Russian founders have renounced ties and company operates independently"
+  ],
+  "references": [
+    {
+      "title": "OFAC Sanctions List",
+      "url": "https://sanctionssearch.ofac.treas.gov/",
+      "description": "US Treasury sanctions database"
+    }
+  ],
+  "relatedTags": ["authoritarian-ties", "sanctioned-country"],
+  "created": "2026-02-01T00:00:00Z"
+}

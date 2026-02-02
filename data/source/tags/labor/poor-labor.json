@@ -1,0 +1,45 @@
+{
+  "id": "poor-labor",
+  "label": "⚠️ Poor Labor Practices",
+  "category": "labor",
+  "type": "warning",
+  "definition": "Company has documented patterns of labor practices that violate workers' rights or fall significantly below industry standards.",
+  "criteria": [
+    {
+      "description": "Significant OSHA violations within past 5 years",
+      "threshold": ">3 serious violations OR any willful violations"
+    },
+    {
+      "description": "Documented wage theft affecting substantial number of workers"
+    },
+    {
+      "description": "Workplace injury rates significantly above industry average"
+    },
+    {
+      "description": "Credible reports of unsafe working conditions from workers or investigations"
+    }
+  ],
+  "counterCriteria": [
+    "Issues fully remediated with third-party verification",
+    "Significant improvements in safety metrics over 3+ years"
+  ],
+  "references": [
+    {
+      "title": "OSHA Establishment Search",
+      "url": "https://www.osha.gov/ords/imis/establishment.search",
+      "description": "US workplace safety violations database"
+    },
+    {
+      "title": "Violation Tracker",
+      "url": "https://violationtracker.goodjobsfirst.org/",
+      "description": "Corporate misconduct database"
+    },
+    {
+      "title": "KnowTheChain Benchmarks",
+      "url": "https://knowthechain.org/",
+      "description": "Forced labor supply chain benchmarks"
+    }
+  ],
+  "relatedTags": ["child-labor", "union-busting"],
+  "created": "2026-02-01T00:00:00Z"
+}

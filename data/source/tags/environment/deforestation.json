@@ -1,0 +1,36 @@
+{
+  "id": "deforestation",
+  "label": "🌲 Deforestation Links",
+  "category": "environment",
+  "type": "warning",
+  "definition": "Company has documented links to deforestation through its supply chain or operations.",
+  "criteria": [
+    {
+      "description": "Direct operations causing significant forest clearing"
+    },
+    {
+      "description": "Supply chain includes commodities linked to deforestation (palm oil, soy, beef, timber)"
+    },
+    {
+      "description": "Failure to implement or enforce deforestation-free sourcing policies"
+    }
+  ],
+  "counterCriteria": [
+    "Verified deforestation-free supply chain certification",
+    "Documented remediation and reforestation programs"
+  ],
+  "references": [
+    {
+      "title": "Global Forest Watch",
+      "url": "https://www.globalforestwatch.org/",
+      "description": "Monitoring forests worldwide"
+    },
+    {
+      "title": "Forest 500",
+      "url": "https://forest500.org/",
+      "description": "Ranking companies on deforestation commitments"
+    }
+  ],
+  "relatedTags": ["carbon-heavy"],
+  "created": "2026-02-01T00:00:00Z"
+}

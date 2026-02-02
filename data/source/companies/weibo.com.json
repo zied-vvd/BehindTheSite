@@ -1,0 +1,13 @@
+{
+  "id": "weibo.com",
+  "name": "Weibo Corporation",
+  "shareholders": [
+    { "name": "Alibaba Group", "percentage": 30.0 },
+    { "name": "New Wave Holdings", "percentage": 45.0 }
+  ],
+  "country": "China",
+  "headquarters": "Beijing, China",
+  "notes": "Chinese microblogging platform, often called 'Chinese Twitter'. Subject to heavy censorship.",
+  "sources": ["SEC 20-F filings", "Company disclosures"],
+  "created": "2026-02-01T00:00:00Z"
+}

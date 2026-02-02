@@ -1,0 +1,16 @@
+{
+  "companyId": "tencent.com",
+  "tagId": "chinese-owned",
+  "justification": "Tencent Holdings Ltd. is a Chinese multinational conglomerate headquartered in Shenzhen. One of the world's largest tech companies by market cap. Owns WeChat (1.2B+ users), QQ, and major stakes in global gaming companies including Riot Games, Epic Games, and Activision Blizzard.",
+  "sources": [
+    {
+      "type": "regulatory",
+      "url": "https://www.hkexnews.hk/",
+      "title": "Hong Kong Stock Exchange - Tencent Filings"
+    }
+  ],
+  "status": "active",
+  "voting": { "enabled": false, "upvotes": 0, "downvotes": 0 },
+  "author": { "github": "behindthesite" },
+  "created": "2026-02-01T00:00:00Z"
+}

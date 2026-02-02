@@ -1,0 +1,27 @@
+{
+  "id": "foreign-owned",
+  "label": "🌐 Foreign Owned",
+  "category": "ownership",
+  "type": "info",
+  "definition": "Company is majority-owned by entities outside the user's country. This is informational and may affect data jurisdiction.",
+  "criteria": [
+    {
+      "description": "Majority ownership by foreign (non-domestic) entities"
+    },
+    {
+      "description": "Headquarters located in a different country than primary user base"
+    }
+  ],
+  "counterCriteria": [
+    "Company has become domestically owned",
+    "Local subsidiary operates with data sovereignty"
+  ],
+  "references": [
+    {
+      "title": "Company Registration Records",
+      "description": "National company registries"
+    }
+  ],
+  "relatedTags": ["chinese-owned", "russian-ties"],
+  "created": "2026-02-01T00:00:00Z"
+}
