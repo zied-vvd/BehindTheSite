@@ -83,13 +83,33 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
+  // Setup wizard button (always visible in header)
+  document.getElementById('setup-wizard-btn').addEventListener('click', () => {
+    chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
+  });
+
+  // Refresh icon button
+  document.getElementById('refresh-icon-btn').addEventListener('click', async () => {
+    const btn = document.getElementById('refresh-icon-btn');
+    btn.innerHTML = '<span>⏳</span>';
+    try {
+      await chrome.storage.local.remove(['companyData', 'lastFetch']);
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      if (tab) await chrome.tabs.reload(tab.id);
+      btn.innerHTML = '<span>✅</span>';
+    } catch (e) {
+      btn.innerHTML = '<span>❌</span>';
+    }
+    setTimeout(() => { btn.innerHTML = '<span>🔄</span>'; }, 1500);
+  });
+
   // Start setup button
-  document.getElementById('start-setup-btn').addEventListener('click', () => {
+  document.getElementById('start-setup-btn')?.addEventListener('click', () => {
     chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
   });
 
   // Edit preferences button
-  document.getElementById('edit-preferences-btn').addEventListener('click', () => {
+  document.getElementById('edit-preferences-btn')?.addEventListener('click', () => {
     chrome.runtime.sendMessage({ type: 'OPEN_ONBOARDING' });
   });
 

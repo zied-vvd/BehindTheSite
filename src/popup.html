@@ -160,12 +160,51 @@
       margin-bottom: 16px;
       line-height: 1.5;
     }
+
+    .quick-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 4px;
+      margin-bottom: 12px;
+    }
+
+    .icon-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: none;
+      border-radius: 6px;
+      padding: 6px 10px;
+      cursor: pointer;
+      font-size: 14px;
+      color: #94a3b8;
+      transition: all 0.2s;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .icon-btn:hover {
+      background: rgba(99, 102, 241, 0.2);
+      color: #a5b4fc;
+    }
   </style>
 </head>
 <body>
   <div class="header">
     <span class="logo">🔍</span>
     <h1>BehindTheSite</h1>
+  </div>
+
+  <!-- Quick actions bar -->
+  <div class="quick-actions">
+    <button class="icon-btn" id="setup-wizard-btn" title="Setup Wizard">
+      <span>⚙️</span>
+    </button>
+    <button class="icon-btn" id="refresh-icon-btn" title="Refresh Data">
+      <span>🔄</span>
+    </button>
+    <a href="https://github.com/zied-vvd/BehindTheSite" target="_blank" class="icon-btn" title="GitHub">
+      <span>📂</span>
+    </a>
   </div>
 
   <!-- Not setup view -->
